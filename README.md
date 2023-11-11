@@ -1,8 +1,7 @@
 # Umbu Front-End
 
 ## Descrição
-Este é o repositório do front-end para a plataforma Umbu. O projeto utiliza [tecnologia X] e [tecnologia Y] para [propósito do projeto].
-
+Este é o repositório do front-end para a plataforma Umbu. O projeto utiliza React.JS e CSS para criar uma plataforma acessivel.
 ## Boas Práticas de Codificação
 
 ### Padrões de Codificação

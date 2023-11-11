@@ -5,11 +5,7 @@ import ItemBarra from './ItemBarra/Itembarra';
 function BarraLateral() {
   return (
     <div className='lista-nomes'>
-      <ItemBarra
-      iconUrl =""
-      nome =""
-
-      />
+      <ItemBarra />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemBarra from './ItemBarra/Itembarra';
+import ItemBarra from './ItemBarra/ItemBarra.jsx';
 import { GrHomeRounded } from 'react-icons/gr';
 import { BiMessage, BiHelpCircle } from 'react-icons/bi';
 import { CgProfile } from "react-icons/cg"

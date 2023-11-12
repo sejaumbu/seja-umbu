@@ -12,14 +12,14 @@ import "./barraLateral.css"
 
 function BarraLateral({ fotoJar, nomeJar, cargo }) {
   return (
-    <>
+    <div className='barraLateral'>
       <div className='cardJardineiro' >
         <img src={fotoJar} alt='Foto de perfil do jardineiro'/>
         <h4>{nomeJar}</h4>
         <h2>{cargo}</h2>
       </div>
 
-      <div className='lista-nomes'>
+      <div className='itenSite'>
         <ItemBarra
           iconUrl={<GrHomeRounded />}
           nome={"Página Inicial"}
@@ -50,7 +50,7 @@ function BarraLateral({ fotoJar, nomeJar, cargo }) {
 
       </div>
 
-      <div className='cardFinal'>
+      <div className='itensFinal'>
         <ItemBarra
           iconUrl={<BiHelpCircle />}
           nome={"Ajuda"}
@@ -62,7 +62,7 @@ function BarraLateral({ fotoJar, nomeJar, cargo }) {
 
       </div>
 
-    </>
+    </div>
   )
 }
 

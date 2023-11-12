@@ -1,5 +1,6 @@
-import Contatos from './Contatos';  
-import '../assets/styles/UMChat.css';
+import Contatos from './ItemChat/Contatos.jsx';  
+import Mensagens from './ItemChat/Mensagens.jsx';
+import './UMChat.css';
 
 export default function UMChat(){
     return(
@@ -45,9 +46,7 @@ export default function UMChat(){
                 <p>Veja mais</p>    
             </div>
             <div>
-                <header className='headerChat'>
-
-                </header>
+                <Mensagens/>
             </div>
         </main>
     )

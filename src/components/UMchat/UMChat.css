@@ -59,6 +59,38 @@
     margin: 0px;
 }
 
-.headerChat{
-    width: 50vw;
+/* Style área de mensagem */
+.headerMensagens{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 85px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.infoContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    gap: 15px;
+}
+
+.infoContato img{
+    height: 60px;
+    width: 60px;
+}
+
+.infoContato p{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.moreInfo svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
 }

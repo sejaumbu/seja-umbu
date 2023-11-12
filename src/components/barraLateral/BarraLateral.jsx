@@ -1,37 +1,65 @@
 import React from 'react'
 import ItemBarra from './ItemBarra/Itembarra';
 import { GrHomeRounded } from 'react-icons/gr';
-import { BiMessage } from 'react-icons/gr';
+import { BiMessage, BiHelpCircle } from 'react-icons/Bi';
+import { CgProfile } from "react-icons/cg"
+import { AiOutlineShoppingCart, AiOutlineHistory } from "react-icons/ai"
+import { MdOutlineNotificationsActive, MdOutlineSettings } from "react-icons/md"
+import { TbPhotoPlus } from "react-icons/tb"
+import "./barraLateral.css"
 
 
-function BarraLateral({ foto, nomeJar, cargo }) {
+
+function BarraLateral({ fotoJar, nomeJar, cargo }) {
   return (
     <>
       <div className='cardJardineiro' >
-        <img>{foto}</img>
-        <h2>{nome}</h2>
-        <h4>{cargo}</h4>
+        <img src={fotoJar} alt='Foto de perfil do jardineiro'/>
+        <h4>{nomeJar}</h4>
+        <h2>{cargo}</h2>
       </div>
 
       <div className='lista-nomes'>
-        <ItemBarra 
-          iconUrl={<GrHomeRounded/>}
-          nome ={"Página Inicial"}
+        <ItemBarra
+          iconUrl={<GrHomeRounded />}
+          nome={"Página Inicial"}
         />
-        <ItemBarra 
-          iconUrl={<BiMessage/>}
-          nome ={"UMChat"}  
+        <ItemBarra
+          iconUrl={<BiMessage />}
+          nome={"UMChat"}
         />
-        <ItemBarra />
-        <ItemBarra />
-        <ItemBarra />
-        <ItemBarra />
+        <ItemBarra iconUrl={<CgProfile />} nome={"Perfil"}
+  />
+        <ItemBarra
+          iconUrl={<AiOutlineShoppingCart />}
+          nome={"UMShop"}
+        />
+        <ItemBarra
+          iconUrl={<MdOutlineNotificationsActive />}
+          nome={"Notificações"}
+        />
+        <ItemBarra
+          iconUrl={<AiOutlineHistory />}
+          nome={"Historico"}
+        />
+        <ItemBarra
+          iconUrl={<TbPhotoPlus />}
+          nome={"Publicar"}
+        />
+
+
       </div>
 
-      <div>
-      <ItemBarra />
-      <ItemBarra />
-  
+      <div className='cardFinal'>
+        <ItemBarra
+          iconUrl={<BiHelpCircle />}
+          nome={"Ajuda"}
+        />
+        <ItemBarra
+          iconUrl={<MdOutlineSettings />}
+          nome={"Configurações"}
+        />
+
       </div>
 
     </>

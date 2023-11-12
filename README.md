@@ -6,13 +6,12 @@ Este é o repositório do front-end para a plataforma Umbu. O projeto utiliza Re
 
 ### Padrões de Codificação
 - Nomeie os componentes com a primeira letra maiúscula (ex.: Componente.jsx).
-- Utilize o padrão camelCase para nomear variáveis.
+- Utilize o padrão camelCase para nomear variáveis e arquivos que não sejam componentes
 
 ### Estrutura de Diretórios
 Organizamos nosso projeto da seguinte maneira:
-- `src/pages`: Contém as páginas da plataforma.
+- `src/pages`: Contém as páginas da plataforma - Cada página do projeto, será uma pasta dentro de pages (Como por exemplo UMCHAT)
   - Exemplo: `pages/perfil.pasta/perfil.jsx`.
-
 Dentro das páginas, chame os componentes que compõem a página, como mostrado no exemplo a seguir:
 
 ```jsx

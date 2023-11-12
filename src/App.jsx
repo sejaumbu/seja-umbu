@@ -4,7 +4,8 @@ import "./components/footer/footer.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from  "./components/header/Header.jsx"
 import Footer from "./components/footer/Footer.jsx"
-
+import BarraLateral from './components/barraLateral/BarraLateral';
+import fotoJar from "./assets/jardineiroFoto.png";
 
 
 
@@ -12,8 +13,11 @@ import Footer from "./components/footer/Footer.jsx"
 function App() {
   return (
     <>
-      <Header/>
-      <Footer/>
+      <BarraLateral
+     fotoJar = {fotoJar}
+      nomeJar = "José Ferreira"
+      cargo = "Jardineiro"
+      />
     </> 
   )
 }

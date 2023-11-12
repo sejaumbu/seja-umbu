@@ -1,0 +1,64 @@
+.umchat{
+    display: flex;
+}
+
+/* Style, lista de contatos */
+.listaContatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #006845;
+    height: 100vh;
+    width: 20vw;
+}
+
+.listaContatos h2{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 7vh;
+}
+
+.listaContatos p{
+    color: white;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-bottom: 15px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px solid #B8B8B8;
+    width: 16vw;
+    gap: 15px;
+    /* border-bottom: 1px solid white; */
+}
+
+.contatos img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nome-dataContatos{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nomeContato{
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dataMensagem{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerChat{
+    width: 50vw;
+}

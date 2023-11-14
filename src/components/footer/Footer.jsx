@@ -7,6 +7,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import "../footer/footer.css";
 
 
+
 export default function Footer() {
     return (
         <footer>

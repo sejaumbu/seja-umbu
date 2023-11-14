@@ -52,6 +52,7 @@ function perfil() {
   <h3>Depois de fazer o primeiro commit na branch</h3>
 
   <p>Use apenas o <code>git push</code>, que irá subir para o git.</p>
+  <p><code>git pull </code>Outro comando muito importante, caso a versão atualizada do seu codigo esteja no github invés do seu computador, dê um  pra sincronizar o que foi modificado</p>
 
   <p>Após feito isso, irá aparecer um link no terminal durante o exemplo este apareceu (<a href="https://github.com/sejaumbu/umbu-front-end/pull/new/implementacao-barraLateral">https://github.com/sejaumbu/umbu-front-end/pull/new/implementacao-barraLateral</a>)</p>
 

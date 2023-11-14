@@ -3,29 +3,6 @@
     list-style-type: none;
 }
 
-.cardJardineiro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30vh;
-    height: 201px;
-    border: 1px solid #000; /* Adicione a cor desejada para a borda */
-    margin: 10px; /* Adicione margem para separar as cartas */
-}
-
-.cardJardineiro h4 {
-    font-size: 24px;
-    color: var(--gray-600, #006845);
-    padding: 0;
-}
-
-.cardJardineiro h2 {
-    font-size: 17px;
-    color: var(--gray-600, #4F5B67);
-    padding: 0;
-}
-
 .itenSite {
     display: flex;
     flex-direction: column;

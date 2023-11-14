@@ -1,8 +1,7 @@
-import Contatos from './ItemChat/Contatos.jsx';  
 import Mensagens from './ItemChat/Mensagens.jsx';
+import Contatos from './ItemChat/Contatos.jsx';  
 import { MdOutlineEmojiEmotions } from "react-icons/md";
-import { BsSend } from "react-icons/bs";
-import { BsMic } from "react-icons/bs";
+import { BsMic, BsSend } from "react-icons/bs";
 import './UMChat.css';
 
 export default function UMChat(){

@@ -1,5 +1,8 @@
 import Contatos from './ItemChat/Contatos.jsx';  
 import Mensagens from './ItemChat/Mensagens.jsx';
+import { MdOutlineEmojiEmotions } from "react-icons/md";
+import { BsSend } from "react-icons/bs";
+import { BsMic } from "react-icons/bs";
 import './UMChat.css';
 
 export default function UMChat(){
@@ -47,6 +50,14 @@ export default function UMChat(){
             </div>
             <div>
                 <Mensagens/>
+                <footer className='footerMessage'>
+                    <div className="inputMessage">
+                        <MdOutlineEmojiEmotions/>
+                        <input placeholder='Escreva para o prestador de serviço...'/>
+                        <button className='sendButton'><BsSend/></button>
+                    </div>
+                    <button className='voiceButton'><BsMic/></button>
+                </footer>
             </div>
         </main>
     )

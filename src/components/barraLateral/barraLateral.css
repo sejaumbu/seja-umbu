@@ -1,38 +1,72 @@
 * {
-    margin: 0;
-    list-style-type: none;
-}
-
-.itenSite {
-    display: flex;
-    flex-direction: column;
-    margin: 9px;
-    margin-top: 35px;
-    border: 1px solid #006845;
-    gap: 25px;
-}
-
-.categories {
-    color: #808080;
-    font-style: normal;
-    font-weight: 200;
-    padding: 7px;
-    display: inline;
-    align-items: baseline;
-}
-
-.itensFinal {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Alterado para flex-start */
-    justify-content: flex-end; /* Alterado para flex-end */
-    width: 244px;
-    height: 104px;
-    flex-shrink: 0;
-    border: 1px solid #006845;
+    margin: 0px;
+    font-style: none;
 }
 
 .barraLateral {
-    border: 1px solid #000; /* Adicione a cor desejada para a borda */
-    width: 30vh;
+    width: 255px;
+    position: fixed;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+
+.itemSite {
+    margin: 10px;
+}
+
+.container {
+    padding: 8px;
+
+}
+
+
+.cardJardineiro {
+    padding: 10px;
+}
+
+.itemFinal {
+    margin: 10px;
+}
+
+.categories {
+    padding: 15px;
+    cursor: pointer;
+
+
+}
+
+.container:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    padding: 20px;
+    cursor: pointer;
+    background: rgba(0, 104, 69, 0.18);
+    color:#006845;
+    width: 245px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.iconUrl{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.iconUrl:hover{
+    color: #006845;
+
+}
+
+
+.itemFinal{
+    margin-top: 60px;
+}
+
+.itemSite{
+    margin-top:35px;
+
 }

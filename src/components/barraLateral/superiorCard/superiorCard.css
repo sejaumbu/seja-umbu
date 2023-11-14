@@ -3,25 +3,33 @@
     list-style-type: none;
 }
 
+
+
 .cardJardineiro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vh;
-    padding:0px;
-    height: 201px;
-    border:  0.05em solid #00000025; /* Adicione a cor desejada para a borda */
+    margin: 15px;
+
 }
 
 .cardJardineiro h4 {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--gray-600, #006845);
-    padding: 0;
+    height: 900;
+    margin: 5px;
 }
 
 .cardJardineiro h2 {
     font-size: 17px;
     color: var(--gray-600, #4F5B67);
-    padding: 0;
 }
+
+.cardJardineiro img {
+    border-radius: 250px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+

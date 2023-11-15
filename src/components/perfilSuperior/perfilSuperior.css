@@ -1,0 +1,119 @@
+.cardPerfil {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+}
+
+.cardFundo {
+    width: 100%;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #006845;
+}
+
+.cardPrincipalConteudo {
+    display: flex;
+}
+
+.conteudoPrincipal {
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #C4C4C4;
+    display: flex;
+    padding: 25px;
+}
+
+.fotoCardPerfil {
+    margin-top: -55px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cardTexto {
+    font-size: 2.7vw;
+    /* Usando vw para tamanho de fonte responsivo */
+    height: auto;
+    /* Removendo altura fixa */
+    color: #006845;
+    margin-bottom: 1.5vh;
+    /* Usando vh para margem inferior responsiva */
+    margin-right: 0.8vw;
+    /* Usando vw para margem direita responsiva */
+}
+
+.parteCimaConteudo {
+    display: flex;
+}
+
+.parteCimaConteudo span {
+    color: #006845;
+    display: inline-block;
+    font-size: 2.5vw;
+    /* Usando vw para tamanho de fonte responsivo */
+    margin-top: -0.5vh;
+    /* Usando vh para margem superior responsiva */
+    padding-left: 0.5vw;
+    /* Usando vw para padding responsivo */
+}
+
+.parteCimaConteudo p {
+    color: #006845;
+    display: flex;
+    font-size: 1.7vw;
+    /* Usando vw para tamanho de fonte responsivo */
+    color: black;
+    margin-left: 1vw;
+    /* Usando vw para margem esquerda responsiva */
+}
+
+.estrelaUnica {
+    margin-right: 0.5vw;
+    /* Usando vw para margem direita responsiva */
+    margin-top: 1vh;
+    /* Usando vh para margem superior responsiva */
+}
+
+.nota {
+    margin-top: 0.7vh;
+    /* Usando vh para margem superior responsiva */
+}
+
+.parteInferiorConteudo {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.cardPrincipalConteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.meioConteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudoLadoDireito {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 15vw;
+    /* Usando vw para margem esquerda responsiva */
+}
+
+.habilidades {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: rgba(81, 198, 1, 0.25);
+    color: #484848;
+    border-radius: 90px;
+    padding: 10px 17px;
+    margin: 5px;
+}
+
+.verMaisPerfil {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 800;
+}

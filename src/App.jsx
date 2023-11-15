@@ -5,13 +5,13 @@ import Footer from "./components/footer/Footer.jsx"
 import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
-import UmBlog from './components/UMblog/UmBlog.jsx';
+import UmblogF from './pages/umblog/UmblogF.jsx';
 
 function App() {
   return (
     <div>
       <Header/>
-      <UmBlog/>
+      <UmblogF/>
       <Footer/>
     </div>
   )

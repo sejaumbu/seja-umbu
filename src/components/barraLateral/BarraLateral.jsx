@@ -1,68 +1,79 @@
 import React from 'react'
 import ItemBarra from './ItemBarra/ItemBarra.jsx';
-import { GrHomeRounded } from 'react-icons/gr';
+import SuperiorCard from './superiorCard/SuperiorCard.jsx';
+import { FiHome } from 'react-icons/fi';
 import { BiMessage, BiHelpCircle } from 'react-icons/bi';
 import { CgProfile } from "react-icons/cg"
 import { AiOutlineShoppingCart, AiOutlineHistory } from "react-icons/ai"
 import { MdOutlineNotificationsActive, MdOutlineSettings } from "react-icons/md"
 import { TbPhotoPlus } from "react-icons/tb"
-import "./barraLateral.css"
+import "../barraLateral/barraLateral.css"
+import fotoJar from "../../assets/jardineiroFoto.png"
 
 
-
-function BarraLateral({ fotoJar, nomeJar, cargo }) {
+function BarraLateral() {
   return (
-    <>
-      <div className='cardJardineiro' >
-        <img src={fotoJar} alt='Foto de perfil do jardineiro'/>
-        <h4>{nomeJar}</h4>
-        <h2>{cargo}</h2>
-      </div>
 
-      <div className='lista-nomes'>
+    <div className='barraLateral'>
+      <SuperiorCard
+        nomeJar="José Ferreira"
+        cargo="Jardineiro"
+        fotoJar={fotoJar}
+      />
+
+      <div className='itemSite'>
         <ItemBarra
-          iconUrl={<GrHomeRounded />}
+          iconUrl={<FiHome />}
           nome={"Página Inicial"}
+          rota={"/pagina-inicial"}
         />
         <ItemBarra
           iconUrl={<BiMessage />}
           nome={"UMChat"}
+          rota={"/umchat"}
         />
-        <ItemBarra iconUrl={<CgProfile />} nome={"Perfil"}
-  />
+        <ItemBarra
+          iconUrl={<CgProfile />}
+          nome={"Perfil"}
+          rota={"/perfil"}
+        />
         <ItemBarra
           iconUrl={<AiOutlineShoppingCart />}
           nome={"UMShop"}
+          rota={"/umshop"}
         />
         <ItemBarra
           iconUrl={<MdOutlineNotificationsActive />}
           nome={"Notificações"}
+          rota={"/notificacoes"}
         />
         <ItemBarra
           iconUrl={<AiOutlineHistory />}
           nome={"Historico"}
+          rota={"/historico"}
         />
         <ItemBarra
           iconUrl={<TbPhotoPlus />}
           nome={"Publicar"}
+          rota={"/publicar"}
         />
-
-
       </div>
 
-      <div className='cardFinal'>
+      <div className='itemFinal'>
         <ItemBarra
           iconUrl={<BiHelpCircle />}
           nome={"Ajuda"}
+          rota={"/ajuda"}
         />
         <ItemBarra
           iconUrl={<MdOutlineSettings />}
           nome={"Configurações"}
+          rota={"/configuracoes"}
         />
-
       </div>
 
-    </>
+
+    </div>
   )
 }
 

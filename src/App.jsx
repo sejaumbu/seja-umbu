@@ -1,15 +1,22 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/header/Header.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import TelaRegistroT2 from "./components/telaRegistro2/TelaRegistroT2.jsx";
+
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/header/Header.jsx"
+import Footer from "./components/footer/Footer.jsx"
+import BarraLateral from './components/barraLateral/BarraLateral.jsx';
+import Dashboard from './pages/dashboard/Dashboard.jsx';
+import UmchatF from './pages/umchat/UmchatF.jsx';
 
 function App() {
   return (
-    <>
-      <TelaRegistroT2 />
-    </>
-  );
+    <div className='teste'>
+      <UmchatF/>
+      <Header />
+      <Footer />
+
+
+    </div>
+  )
 }
 
 export default App;

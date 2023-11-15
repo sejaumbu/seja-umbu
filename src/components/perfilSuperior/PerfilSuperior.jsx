@@ -6,6 +6,7 @@ import fotoJar from "../../assets/jardineiroFoto.png"
 
 function PerfilSuperior({ nota }) {
   return (
+    
     <div className="cardPerfil">
 
       <div className="cardFundo"> </div>
@@ -19,17 +20,15 @@ function PerfilSuperior({ nota }) {
           <div className="meioConteudo">
 
             <div className="parteCimaConteudo">
-              <h4 className="cardTexto" >José Ferreira</h4>
-              <span className="estrelaUnica"><IoStar /></span>
-              <span className="estrelaUnica"><IoStar /></span>
-              <span className="estrelaUnica"><IoStar /></span>
-              <span className="estrelaUnica"><IoStar /></span>
-              <span className="estrelaUnica"><IoStar /></span>
-              <p className='nota'><strong>{nota}</strong></p>
+                <h4 className="cardTexto" >José Ferreira</h4>
+                <span className="estrelaUnica"><IoStar /></span>
+                <span className="estrelaUnica"><IoStar /></span>
+                <span className="estrelaUnica"><IoStar /></span>
+                <span className="estrelaUnica"><IoStar /></span>
+                <span className="estrelaUnica"><IoStar /></span>
+                <p className='nota'><strong>{nota}</strong></p>
             </div>
-
-
-            <div className="">
+            <div className="habilidadesConjunto">
               <p className="habilidades">Plantio</p>
               <p className="habilidades">Poda</p>
               <p className="habilidades">Manutenção</p>

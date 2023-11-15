@@ -1,107 +1,106 @@
-.cardPerfil {
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 10px;
-}
+
 
 .cardFundo {
     width: 100%;
-    height: 220px;
-    flex-shrink: 0;
-    border-radius: 5px;
+    height: 180px;
+    border-radius: 10px;
     background: #006845;
 }
 
-.cardPrincipalConteudo {
-    display: flex;
+
+
+/* Estilo para os textos na parte superior */
+.parteCimaConteudo p {
+    color: #006845;
+    font-size: 12px; /* Convertido de 1.7vw para px */
+    color: black;
+    margin-left: 10px; /* Convertido de 1vw para px */
 }
 
+/* Estilo para a nota */
+.nota {
+    margin-top: 7px; /* Convertido de 0.7vh para px */
+}
+
+/* Estilo para o card geral */
+.cardPerfil {
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1.5px; /* Convertido para px */
+    border-radius: 10px;
+}
+
+/* Estilo para o conteúdo principal do card */
+.cardPrincipalConteudo {
+    display: flex;
+    padding: 15px;
+}
+
+/* Estilo para o conteúdo interno do card */
 .conteudoPrincipal {
     flex-shrink: 0;
     border-radius: 10px;
     background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #C4C4C4;
     display: flex;
-    padding: 25px;
+    padding: 10px; 
+
+
+    /* Convertido de 15px para px */
 }
 
+/* Estilo para a foto do perfil */
 .fotoCardPerfil {
     margin-top: -55px;
     margin-left: 25px;
     margin-right: 25px;
 }
 
+/* Estilo para o texto do card */
 .cardTexto {
-    font-size: 2.7vw;
-    /* Usando vw para tamanho de fonte responsivo */
-    height: auto;
-    /* Removendo altura fixa */
+    font-size: 25px;
+    font-weight: 500;
     color: #006845;
-    margin-bottom: 1.5vh;
-    /* Usando vh para margem inferior responsiva */
-    margin-right: 0.8vw;
-    /* Usando vw para margem direita responsiva */
+    margin-right: 10px;
+    
 }
 
+/* Estilo para a parte superior do conteúdo */
 .parteCimaConteudo {
     display: flex;
+    justify-content: baseline;
 }
 
-.parteCimaConteudo span {
-    color: #006845;
-    display: inline-block;
-    font-size: 2.5vw;
-    /* Usando vw para tamanho de fonte responsivo */
-    margin-top: -0.5vh;
-    /* Usando vh para margem superior responsiva */
-    padding-left: 0.5vw;
-    /* Usando vw para padding responsivo */
-}
-
-.parteCimaConteudo p {
-    color: #006845;
-    display: flex;
-    font-size: 1.7vw;
-    /* Usando vw para tamanho de fonte responsivo */
-    color: black;
-    margin-left: 1vw;
-    /* Usando vw para margem esquerda responsiva */
-}
-
-.estrelaUnica {
-    margin-right: 0.5vw;
-    /* Usando vw para margem direita responsiva */
-    margin-top: 1vh;
-    /* Usando vh para margem superior responsiva */
-}
-
-.nota {
-    margin-top: 0.7vh;
-    /* Usando vh para margem superior responsiva */
-}
-
-.parteInferiorConteudo {
-    display: flex;
+/* Estilo para o link "Ver mais" */
+.verMaisPerfil {
     margin-top: 15px;
-
+    margin-left: 10px;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
 }
 
-.cardPrincipalConteudo {
-    display: flex;
-    flex-direction: column;
-}
-
-.meioConteudo {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Estilo para o conteúdo no lado direito */
 .conteudoLadoDireito {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 15vw;
-    /* Usando vw para margem esquerda responsiva */
+    margin-left: 15px; /* Convertido de 15vw para px */
 }
 
+.conteudoLadoDireito button{
+    all: unset;
+    background-color: #006845;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    padding:  15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+/* Estilo para as habilidades */
 .habilidades {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background: rgba(81, 198, 1, 0.25);
@@ -109,11 +108,22 @@
     border-radius: 90px;
     padding: 10px 17px;
     margin: 5px;
+    cursor: pointer;
 }
 
-.verMaisPerfil {
-    margin-top: 15px;
-    margin-left: 10px;
-    color: black;
-    font-weight: 800;
+.habilidadesConjunto {
+    display: flex;
+    padding-right: 25px;
+}
+
+/* Estilo para as estrelas individuais */
+.estrelaUnica {
+    margin-right: 7px;
+    color: #006845;
+    font-size: 18px; /* Convertido de 2.5vw para px */
+    padding-left: 5px; /* Convertido de 0.5vw para px */
+}
+
+.meioConteudo{
+    margin-right: 25px;
 }

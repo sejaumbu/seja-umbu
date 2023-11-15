@@ -5,13 +5,14 @@ import Footer from "./components/footer/Footer.jsx"
 import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
+import Notificacoes from './components/Notificações/notificacoes.jsx';
 
 function App() {
   return (
     <div className='teste'>
-      <UmchatF/>
-      <Header />
-      <Footer />
+     
+      <Notificacoes />
+     
 
 
     </div>

@@ -1,0 +1,216 @@
+.tittleUmblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.umblogTittle{
+    font-size: 6rem;
+    color: #0F4229;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.UmblogFrase{
+    font-size: 28px;
+    color: #646464;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.Subtittles{
+    color: #016C05; 
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.containerValores{
+    display: flex;
+    justify-content: center;
+}
+
+.valoresUmblog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    width: 100vw;
+}
+
+.cardUmblog{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 380px;
+    height: 440px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background: #FFF;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+}
+
+.cardUmblog img{
+    width: 130px;
+}
+
+.cardTittle-umblog{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #285A43;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.cardText-umblog{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+.cardUmblog-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 380px;
+    height: 440px;
+    border-radius: 10px;
+    background: #006845;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+    color: white;
+}
+
+.cardUmblog-2 img{
+    width: 130px;
+}
+
+.cardTittle-umblog-2{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.cardText-umblog-2{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+.conceitosUmblog{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.conceitosUmblog-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    gap: 20%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.conceitosUmblog-1 h3{
+    color: #0F4229;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.containerQuemSomos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.quemSomos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.quemSomos article{
+    display: flex;
+    gap: 50px;
+    width: 65%;
+    height: 300px;
+    border-radius: 10px;
+    border: 0px solid rgba(0, 0, 0, 0.03);
+    background: #FFF;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+
+.quemSomos article img{
+    width: 321px;
+    height: 241px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+.conteudoConceitosFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.conteudoConceitos{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.conteudoConceitos h3{
+    color: #016C05;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.conteudoConceitos p{
+    color: #666;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conteudoConceitosB{
+    display: flex;
+    justify-content: end;
+}
+
+.conteudoConceitosB button{
+    margin-bottom: 10px;
+    display: flex;
+    width: 181px;
+    height: 43px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #539407;
+    background: #34A853;
+    color: white;
+}
+
+/* breakpoint para telas de celular */
+@media screen and (max-width: 768px){
+    
+}

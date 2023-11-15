@@ -49,14 +49,14 @@ export default function UMChat(){
             </div>
             <div>
                 <Mensagens/>
-                <footer className='footerMessage'>
+                <div className='footerMessage'>
                     <div className="inputMessage">
                         <MdOutlineEmojiEmotions/>
                         <input placeholder='Escreva para o prestador de serviço...'/>
                         <button className='sendButton'><BsSend/></button>
                     </div>
                     <button className='voiceButton'><BsMic/></button>
-                </footer>
+                </div>
             </div>
         </main>
     )

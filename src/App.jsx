@@ -9,11 +9,9 @@ import UmchatF from './pages/umchat/UmchatF.jsx';
 function App() {
   return (
     <div className='teste'>
-      <UmchatF/>
       <Header />
+      <UmchatF/>
       <Footer />
-
-
     </div>
   )
 }

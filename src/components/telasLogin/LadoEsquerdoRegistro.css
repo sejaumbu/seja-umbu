@@ -1,0 +1,21 @@
+/* Testes com o framework: Swiper */
+.tentativadeSwiper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemSlides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+}
+
+.tamanhoImage{
+    height: 100%;
+    object-fit: cover; 
+}

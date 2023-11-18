@@ -1,11 +1,11 @@
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { CiLock } from "react-icons/ci";
-
+import { IoIosArrowBack } from "react-icons/io";
 export default function TelaRegistro4() {
     return (
         <div className="telaRegistro4">
             <div className="headerRT4">
-                <a href="#"><p>Voltar</p></a>
+                <a href="#"><p><IoIosArrowBack/> Voltar</p></a>
                 <div className="etapa3">
                     <p>Etapa 03/03</p>
                     <p>Habilidades</p>

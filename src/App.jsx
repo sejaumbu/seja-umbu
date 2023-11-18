@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer.jsx"
 import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
-import Login from './pages/telasLogin/Login.jsx';
+
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       {/* <UmchatF/>
       <Header />
       <Footer /> */}
-      <Login/>
+
 
     </div>
   )

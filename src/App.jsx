@@ -10,8 +10,10 @@ import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx'
 function App() {
   return (
     <div className='teste'>
+      {/* <UmchatF/>
+      <Header />
+      <Footer /> */}
 
-      <AbaDeAvaliacoes/>
 
     </div>
   )

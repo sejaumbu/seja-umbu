@@ -1,0 +1,12 @@
+.iconesTipoConta{
+    display: flex;
+}
+
+.botaoTipoConta {
+    display: flex;
+    padding:20px;
+}
+
+.conteudoInteiro{
+    border: 1px solid;
+}

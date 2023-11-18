@@ -1,12 +1,32 @@
-.iconesTipoConta{
+.botaoCompleto{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     display: flex;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    margin: 10px;
+    width: 500px;
+    border: 1px solid rgba(0, 104, 69, 0.25);
+    cursor: pointer;
 }
 
-.botaoTipoConta {
-    display: flex;
-    padding:20px;
+.descricaoTexto h4{
+color: #000;
+
+;
 }
 
-.conteudoInteiro{
-    border: 1px solid;
+.descricaoTexto p{
+    color: #8692A6;
+}
+
+
+
+.simboloAvancar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconeTipoConta{
+    margin: 20px;
 }

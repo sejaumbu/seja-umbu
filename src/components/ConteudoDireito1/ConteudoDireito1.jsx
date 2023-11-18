@@ -2,6 +2,8 @@ import './conteudoDireito.css';
 import { IoPersonOutline } from "react-icons/io5";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { LuShovel } from "react-icons/lu";
+import { SlArrowRight } from "react-icons/sl";
+
 
 import Botao from './botao/Botao';
 
@@ -19,14 +21,16 @@ export default function ConteudoDireito1() {
 
                 <Botao
                     icone={<IoPersonOutline />} conta="Contrante"
-                    descricao="Encontre os melhores profissionais para o seu jardim!" avanca={<AiOutlineArrowRight />}
+                    descricao="Encontre os melhores profissionais para o seu jardim!" 
+                    avanca={<SlArrowRight />}
                 />
 
 
 
                 <Botao
                     icone={<LuShovel />} conta="Jardineiro"
-                    descricao="Transforme um jardim!" avanca={<AiOutlineArrowRight />}
+                    descricao="Transforme um jardim!" 
+                    avanca={<SlArrowRight />}
                     // path= "/loginJardineiro"
                 />
 

@@ -6,13 +6,14 @@ import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
 import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
+import Registro1 from "./pages/telasLogin/Registro1/Registro1.jsx"
+import Registro4 from "./pages/telasLogin/registro4/Registro4.jsx"
+
 
 function App() {
   return (
     <div className='teste'>
-      {/* <UmchatF/>
-      <Header />
-      <Footer /> */}
+      <Registro4/>
 
     </div>
   )

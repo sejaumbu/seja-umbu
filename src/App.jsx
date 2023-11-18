@@ -5,7 +5,8 @@ import Footer from "./components/footer/Footer.jsx"
 import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
-import PerfilSuperior from './components/perfilSuperior/PerfilSuperior.jsx';
+
+
 
 function App() {
   return (
@@ -13,7 +14,6 @@ function App() {
       <PerfilSuperior
       nota = "5,0"
       /> 
-
     </div>
   )
 }

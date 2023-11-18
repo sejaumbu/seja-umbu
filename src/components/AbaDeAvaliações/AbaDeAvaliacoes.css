@@ -1,34 +1,93 @@
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #F7F7F8;
-}
-
-.fixos {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 30vw;
-    margin-top: 3vh;
-}
-
-.opcao1 {
-    color: #006845;
-    font-family: Montserrat;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.opcao2 {
-    color: #006845;
-    font-family: Montserrat;
-    font-size: 25px;
-    text-decoration: underline;
-    font-weight: bold;
+*{
+margin: 0;
+padding: 0;
+font-family: Montserrat;
 }
 
 .itensFixo {
-    margin-left: 35vw;
-    margin-right: 35vw;
+margin-top: 4%;
+justify-content: center;
+margin-right: 25vw;
+margin-left: 25vw;
+max-width: 100%;
 }
 
+.opcoes {
+display: flex;
+justify-content: space-between;
+margin-bottom: 4%;
+justify-content: center;
+gap: 30vw;
+}
+
+.pOpcoes {
+color: #565656;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.pOpcoes:nth-child(2){
+font-weight: bold;
+text-decoration: underline;
+}
+
+.avaliacao {
+margin-top: 2%;
+margin-left: 25%;
+margin-right: 25%;
+height: 20vh;
+border-radius: 20px;
+display: flex;
+align-items: center;
+padding-left: 1%;
+justify-content: center;
+}
+
+.imgPerfil {
+display: flex;
+width: 75px;
+height: 75px;
+border-radius: 100%;
+margin-right: 4%;
+}
+
+.box {
+margin-left: 1%;
+}
+
+
+.nomeContratante {
+font-weight: bold;
+color: #000;
+font-size: 13.5px;
+}
+
+.notaData {
+display: flex;
+gap: 3px;
+color: #006845;
+margin-bottom: 1%;
+font-size: 13px;
+}
+
+.comentario {
+color: #000;
+font-size: 13px;
+line-height: normal;
+margin-bottom: 0.5%;
+}
+
+.data{
+    color: #BBB9B9 ;
+    padding-top: 0.4% ;
+    }
+
+    .reviews{
+        color: #006845;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 27%;
+    }
+  

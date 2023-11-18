@@ -6,12 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Dashboard from './pages/dashboard/Dashboard.jsx';
 // import UmchatF from './pages/umchat/UmchatF.jsx';
 // import PerfilSuperior from './components/perfilSuperior/PerfilSuperior.jsx';
-import ConteudoDireito1 from "./components/ConteudoDireito1/ConteudoDireito1"
+//import ConteudoDireito1 from "./components/ConteudoDireito1/ConteudoDireito1"
+import TelaRegistro1 from './pages/registro1/TelaRegistro1';
+
 
 function App() {
   return (
     <div> 
-      <ConteudoDireito1/>
+      <TelaRegistro1/>
     </div>
   )
 }

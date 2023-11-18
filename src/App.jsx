@@ -7,13 +7,14 @@ import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
 
 
-
 function App() {
   return (
     <div className='teste'>
-      <PerfilSuperior
-      nota = "5,0"
-      /> 
+      {/* <UmchatF/>
+      <Header />
+      <Footer /> */}
+
+
     </div>
   )
 }

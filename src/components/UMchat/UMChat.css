@@ -111,6 +111,10 @@
     overflow-y: auto;   
 }
 
+.areaChat::-webkit-scrollbar{
+    display: none;
+}
+
 .data-do-chat{
     text-align: center;
     padding : 50px;

@@ -1,17 +1,18 @@
 import React from 'react'
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
-import Carousel from "../../components/ladingPage/carousel/Carousel"
+import ParteFoto from "../../components/ladingPage/ParteFoto/ParteFoto.jsx"
+import ParteInformacao from "../../components/ladingPage/ParteInformacao/ParteInformacao.jsx"
 
 
 
 function LandingPage() {
     return (
         <div>
-            {/* <Header />
-            <Footer /> */}
-            <Carousel />
-
+            <Header />
+            <ParteFoto />
+            <ParteInformacao />
+            <Footer />
         </div>
 
     )

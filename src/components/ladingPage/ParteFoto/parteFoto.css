@@ -1,0 +1,28 @@
+.fotoPrincipal {
+    background-image: url("../../../assets/backgroundImage.svg");
+    width: 99vw;
+    height: 90vh;
+}
+
+.fotoPrincipal h2 {
+    font-weight: 800    ;
+    font-size: 95px;
+    padding: 50px;
+    color: white; 
+    
+}
+
+.botaoLink {
+    margin-left:50px;
+    background-color: #51C601;
+    width: 250px;
+    padding: 15px 20px;
+    height: 55px;
+    border-radius: 20px;
+}
+
+.colunaFotoItens{
+    display: flex;
+    flex-direction: column;
+}
+

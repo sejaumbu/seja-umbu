@@ -56,6 +56,7 @@ body{
 .containerTelaRegistro4{
     display: flex;
     width: 100%;
+    height: 85%;
     flex-direction: column;
     align-items: center;
     padding-right: 4%;
@@ -90,11 +91,12 @@ body{
 .arvore-de-habilidadesRt4{
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 40vh;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-top: 8px;
     overflow-y: auto;
 }
 
@@ -145,9 +147,14 @@ body{
 }
 
 /* breakpoint para telas de celular */
-@media screen and (max-width: 1320px){
+@media screen and (max-height: 700px){
     .arvore-de-habilidadesRt4{
-        height: 380px;
+        gap: 10px;
+    }
+
+    .arvore-de-habilidadesRt4 button{
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 

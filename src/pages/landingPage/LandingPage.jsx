@@ -9,10 +9,10 @@ import ParteInformacao from "../../components/ladingPage/ParteInformacao/ParteIn
 function LandingPage() {
     return (
         <div>
-            <Header />
+             <Header /> 
             <ParteFoto />
-            <ParteInformacao />
-            <Footer />
+            {/* <ParteInformacao />
+            <Footer /> */}
         </div>
 
     )

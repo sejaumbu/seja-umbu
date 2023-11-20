@@ -104,3 +104,32 @@ body {
     line-height: normal;
     margin-top: -50px;
 }
+
+/* Estilo iframe */
+
+.containerFrame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    padding: 25px;
+}
+
+.tituloFrame {
+    color: #00572E;
+    max-width: 90%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.tituloParagrafo{
+    color: #000;
+    text-align: center;
+    max-width: 90%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}

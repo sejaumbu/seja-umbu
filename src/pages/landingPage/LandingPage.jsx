@@ -111,7 +111,11 @@ function LandingPage() {
                 />
             </div>
             
-            
+            <div className="containerFrame">
+                <h3 className='tituloFrame' >Como funciona?</h3>
+                <p className='tituloParagrafo' >Na Umbu, conectamos jardineiros talentosos às necessidades dos contratantes, proporcionando oportunidades gratificantes e construindo espaços verdes excepcionais.</p>
+                <iframe width="1005" height="567" src="https://www.youtube.com/embed/OQaCr_Lk91M?si=bmzGW73Xxw06NSKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
             <Footer />
         </div>
 

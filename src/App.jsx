@@ -6,6 +6,8 @@ import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
 import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
+import Perfil from './pages/perfil/Perfil.jsx';
+
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       {/* <UmchatF/>
       <Header />
       <Footer /> */}
+      <Perfil/>
+      
     </div>
   )
 }

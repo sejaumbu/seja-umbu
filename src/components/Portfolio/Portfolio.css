@@ -36,7 +36,7 @@
     height: 30vh;
     width: 15vw;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .fotosLinha {
@@ -47,7 +47,7 @@
 }
 
 .pagePortfolio {
-    width: 810px;
+    width: 1024px;
     margin-top: 50px;
     border-radius: 20px;
     height: 80%;
@@ -55,9 +55,11 @@
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
 }
 
 .ContainerImages {
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     width: 100%;

@@ -24,7 +24,7 @@
 
 /* Estilo para o card geral */
 .cardPerfil {
-    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1.5px; /* Convertido para px */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
 }
 
@@ -32,6 +32,11 @@
 .cardPrincipalConteudo {
     display: flex;
     padding: 15px;
+    width: 1024px;
+    border-radius: 20px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
 }
 
 /* Estilo para o conteúdo interno do card */
@@ -95,6 +100,7 @@
     font-weight: 600;
     line-height: normal;    
     padding:  15px 25px;
+    margin-left: 100px;
     border-radius: 25px;
     cursor: pointer;
 
@@ -103,7 +109,6 @@
 
 /* Estilo para as habilidades */
 .habilidades {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background: rgba(81, 198, 1, 0.25);
     color: #484848;
     border-radius: 90px;

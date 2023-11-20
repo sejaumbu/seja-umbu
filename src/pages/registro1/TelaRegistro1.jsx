@@ -1,12 +1,14 @@
 import React from 'react'
 import LadoEsquerdoRegistro from "../../components/telasLogin/LadoEsquerdoRegistro"
-import ConteudoDireito1 from '../../components/ConteudoDireito1/ConteudoDireito1'
-import "../../pages/registro1/telaRegistro1.css"
+import ConteudoDireito1 from '../../components/telaRegistro1/telaRegistro1'
+import "./telaRegistro1.css"
 function TelaRegistro1() {
   return (
-    <div className='testeRegistro'>
+    <div className='conteudoRegistro1'>
+      <div className="login">
         <LadoEsquerdoRegistro/>
         <ConteudoDireito1/>
+      </div>  
     </div>
   )
 }

@@ -5,7 +5,7 @@ function NotificacoesF() {
   return (
     <div>
 
-<Notificacoes/>
+  <Notificacoes/>
         
     </div>
   )

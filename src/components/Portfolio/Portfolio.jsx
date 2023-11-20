@@ -7,8 +7,6 @@ function Portfolio() {
 
     <div>
     <div className='pagePortfolio'>
-
-         <ItensFixo/> 
         <div className='ContainerImages'>
         <Fotos
         foto= "https://i.pinimg.com/564x/72/5a/5e/725a5ed95921c4fef604a032853df10d.jpg"

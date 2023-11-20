@@ -13,7 +13,6 @@ function App() {
       {/* <UmchatF/>
       <Header />
       <Footer /> */}
-
     </div>
   )
 }

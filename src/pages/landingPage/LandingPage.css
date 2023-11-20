@@ -1,0 +1,106 @@
+/* Estilo global */
+body {
+    position: relative;
+    height: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do carousel */
+.swiper {
+    width: 99vw;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exemploSobreposicao {
+    position: absolute;
+    z-index: -1;
+}
+
+.colunaFotoItens {
+    position: absolute;
+    margin-top: -50px;
+    z-index: 0;
+}
+
+/* Estilo Informações */
+.informacaoSuperior,
+.informacaoInferior {
+    display: flex;
+    flex-direction: row;
+    max-width: 87%;
+    margin-left: 60px;
+    padding: 20px;
+    justify-content: baseline;
+}
+
+.parteTextoLanding,
+.parteTextoLandingInferior {
+    margin-top: 80px;
+}
+
+.imagemJardinagemSuperior {
+    width: 520px;
+    margin: 50px;
+}
+
+.imagemJardinagemInferior {
+    width: 520px;
+    margin: 50px;
+    margin-top: -150px;
+
+
+}
+
+.tituloSuperior,
+.tituloInferior {
+    font-weight: 800;
+    font-size: 35px;
+    color: #00572E;
+}
+
+.paragrafoSuperior,
+.paragrafoInferior {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.informacaoInferior {
+    flex-direction: row-reverse;
+    margin-top: -150px;
+    margin: 50px;
+}
+
+.parteTextoLandingInferior {
+    margin: 60px;
+}
+
+
+/* estilo cards */
+
+.nossosServicos {
+    color: #00572E;
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -50px;
+}

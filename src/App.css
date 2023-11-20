@@ -11,3 +11,7 @@ Modificação para testar a tela de login
     width: 100vw;
     height: 100vh;
 } */
+
+*{
+    font-family: 'Montserrat', "Poppins", sans-serif;
+}

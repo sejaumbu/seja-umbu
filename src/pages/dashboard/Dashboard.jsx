@@ -6,7 +6,7 @@ function Dashboard() {
   return (
     <div className='sepador'>
         <div> <BarraLateral ></BarraLateral></div>
-     
+        
     </div>
   )
 }

@@ -4,6 +4,8 @@ import ItensFixo from './ItensFixo'
 
 function Portfolio() {
   return (
+
+    <div>
     <div className='pagePortfolio'>
 
          <ItensFixo/> 
@@ -48,6 +50,7 @@ function Portfolio() {
         
 
 
+    </div>
     </div>
   )
 }

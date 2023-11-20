@@ -1,5 +1,5 @@
 import React from 'react'
-import notificacoes from "../Notificacoes.css"
+import notificacoes from "../../../pages/Notificacoes/Notificacoes.css"
 
 function ItensFixo() {
     return (

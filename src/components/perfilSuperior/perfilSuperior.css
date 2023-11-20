@@ -35,8 +35,6 @@
     width: 1024px;
     border-radius: 20px
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-
 }
 
 /* Estilo para o conteúdo interno do card */
@@ -46,8 +44,6 @@
     background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #C4C4C4;
     display: flex;
     padding: 10px; 
-
-
     /* Convertido de 15px para px */
 }
 

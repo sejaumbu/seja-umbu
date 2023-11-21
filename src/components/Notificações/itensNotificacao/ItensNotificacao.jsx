@@ -1,10 +1,10 @@
 import React from 'react'
-import notificacoes from "../../../pages/Notificacoes/Notificacoes.css"
+import "./itensNotificacao.css"
 
-function ItensFixo() {
+function itensNotificacao() {
     return (
         <div>
-            <div className="itensFixo">
+            <div className="itensNotificacao">
                 <div>
                     <h2 className='titulo'> Notificações </h2>
                 </div>
@@ -18,4 +18,4 @@ function ItensFixo() {
     )
 }
 
-export default ItensFixo
+export default itensNotificacao;

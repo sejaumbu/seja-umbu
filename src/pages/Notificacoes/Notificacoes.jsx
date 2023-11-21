@@ -1,13 +1,13 @@
 import React from 'react'
 import BarraLateral from '../../components/barraLateral/BarraLateral'
-import ItensFixo from '../../components/Notificações/BoxNotificacao/ItensFixo'
+import ItensFixo from '../../components/Notificações/itensNotificacao/ItensNotificacao'
 import BoxNotificacao from '../../components/Notificações/BoxNotificacao/BoxNotificacao'
 import avatarM1 from "../../assets/avatarM1.svg"
 import avatarM7 from "../../assets/avatarM7.svg"
 import avatarH3 from "../../assets/avatarH3.svg"
 import avatarH6 from "../../assets/avatarH6.svg"
 import { FaStar } from "react-icons/fa";
-
+import "./notificacoes.css"
 
 function Notificacoes() {
   return (
@@ -15,8 +15,8 @@ function Notificacoes() {
       
         <BarraLateral/>
         <div className="conteudoNotificacao">
-      
-    <div className='notificacoes'>
+
+      <div className='notificacoes'>
       <ItensFixo/>
       <BoxNotificacao
         imgPerfil={avatarM1}

@@ -1,5 +1,5 @@
 import React from 'react'
-import notificacoes from "../../../pages/Notificacoes/Notificacoes.css"
+import "../BoxNotificacao/boxNotificacao.css"
 
 
 function BoxNotificacao(props) {

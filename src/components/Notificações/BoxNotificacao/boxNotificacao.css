@@ -1,0 +1,53 @@
+.notificacao {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 20%;
+    height: 20vh;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+}
+.imgPerfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+.box {
+    margin-left: 1%;
+}
+
+.nomeContratante {
+    font-weight: bold;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.comentario {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: normal;
+    margin-bottom: 0.5%;
+}
+.data {
+    color: #006845;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+
+.nota {
+    display: flex;
+    gap: 3px;
+    color: #006845;
+}

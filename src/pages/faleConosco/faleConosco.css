@@ -1,0 +1,71 @@
+/* .form-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.label-email {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-email {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} */
+
+.fotoFaleConosco {
+    width: 459px;
+    height: 702px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.conteudoFaleConosco {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 70vw;
+    border-radius: 20px;
+
+}
+
+.meiosContato {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.formFaleConosco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+.meiosContatoTodos {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.parteImagem{
+    display: flex;
+    margin-left: 155px;
+}
+.iconeteste{
+    width: 580px;
+}

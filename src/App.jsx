@@ -1,6 +1,5 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';
 // import Header from "./components/header/Header.jsx"
 // import Footer from "./components/footer/Footer.jsx"
 // import BarraLateral from './components/barraLateral/BarraLateral.jsx';

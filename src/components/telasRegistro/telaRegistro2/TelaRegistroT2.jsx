@@ -1,9 +1,8 @@
 import React from "react";
-import "../telaRegistro2/telaRegistroT2.css";
+import "./telaRegistroT2.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
-
 
 function TelaRegistroT2() {
   return (
@@ -37,7 +36,6 @@ function TelaRegistroT2() {
                     <button className="Cadastro-Facebook"><FaFacebook /> <span>Continuar com Facebook</span></button>
                     <button className="Cadastro-Google"><FcGoogle /><span>Continuar com Google </span></button>
                 </div>
-                
             </div>
         </form>       
     </div>

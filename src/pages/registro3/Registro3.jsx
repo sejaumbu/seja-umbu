@@ -1,6 +1,6 @@
-import TelaRegistro3 from '../../components/telaRegistro3/TelaRegistro3.jsx'
-import LadoEsquerdoRegistro from "../../components/telasLogin/LadoEsquerdoRegistro"
-import './Registro3.css'
+import TelaRegistro3 from '../../components/telasRegistro/telaRegistro3/TelaRegistro3.jsx'
+import LadoEsquerdoRegistro from "../../components/telasRegistro/swiperRegistro/SwiperRegistro.jsx"
+import './registro3.css'
 
 export default function Registro3(){
     return (

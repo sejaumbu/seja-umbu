@@ -1,6 +1,7 @@
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { CiLock } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
+import './telaRegistro4.css'
 export default function TelaRegistro4() {
     return (
         <div className="telaRegistro4">

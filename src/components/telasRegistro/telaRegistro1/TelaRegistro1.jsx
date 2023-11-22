@@ -3,8 +3,8 @@ import { IoPersonOutline } from "react-icons/io5";
 import { LuShovel } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 
-
 export default function telaRegistro1() {
+
     return (
         <div className="ConteudoDireito">
             <div className='header'> 
@@ -27,12 +27,11 @@ export default function telaRegistro1() {
                     <SlArrowRight />
                 </button>
 
-
                 <button className='botaoCompleto'> 
                     <span className='iconeTipoConta'><LuShovel /></span>
                     <div className="descricaoTexto">
-                       <h4>Jardineiro</h4>
-                       <p>Transforme um jardim!</p>
+                        <h4>Jardineiro</h4>
+                        <p>Transforme um jardim!</p>
                     </div>
                     <SlArrowRight />
                 </button>

@@ -6,15 +6,22 @@ import BarraLateral from './components/barraLateral/BarraLateral.jsx';
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import UmchatF from './pages/umchat/UmchatF.jsx';
 import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
+import Registro1 from './pages/registro1/Registro1.jsx';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='teste'>
-      {/* <UmchatF/>
-      <Header />
-      <Footer /> */}
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/teste2' Component={ Registro1 } />
+      </Routes>
+      {/* <div className='teste'>
+        {/* <UmchatF/>
+        <Header />
+        <Footer />
+        </div> */}
+    </BrowserRouter> 
+    
   )
 }
 

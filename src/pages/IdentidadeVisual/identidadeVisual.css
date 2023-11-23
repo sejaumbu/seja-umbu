@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Montserrat&family=Roboto+Slab:wght@100&family=Roboto:wght@300&display=swap');
+
 .titleV,
 .titulos {
     color: #016C05;
@@ -58,6 +60,44 @@
 .testeimg {
     width: 350px;
 }
+
+.fonteTitleC {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-family: 'Cantora One';
+    font-weight: 400;
+    line-height: 125%;
+    /* 60px */
+    letter-spacing: -0.48px;
+}
+
+.fonteSubtituloC {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cantora One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 45px */
+    letter-spacing: -0.36px;
+}
+
+.fonteParagrafoC {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Cantora One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    max-width: 500px;
+    margin-left: 500px;
+    letter-spacing: -0.2px;
+}
+
 
 .fonteTitleM {
     color: #000;

@@ -9,7 +9,7 @@ import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';
 // import UmchatF from './pages/umchat/UmchatF.jsx';
 // import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
 // import Perfil from './pages/perfil/Perfil.jsx';
-
+import IdentidadeVisualTela from "./pages/IdentidadeVisual//IdentidadeVisualTela.jsx"
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       {/* <UmchatF/>
       <Header />
       <Footer      /> */}
-      <Notificacoes/>
+      <IdentidadeVisualTela/>
        
     </div>
   )

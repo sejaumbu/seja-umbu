@@ -4,7 +4,8 @@ import { GrLinkedin } from 'react-icons/gr';
 import { GrGithub } from 'react-icons/gr';
 import { SlCalender } from "react-icons/sl";
 import { IoIosArrowUp } from "react-icons/io";
-import "./footer.css";
+import "../footer/footer.css";
+
 
 
 export default function Footer() {

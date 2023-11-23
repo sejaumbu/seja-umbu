@@ -1,11 +1,12 @@
 import React from 'react'
 
-function ItemBarra({iconUrl, nome}) {
+function ItemBarra({ iconUrl, nome, rota }) {
   return (
     <div>
       <li className="container" >
-        <span className="iconUrl">{iconUrl}</span>
-        <span className="categories" >{nome}</span>
+        <a href={rota}><span className="iconUrl">{iconUrl}</span>
+          <span className="categories" >{nome}</span>
+        </a>
       </li>
     </div>
   )

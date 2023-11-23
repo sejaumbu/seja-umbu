@@ -1,0 +1,39 @@
+body{
+    background-color: #EFF3F6;
+}
+
+
+.conteudoRegistro1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: 80vh;
+    padding: 10px;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Breakpoint para celular */
+@media screen and (max-width: 920px){
+    .login{
+        width: 100vw;
+        height: 100vh;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .tentativadeSwiper{
+        display: none;
+        transition: 1s;
+    }
+
+}

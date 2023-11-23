@@ -1,17 +1,26 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/header/Header.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import TelaRegistroT2 from "./components/telaRegistro2/TelaRegistroT2.jsx";
-import TelaRegistroT3 from "./components/telaRegistro3/telaRegistroT3.jsx";
-import IdentidadeVisual from "./components/identidadeVisual/IdentidadeVisual.jsx";
+
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';
+// import Header from "./components/header/Header.jsx"
+// import Footer from "./components/footer/Footer.jsx"
+// import BarraLateral from './components/barraLateral/BarraLateral.jsx';
+// import Dashboard from './pages/dashboard/Dashboard.jsx';
+// import UmchatF from './pages/umchat/UmchatF.jsx';
+// import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
+// import Perfil from './pages/perfil/Perfil.jsx';
+
 
 function App() {
   return (
-    <>
-      <IdentidadeVisual />
-    </>
-  );
+    <div className='teste'>
+      {/* <UmchatF/>
+      <Header />
+      <Footer      /> */}
+      <Notificacoes/>
+       
+    </div>
+  )
 }
 
 export default App;

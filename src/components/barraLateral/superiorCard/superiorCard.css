@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+.cardJardineiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.cardJardineiro h4 {
+    font-size: 22px;
+    color: var(--gray-600, #006845);
+    height: 900;
+    margin: 5px;
+}
+
+.cardJardineiro h2 {
+    font-size: 17px;
+    color: var(--gray-600, #4F5B67);
+}
+
+.cardJardineiro img {
+    border-radius: 250px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+

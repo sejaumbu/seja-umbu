@@ -1,0 +1,17 @@
+/* .notificacoes{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+} */
+/* 
+Modificação para testar a tela de login
+.teste{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+} */
+
+*{
+    font-family: 'Montserrat', "Poppins", sans-serif;
+}

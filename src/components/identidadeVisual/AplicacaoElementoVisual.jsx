@@ -9,7 +9,7 @@ function AplicacaoElementoVisual() {
         <p className="titulos">APLICAÇÕES DE ELEMENTO VISUAL</p>
         <p className="subTitulo">Matizes representativos da marca</p>
       </header>
-      <img src={AplicacaoVisual} alt="Aplicação elemento visual" />
+      <img src={AplicacaoVisual} alt="Aplicação elemento visual." />
     </div>
   );
 }

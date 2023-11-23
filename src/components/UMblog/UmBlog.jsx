@@ -1,10 +1,8 @@
 import './UmBlog.css';
-import Bamboo from '../../assets/Umblog/Bamboo.png'
-import Indoor from '../../assets/Umblog/Indoor.png'
-import Plant from '../../assets/Umblog/Plant.png' 
 
 
-export default function UmBlog(){
+
+function UmBlog(){
     return(
         <main className='Umblog'>
             <div className='tittleUmblog'>
@@ -15,17 +13,17 @@ export default function UmBlog(){
             <div className='containerValores'>
                 <div className="valoresUmblog">
                     <div className="cardUmblog">
-                        <img src={Bamboo}/>
+                        <img src='https://i.pinimg.com/736x/dc/06/46/dc0646a851861c53137151800da79bb8.jpg'/>
                         <span className='cardTittle-umblog'>Visão</span>
                         <span className='cardText-umblog'>Ser uma plataforma que inove o serviço de jardinagem</span>
                     </div>
                     <div className="cardUmblog-2">
-                        <img src={Indoor}/>
+                    <img src='https://i.pinimg.com/736x/dc/06/46/dc0646a851861c53137151800da79bb8.jpg'/>
                         <span className='cardTittle-umblog-2'>Missão</span>
                         <span className='cardText-umblog-2'>Proporcionar melhores condições de trabalho para o jardineiro e paisagistas, tornando o serviço acessivel e justo.</span>
                     </div>
                     <div className="cardUmblog">
-                        <img src={Plant}/>
+                    <img src='https://i.pinimg.com/736x/dc/06/46/dc0646a851861c53137151800da79bb8.jpg'/>
                         <span className='cardTittle-umblog'>Valores</span>
                         <span className='cardText-umblog'>Profissionalismo, transparência, qualidade, inovação, inclusão social e desenvolvimento sustentável.</span>
                     </div>
@@ -83,3 +81,5 @@ export default function UmBlog(){
         </main>  
     )
 }
+
+export default UmBlog

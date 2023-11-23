@@ -41,12 +41,11 @@ body {
 }
 
 /* Estilo Informações */
-.informacaoSuperior,
-.informacaoInferior {
+.informacaoSuperior,.informacaoInferior {
     display: flex;
     flex-direction: row;
-    max-width: 87%;
-    margin-left: 60px;
+    max-width: 85%;
+    margin-left: 160px;
     padding: 20px;
     justify-content: baseline;
 }
@@ -57,12 +56,12 @@ body {
 }
 
 .imagemJardinagemSuperior {
-    width: 520px;
+    width: 450px;
     margin: 50px;
 }
 
 .imagemJardinagemInferior {
-    width: 520px;
+    width: 450px;
     margin: 50px;
     margin-top: -150px;
 
@@ -84,8 +83,7 @@ body {
 
 .informacaoInferior {
     flex-direction: row-reverse;
-    margin-top: -150px;
-    margin: 50px;
+    margin-bottom: 70px;
 }
 
 .parteTextoLandingInferior {
@@ -99,10 +97,14 @@ body {
     color: #00572E;
     text-align: center;
     font-size: 55px;
-    font-style: normal;
-    font-weight: 800;
+    font-style: bold;
+    font-weight: 900;
     line-height: normal;
-    margin-top: -50px;
+}
+
+.testeClass{
+    margin-bottom: 120px;
+
 }
 
 /* Estilo iframe */
@@ -132,4 +134,170 @@ body {
     font-style: normal;
     font-weight: 400;
 
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    color: #00572E;
+    margin-left: 270px ;
+}
+
+.divReviewsCards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .informacaoSuperior, .informacaoInferior {
+        flex-direction: column;
+        max-width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .imagemJardinagemSuperior,
+    .imagemJardinagemInferior {
+        width: 100%;
+        margin: 20px 0;
+        margin-top: 0;
+    }
+
+    .parteTextoLanding,
+    .parteTextoLandingInferior {
+        margin-top: 40px;
+    }
+    .divReviewsCards{
+        display: flex;
+flex-direction: column;    }
+    
+}
+
+.cardPlanosumbu {
+    background-color: #CCF4CC;
+    width: 100vw;
+    padding: 45px;
+    margin-bottom: 70px ;
+    margin-top: 150px;
+}
+
+.cardCompletoumbu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPlanos {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.premiumCor {
+    color:  #349C4B;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.descricaoPrecos {
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 80%;
+}
+
+.planoTipo{
+    background-color: white;
+    height: 50vh;
+    width: 19vw;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.planoTipo h4 {
+    color: #0B2110;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    /* 33.6px */
+}
+
+.planoTipo p {
+    color: #2E3630;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.precos {
+    color: #0B2110;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: baseline;
+}
+
+.precoValor {
+    color: #0B2110;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.botaoSem{
+    border: #349C4B 1px solid;
+    color: #349C4B;
+    font-weight: 900;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.botaoSem:hover{
+    color: white;
+    background-color:  #349C4B;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.tabelaPrecos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recomendadoIcone{
+    border: 1px solid;
+    height: 35px;
+    width: 80%;
+    margin-left: 25px;
+    background: #349C4B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px ;
+}
+
+.recomendadoIcone p{
+    padding-top: 15px;
 }

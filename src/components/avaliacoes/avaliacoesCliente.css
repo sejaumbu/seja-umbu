@@ -1,0 +1,79 @@
+.cardAvaliacao {
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    height: 37vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.cardFundo {
+    /* background-color: #006845; */
+    height: 150px;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cardFundo p {
+    font-size: 16px;
+
+
+}
+
+.cardInformacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardInformacoes img {
+    margin-top: -45px;
+    width: 90px;
+}
+
+.cardInformacoes h3 {
+    font-weight: 900;
+    margin-bottom: -5px;
+    color: #006845;
+}
+
+.cardInformacoes p {
+    color: #818181;
+}
+
+.estrelas {
+    margin-top: -20px;
+
+}
+
+.estrelaUnica {
+    font-size: 25px;
+    color: #FFC700;
+}
+
+.avalicoesClientes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-size: 45px;
+    font-style: bold;
+    font-weight: 900;
+    color: #006845;
+
+}
+
+/* .tabelaPrecos {
+   width: 382px;
+   height: 301px;
+   border: 1px solid;
+   display: flex;
+   flex-direction: row;
+} */
+

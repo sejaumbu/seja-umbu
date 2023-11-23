@@ -5,7 +5,7 @@ function CardServico({servico, descricao, iconeCard}) {
   return (
     <div>
       <div className="CardServico">
-        <span className='mdOutlineSecurity'>{iconeCard} </span>
+        <span className='iconesServicos'>{iconeCard} </span>
         <h3 className='servicoTitulo'>{servico}</h3>
         <p className='descricaoTitulo'>{descricao}</p>
       </div>

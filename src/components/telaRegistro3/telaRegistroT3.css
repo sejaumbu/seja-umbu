@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.containerT3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerT3 {
+    display: flex;
+    margin-top: 74px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.voltarT3 {
+    display: flex;
+    color: #8692A6;
+    margin-left: 54px;
+    gap: 5px;
+}
+
+.etapaT3 {
+    align-items: end;
+    display: flex;
+    margin-right: 90px;
+    justify-content: end;
+    flex-direction: column;
+    color: #8692A6;
+}
+
+/* Forms */
+
+.topoRegistroT3 {
+    width: 33vw;
+    margin-top: 8vh;
+    margin-bottom: 10px;
+}
+
+.topoRegistroT3 p {
+        text-align: left; 
+        color: #8692A6; 
+        font-size: 18px; 
+        font-weight: 400; 
+}
+
+.topoRegistroT3 span {
+    color: rgb(0, 0, 0); 
+    font-size: 30px; 
+    font-weight: 400;
+}
+
+#textoP {
+    margin-top: 9px;
+}
+
+.formT3 {
+    color: #696F79;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-de-selecao {
+    display: flex;
+    width: 422px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+    padding-left: 30px;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11); 
+    border-radius: 15px; 
+    border: 2px #006845 solid
+}
+
+.numero-codigo-pais {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.caixa-de-selecao input {
+    display: flex;
+    width: 100%;
+    padding: 1rem .6rem;
+    font-size: 1.1rem;
+
+    border: none;
+    outline: none;
+}
+
+.caixa-de-selecao input:focus {
+    border: .1rem solid transparent;
+}
+
+.caixa-de-opcao {
+    background-color: #FFFF;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa-de-opcao div {
+    position: relative;
+    align-items: flex-start;
+    padding-right: 15px;
+    width: 11vw;
+    padding: 0 2.8rem 0 .5rem;
+    align-items: start;
+    text-align: center;
+    cursor: pointer;
+}
+
+.caixa-de-opcao div::after {
+    position: absolute;
+    content: "";
+    right: .5rem;
+    top: 50%;    
+    transform: translateY(-25%) rotate(180deg);
+
+    width: 0;
+    height: 0;
+    border: .6rem solid transparent;
+    border-bottom-color: black;
+}
+
+.caixa-de-selecao .opcoes {
+    position: absolute;
+    top: 4rem;
+}
+
+.labelRegistroT3 {
+    margin-top: 24px;
+    width: 32vw;
+}
+
+.Inputs {
+    display: flex;
+    width: 426px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 25px;
+    border: 1px #8692A6 solid;
+    padding-left: 30px;
+}
+
+.msgSeguranca {
+    display: flex;
+    gap: 7px;
+    width: 100%;
+    margin-top: 28px;
+    align-items: center;
+    justify-content: center;
+    color: #8692A6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.msgSeguranca span {
+    margin-bottom: 18px;
+}
+
+/* Botões */
+
+.botao-salvar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.salvar-continuar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 426px;
+    height: 64px;
+    color: #FFFF;
+    border-radius: 40px;
+    margin-top: 52px;
+    background: #006845;
+}

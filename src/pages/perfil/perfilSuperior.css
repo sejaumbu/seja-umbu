@@ -1,0 +1,8 @@
+.mainPerfil{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+}

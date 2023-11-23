@@ -94,3 +94,8 @@
     line-height: normal;
     font-weight: bold;
 }
+
+.conteudoNotificacao{
+    max-width: 95%;
+    margin-left: 250px;
+}

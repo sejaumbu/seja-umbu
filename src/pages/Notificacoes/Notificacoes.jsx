@@ -1,7 +1,7 @@
 import React from 'react'
-import BarraLateral from '../barraLateral/BarraLateral'
-import ItensFixo from './BoxNotificacao/ItensFixo'
-import BoxNotificacao from './BoxNotificacao/BoxNotificacao'
+import BarraLateral from '../../components/barraLateral/BarraLateral'
+import ItensFixo from '../../components/Notificações/BoxNotificacao/ItensFixo'
+import BoxNotificacao from '../../components/Notificações/BoxNotificacao/BoxNotificacao'
 import avatarM1 from "../../assets/avatarM1.svg"
 import avatarM7 from "../../assets/avatarM7.svg"
 import avatarH3 from "../../assets/avatarH3.svg"
@@ -11,6 +11,11 @@ import { FaStar } from "react-icons/fa";
 
 function Notificacoes() {
   return (
+    <div>
+      
+        <BarraLateral/>
+        <div className="conteudoNotificacao">
+      
     <div className='notificacoes'>
       <ItensFixo/>
       <BoxNotificacao
@@ -74,9 +79,9 @@ function Notificacoes() {
         comentario="Serviço decente, mas faltou atenção aos detalhes. Algumas plantas não foram podadas corretamente. A comunicação foi eficaz, mas a execução do trabalho precisa de mais cuidado."
         data="Há 1 mês"
       />
-
     </div>
-
+    </div>
+  </div>
   )
 }
 

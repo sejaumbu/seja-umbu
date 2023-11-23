@@ -43,7 +43,6 @@ h1 {
     font-size: 30px;
     font-family: Montserrat;
     font-weight: 900;
-    word-wrap: break-word;
 }
 
 h4 {
@@ -51,7 +50,6 @@ h4 {
     color: #8692A6; 
     font-size: 16px; 
     font-weight: 600; 
-    word-wrap: break-word;
 }
 
 .topoRegistro {
@@ -64,7 +62,6 @@ h4 {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 500;
-    word-wrap: break-word;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +82,6 @@ h4 {
     margin-top: 25px;
     border: 1px #8692A6 solid;
     padding-left: 30px;
-    word-wrap: break-word;
 }
 
 /* Botões */
@@ -115,7 +111,6 @@ button {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 500;
-    word-wrap: break-word;
 }
 
 .condicao {
@@ -145,7 +140,6 @@ button {
     color: #BABABA;
     font-size: 12px;
     font-weight: 400;
-    word-wrap: break-word
 }
 
 #Cadastro-Facebook {
@@ -160,7 +154,6 @@ button {
     font-size: 20px;
     font-family: Montserrat;
     font-weight: 700;
-    word-wrap: break-word;
 }
 
 #Cadastro-Google {
@@ -175,6 +168,5 @@ button {
     font-size: 20px;
     font-family: Montserrat;
     font-weight: 500;
-    word-wrap: break-word;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

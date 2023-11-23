@@ -23,18 +23,14 @@ export default function TelaRegistro4() {
                     <button>Podas <FaRegCircleCheck /></button>
                     <button>Manutenção <FaRegCircleCheck /></button>
                     <button>Construção de Jardim <FaRegCircleCheck /></button>
-                    <button>Controle de pragas <FaRegCircleCheck /></button>
+                    <button>Paisagismo <FaRegCircleCheck /></button>
                     <button>Adubação <FaRegCircleCheck /></button>
-                    <button>Teste <FaRegCircleCheck /></button>
-                    <button>Controle de pragas <FaRegCircleCheck /></button>
-                    <button>Adubação <FaRegCircleCheck /></button>
-                    <button>Teste <FaRegCircleCheck /></button>
-                    <button>Controle de pragas <FaRegCircleCheck /></button>
-                    <button>Adubação <FaRegCircleCheck /></button>
-                    <button>Teste <FaRegCircleCheck /></button>
-                    <button>Controle de pragas <FaRegCircleCheck /></button>
-                    <button>Adubação <FaRegCircleCheck /></button>
-                    <button>Teste <FaRegCircleCheck /></button>
+                    <button>Remoção de ervas orgânicas<FaRegCircleCheck /></button>
+                    <button>Plantio e Transplante <FaRegCircleCheck /></button>
+                    <button>Irrigação <FaRegCircleCheck /></button>
+                    <button>Adubação e Nutrição <FaRegCircleCheck /></button>
+                    <button>Manutenção de Gramados <FaRegCircleCheck /></button>
+                    <button>Instalação de Sistemas de Drenagem <FaRegCircleCheck /></button>
                 </div>
                 <div className="enviarHabilidades">
                     <button>Salvar & Continuar</button>

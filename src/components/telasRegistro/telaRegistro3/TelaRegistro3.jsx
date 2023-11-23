@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { MdLockOutline } from "react-icons/md";
 
 
-export default function telaRegistro3() {
+export default function telaRegistro3(props) {
   return (
     <div className="containerT3">
         <div className="headerT3">
@@ -53,7 +53,7 @@ export default function telaRegistro3() {
             </select>
 
             <div className="botao-salvar">
-                <button type="submit" className="salvar-continuar">Salvar & Continuar</button>
+                <button type="submit" className="salvar-continuar" onClick={props.avancarRegistro3}>Salvar & Continuar</button>
                 <span><MdLockOutline /> Suas informações estão protegidas com segurança</span>
             </div>
         </form>

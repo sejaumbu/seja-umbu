@@ -1,8 +1,12 @@
-.ContainerLogin{
+body{
+    background-color: #EFF3F6;
+}
+
+
+.conteudoRegistro1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .login{
@@ -17,7 +21,8 @@
     background-color: white;
 }
 
-@media screen and (max-width: 768px){
+/* Breakpoint para celular */
+@media screen and (max-width: 920px){
     .login{
         width: 100vw;
         height: 100vh;
@@ -27,5 +32,7 @@
     
     .tentativadeSwiper{
         display: none;
+        transition: 1s;
     }
+
 }

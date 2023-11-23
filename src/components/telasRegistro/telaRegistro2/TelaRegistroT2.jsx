@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 
-function TelaRegistroT2() {
+function TelaRegistroT2(props) {
   return (
     <div className="containerT2">
         <div className="headerT2">
@@ -30,7 +30,7 @@ function TelaRegistroT2() {
                     <input type="checkbox" name="Termos" className="termos"/>
                     <label>Eu concordo com os termos e condições</label>
                 </div>
-                <button className="Cadastro-Normal">Cadastrar</button>
+                <button className="Cadastro-Normal" onClick={props.avancarRegistro2}>Cadastrar</button>
                 <span>OU</span>
                 <div className="responsividadeBotoes">
                     <button className="Cadastro-Facebook"><FaFacebook /> <span>Continuar com Facebook</span></button>

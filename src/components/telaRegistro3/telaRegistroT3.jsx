@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { MdLockOutline } from "react-icons/md";
 import { Icon } from "@iconify/react";
 
-function telaRegistroT3() {
+function TelaRegistroT3() {
   return (
     <div>
       <div className="containerT3">
@@ -18,7 +18,7 @@ function telaRegistroT3() {
           <div className="etapaT3">
             <p>Etapa 02/03</p>
             <p>
-              <strong>Informações Pessoais</strong>
+              <strong>Informações sobre residência</strong>
             </p>
           </div>
         </div>
@@ -91,4 +91,4 @@ function telaRegistroT3() {
   );
 }
 
-export default telaRegistroT3;
+export default TelaRegistroT3;

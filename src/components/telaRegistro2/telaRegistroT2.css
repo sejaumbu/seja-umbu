@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.containerT2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerT2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+
+.voltar {
+    display: flex;
+    color: #8692A6;
+    margin-left: 54px;
+    gap: 5px;
+}
+
+.etapa {
+    align-items: end;
+    display: flex;
+    margin-right: 90px;
+    justify-content: end;
+    flex-direction: column;
+    color: #8692A6;
+}
+
+/* Forms */
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h4 {
+    text-align: left; 
+    color: #8692A6; 
+    font-size: 16px; 
+    font-weight: 600; 
+}
+
+.topoRegistro {
+    width: 32vw;
+    margin-top: 12px;
+}
+
+.form {
+    color: #696F79;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.labelRegistro2 {
+    margin-top: 24px;
+    width: 32vw;
+}
+
+.Inputs {
+    display: flex;
+    width: 426px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 25px;
+    border: 1px #8692A6 solid;
+    padding-left: 30px;
+}
+
+/* Botões */
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+}
+
+button {
+    border: none;
+}
+
+.botoes p {
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.botoes label {
+    color: #696F79;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.condicao {
+    width: 33vw;
+    margin-top: 23px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.termos {
+    margin: 20px;
+  }
+
+#Cadastro-Normal {
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 289px; 
+    height: 64px; 
+    background: #006845; 
+    border-radius: 40px;
+}
+
+.ou {
+    display: flex;
+    color: #BABABA;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#Cadastro-Facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #FFFF;
+    background-color: #1877F2;
+    width: 400px; 
+    height: 64px; 
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+#Cadastro-Google {
+    color: rgba(0, 0, 0, 0.54);
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 400px; 
+    height: 64px; 
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

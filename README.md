@@ -33,7 +33,7 @@ function perfil() {
     </code>
   </pre>
 
-  <h2>Como subir pra uma branch</h2>
+  <h2>Como Criar/subir pra uma branch</h2>
 
   <p><code>git checkout -b implementacao-barraLateral:</code> Este comando cria uma nova branch chamada 'implementacao-barraLateral' e muda para ela. Uma branch no Git é uma ramificação independente do código, permitindo o desenvolvimento separado de diferentes recursos ou correções de bugs.</p>
 
@@ -59,3 +59,7 @@ function perfil() {
   <p>Entre no link e descreva no título o que foi feito, após isso, na lateral direita irá aparecer a request, você deve selecionar alguém para revisar seu código antes de mergear.</p>
 
   <p>Apenas sob ordens vocês podem mergear o código, para não gerar conflitos no repositório.</p>
+
+  <hr>
+
+  <h2> Como eu atualizo a versão que está no meu computador para a versão atual que está no repositorio?</h2>

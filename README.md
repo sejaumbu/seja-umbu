@@ -47,7 +47,7 @@ function perfil() {
 
   <h3>Caso seja seu primeiro commit na branch criada</h3>
 
-  <p><code>git push -u origin (nome da branch):</code> Envia as mudanças para o repositório remoto (no GitHub, no caso) na branch. O -u é usado para configurar a branch remota como a branch upstream, o que facilita futuros pushes e pulls desta branch.</p>
+  <p><code>git push -u origin (nome da branch):</code> Envia as mudanças para o repositório remoto (no GitHub, no caso) na branch. O -u é usado para configurar a branch remota como a branch upstream, o que     facilita futuros pushes e pulls desta branch.</p>
 
   <h3>Depois de fazer o primeiro commit na branch</h3>
 
@@ -61,5 +61,36 @@ function perfil() {
   <p>Apenas sob ordens vocês podem mergear o código, para não gerar conflitos no repositório.</p>
 
   <hr>
+<h2> Como atualizar a versão no meu computador para a versão mais recente no repositório?</h2>
 
-  <h2> Como eu atualizo a versão que está no meu computador para a versão atual que está no repositorio?</h2>
+<h3> Depende do que você quer fazer: </h3>
+
+<h5>Terminou sua branch e vai começar outra branch do projeto? </h5>
+<p> Acesse a main do projeto para atualizar tudo que foi modificado:</p>
+<p><code> git checkout main</code></p>
+<p> Atualize a sua versão no seu desktop:</p>
+<p><code> git pull </code></p>
+
+<h5> Quer dar um UPDATE na sua branch </h5>
+<p> Se você deseja atualizar a sua branch com as últimas modificações da branch principal (main) ou de outra branch, siga os passos abaixo:</p>
+
+<p> Certifique-se de estar na sua branch local:</p>
+<p><code> git checkout SUA_BRANCH </code></p>
+<p> Substitua "SUA_BRANCH" pelo nome da sua branch.</p>
+
+<p> Em seguida, faça o rebase da sua branch com a branch principal para incorporar as alterações mais recentes:</p>
+<p><code> git rebase main </code></p>
+<p> Isso aplicará suas alterações locais sobre as alterações mais recentes da branch principal.</p>
+
+<p> Se houver conflitos durante o rebase, o Git irá notificá-lo. Resolva os conflitos manualmente e, em seguida, continue o rebase:</p>
+<p><code> git rebase --continue </code></p>
+
+<p> Após concluir o rebase, você pode atualizar o repositório remoto com suas alterações:</p>
+<p><code> git push origin SUA_BRANCH </code></p>
+
+<p> Isso atualizará a sua branch remota no repositório.</p>
+
+<h3> Lembre-se: </h3>
+<p> - Sempre certifique-se de ter commitado ou descartado suas alterações locais antes de realizar o rebase.</p>
+<p> - O rebase reescreve o histórico de commits, então use-o com cuidado, especialmente se já tiver compartilhado seu código.</p>
+<p> - Mantenha-se atualizado com as práticas de colaboração do projeto, pois podem haver variações dependendo das diretrizes da equipe.</p>

@@ -1,4 +1,4 @@
-import "../Portfolio.css"
+import './Portfolio.css'
 import React from 'react'
 
 function Fotos(props) {

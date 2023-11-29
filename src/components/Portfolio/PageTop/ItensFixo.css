@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.itensFixo {
+    margin-top: 2%;
+    justify-content: center;
+    background-color: white;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    justify-content: center;
+    gap: 30vw;
+}
+
+.pOpcoes {
+    color: #006845;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pOpcoes:nth-child(1) {
+    font-weight: bold;
+    text-decoration: underline;
+}

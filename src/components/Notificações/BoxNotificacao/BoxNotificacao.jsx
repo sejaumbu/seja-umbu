@@ -1,4 +1,6 @@
 import React from 'react'
+import notificacoes from "../../../pages/Notificacoes/Notificacoes.css"
+
 
 function BoxNotificacao(props) {
     return (

@@ -6,7 +6,9 @@
 .barraLateral {
     width: 255px;
     height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
 .itemSite {
     margin: 10px;

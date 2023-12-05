@@ -36,8 +36,9 @@
 }
 
 .contatos img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover   ;
     border-radius: 50%;
 }
 
@@ -81,6 +82,8 @@
 .infoContato img{
     height: 60px;
     width: 60px;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
 .infoContato p{
@@ -227,3 +230,6 @@
 
 /* Espaço para a estilização do balão de mensagem*/
 
+.umChat{
+    font-weight: 700;
+}

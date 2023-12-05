@@ -108,8 +108,8 @@
 .conceitosUmblog{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .conceitosUmblog-1{
@@ -129,8 +129,9 @@
 
 .containerQuemSomos{
     display: flex;
+    gap: 80px;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 60px;
 }
 
 .quemSomos{

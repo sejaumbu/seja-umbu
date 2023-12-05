@@ -6,6 +6,7 @@ import "../header/header.css"
 
 
 export default function Header(){
+
     return(
         <div className="containerHeader">
             <header>
@@ -14,11 +15,11 @@ export default function Header(){
                 </div>
                 <nav className="navegacao">
                     <ul className="listNav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                        <li><a href="#">UMblog</a></li>
-                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/umchat">Serviços</a></li>
+                        <li><a href="/faleconosco">Fale conosco</a></li>
+                        <li><a href='/blog'>UMblog</a></li>
+                        <li><a href="/sobrenos">Sobre nós</a></li>
                     </ul>
                 </nav>
 
@@ -29,13 +30,13 @@ export default function Header(){
 
                 {/* Drop menu responsivo ao tamanho da tela */}
                 <DropdownButton id="dropdown-basic-button" title="Menu" variant="success" className="dropMenu">
-                    <Dropdown.Item href="#/action-1">Home</Dropdown.Item>
+                    <Dropdown.Item href="/">Home</Dropdown.Item>
                     <Dropdown.Item href="#/action-2">Serviços</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Fale conosco</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">UMblog</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Sobre nós</Dropdown.Item>
+                    <Dropdown.Item href="/faleconosco">Fale conosco</Dropdown.Item>
+                    <Dropdown.Item href="/umblog">UMblog</Dropdown.Item>
+                    <Dropdown.Item href="/sobrenos">Sobre nós</Dropdown.Item>
                     <hr/>
-                    <Dropdown.Item href="#/action-3">Login/Registro</Dropdown.Item>
+                    <Dropdown.Item href="/registro">Login/Registro</Dropdown.Item>
                 </DropdownButton>
             </header>    
         </div>    

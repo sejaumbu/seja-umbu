@@ -1,0 +1,63 @@
+.cardCompleto {
+    width: 20vw;
+    height: 26vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.cardCompleto img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
+
+}
+
+.restanteCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloMateria {
+    font-weight: 700;
+    color: #006845;
+    margin: auto;
+
+}
+
+.dataPublicacao {
+    color: #858585;
+    margin: auto;
+
+}
+
+.descricaoCard {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    color: #666666;
+}
+
+.botaoClica {
+    background-color: #34A853;
+    color: #ffffff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 7px;
+}
+
+
+.botaoClica:hover {
+    background-color: #2e7d32; /* Tom mais escuro ao passar o mouse */
+
+}

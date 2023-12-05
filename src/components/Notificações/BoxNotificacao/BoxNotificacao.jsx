@@ -6,18 +6,18 @@ function BoxNotificacao(props) {
     return (
         <div>
             <div className='notificacao'>
-                <img className='imgPerfil' src={props.imgPerfil}/>
+                <img className='imgPerfil' alt='test' src={props.imgPerfil}/>
                 <div className='box'>
                     <div className='nomeContratante'>
                         {props.nomeContratante}
                     </div>
-                    <div className="nota">
+                    {/* <div className="nota">
                        <span>{props.nota1}</span> 
                        <span> {props.nota2}</span> 
                        <span>{props.nota3}</span> 
                        <span> {props.nota4}</span> 
                        <span> {props.nota5}</span> 
-                    </div>
+                    </div> */}
                     <div className='comentario'>
                         {props.comentario}
                     </div>

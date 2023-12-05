@@ -4,9 +4,10 @@
 }
 
 .itensFixo {
-    margin-top: 2%;
     margin-left: 4%;
-    margin-right: 20%;
+    margin-right:  4%;
+
+    
 }
 
 .titulo {
@@ -43,22 +44,23 @@
     margin-left: 4%;
     margin-right: 20%;
     height: 20vh;
-    background-color: #F1F1F1;
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     padding-left: 1%;
-    border: 1px solid rgba(0, 0, 0, 0.03);
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .imgPerfil {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 130px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .box {
@@ -98,4 +100,9 @@
 .conteudoNotificacao{
     max-width: 95%;
     margin-left: 250px;
+}
+
+.fotoConversa{
+        object-fit: cover;
+        width: 80px;
 }

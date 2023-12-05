@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-style: none;
+
 }
 
 .barraLateral {
@@ -8,6 +9,8 @@
     height: 100vh;
     position: fixed;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+
 }
 
 .itemSite {

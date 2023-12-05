@@ -1,104 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Montserrat;
-}
-
-.titulo {
+.swiper {
+    width: 80vw;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    color: #00572E;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.imgAreasComuns {
-    width: 400px;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
 
 }
 
-.box1 {
-    display: flex;
-    margin-top: 100px;
-    margin-left: 15%;
-}
-
-.text {
-    margin-left: 50px;
-    margin-top: 27px;
-    text-align: justify;
-    width: 600px;
-}
-
-
-
-.TextMaior {
-    font-size: 25px;
-    font-weight: bold;
-    color: #00572E;
-}
-
-.TextMenor {
-    font-size: 20px;
-}
-
-.box2 {
-    display: flex;
-    margin-top: 100px;
-    justify-content: end;
-    margin-right: 15%;
-
-}
-
-.imgMobile {
-    height: 550px;
-}
-
-.text2 {
-    width: 550px;
-    margin-right: 10%;
-    margin-top: 5%;
-    text-align: justify;
-}
-
-.TextMaior2 {
-    font-size: 23px;
-    font-weight: bold;
-    color: #00572E;
-}
-
-.TextMenor2 {
+.swiper-slide {
     font-size: 18px;
-}
-
-.imgUMshop {
-    width: 400px;
-
-}
-
-.box3 {
+    background: #fff;
+    /* Center slide text vertically */
     display: flex;
-    margin-top: 100px;
-    margin-left: 15%;
-    margin-bottom: 10%;
+    justify-content: center;
+    align-items: center;
 }
 
-.text3 {
-    margin-left: 50px;
-    margin-top: 40px;
-    text-align: justify;
-    width: 600px;
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 
-.TextMaior3 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #00572E;
+
+.slideUmbuNosJardins{
+    width: 80vw;
+    height: 75vh;
+
 }
 
-.TextMenor3 {
+.tituloSlider{
+    color: white;
+    font-size: 30px;
+    margin-top: 420px;
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    position: absolute;
+    z-index: 2;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.image{
+    position: absolute;
+    z-index: 1;
+    filter: blur(1.5px);
+
+}
+.detalheTitulo{
+    color:#16A016;
+}
+
+.carouselEscalabilidade{
+    margin-bottom: 50px;
+}
+
+.descricaoEscalabilidade{
     font-size: 20px;
+    max-width: 80%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.tituloCaroussel h2{
+    gap: 10px;
+    display: flexbox;
+    flex-direction: row;
 }

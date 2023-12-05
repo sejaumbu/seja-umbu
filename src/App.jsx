@@ -14,25 +14,12 @@ import UmchatF from './pages/umchat/UmchatF.jsx';
 // import Perfil from './pages/perfil/Perfil.jsx';
 import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 import Umblog from "./pages/umblog/UmblogF.jsx"
+import Publi from './pages/Publi/Publi.jsx';
 function App() {
   return (
 
     <div className="rot">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' Component={ LandingPage }/>
-          <Route path='/chat' Component={ UmchatF }/>
-          <Route path='/identidade' Component={ IdentidadeVisual }/>
-          <Route path='/dashboard' Component={ Dashboard }/>
-          <Route path='/escalabilidade' Component={ Escalabilidade }/>
-          <Route path='/notificacao' Component={ Notificacoes }/>
-          <Route path='/blog' Component={ Umblog }/>
-          <Route path='/login' Component={ Umblog }/>
-
-
-          
-        </Routes>
-    </BrowserRouter>
+      <Publi/>
 
 
     </div>

@@ -20,7 +20,7 @@ import SlideFoto2 from "../../assets/imageBackground4.svg";
 import SlideFoto3 from "../../assets/imageBackground3.svg";
 import SlideFoto4 from "../../assets/imageBackground2.svg";
 import SlideFoto from "../../assets/backgroundImage.svg";
-import fotoJar from "../../assets/JardineiroFoto.png"
+import fotoJar from "../../assets/jardineiroFoto.png"
 import fotoJar2 from "../../assets/jardineiroFoto2.svg"
 import fotoJara from "../../assets/jardineiraFoto.svg"
 

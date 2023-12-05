@@ -59,7 +59,7 @@ function LandingPage() {
                     centeredSlides={true}
                     autoplay={{
                         delay: 2500,
-                        disableOnInteraction: true,
+                        disableOnInteraction: false,
                     }}
                     pagination={{
                         clickable: true,
@@ -138,52 +138,68 @@ function LandingPage() {
                 </div>
             </div>
 
-            <div className='testeClass'>
-                <h2 className="nossosServicos">Conheça nossos serviços</h2>
+            <div className='nossosServicosLP'>
+                <h2 className="nossosServicos">Serviços da UMBU</h2>
+                <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                 <hr/>
             </div>
 
             <div className="cardsDisplay">
-                <CardServico
-                    servico="Segurança"
-                    descricao="Trabalhamos com sistema de checagem de documentos e antecedentes criminais."
-                    iconeCard={<MdOutlineSecurity />}
-                />
-                <CardServico
-                    servico="Portfólio"
-                    descricao="Disponibilizamos jardineiros a criar portfolios compartilhando fotos de seus serviços para destacar suas habilidades."
-                    iconeCard={<IoMdPhotos />}
-                />
-                <CardServico
-                    servico="Avaliações"
-                    descricao="Oferecemos uma aba de avaliações dos nossos jardineiros, aprimorando a credibilidade deste profissional."
-                    iconeCard={<MdRateReview />}
-                />
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    pagination={{
+                    clickable: true,
+                    }}
+                    modules={[Autoplay, Pagination, Navigation]}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: true,
+                    }}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <CardServico
+                            servico="Segurança"
+                            iconeCard={<MdOutlineSecurity />}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <CardServico
+                            servico="Portfólio"
+                            iconeCard={<IoMdPhotos />}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <CardServico
+                            servico="Avaliações"
+                            iconeCard={<MdRateReview />}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <CardServico
+                            servico="UMChat"
+                            descricao="Facilitamos a comunicação e negociação entre o Jardineiro Ideal e o contratante dos serviços."
+                            iconeCard={<MdOutlineMarkUnreadChatAlt />}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <CardServico
+                            servico="Insumos"
+                            descricao="Simplifique sua rotina de trabalho! Delegue a cotação e logística de insumos aos nossos parceiros especializados e otimize seu tempo."
+                            iconeCard={<TbGardenCart />}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <CardServico
+                        servico="Habilidades"
+                        descricao="Oferecemos uma plataforma que destaca suas habilidades, conectando-o aos clientes ideais para serviços de paisagismo excepcionais."
+                        iconeCard={<PiPlantBold />}
+                        />
+                    </SwiperSlide>
+                </Swiper>
             </div>
 
-            <div className="cardsDisplay">
-                <CardServico
-                    servico="UMChat"
-                    descricao="Facilitamos a comunicação e negociação entre o Jardineiro Ideal e o contratante dos serviços."
-                    iconeCard={<MdOutlineMarkUnreadChatAlt />}
-                />
-                <CardServico
-                    servico="Insumos"
-                    descricao="Simplifique sua rotina de trabalho! Delegue a cotação e logística de insumos aos nossos parceiros especializados e otimize seu tempo."
-                    iconeCard={<TbGardenCart />}
-                />
-                <CardServico
-                    servico="Habilidades"
-                    descricao="Oferecemos uma plataforma que destaca suas habilidades, conectando-o aos clientes ideais para serviços de paisagismo excepcionais."
-                    iconeCard={<PiPlantBold />}
-                />
-            </div>
-
-            {/* <div className="containerFrame">
-                <h3 className='tituloFrame' >Como funciona?</h3>
-                <p className='tituloParagrafo' >Na Umbu, conectamos jardineiros talentosos às necessidades dos contratantes, proporcionando oportunidades gratificantes e construindo espaços verdes excepcionais.</p>
-                <iframe width="1005" height="567" src="https://www.youtube.com/embed/OQaCr_Lk91M?si=bmzGW73Xxw06NSKq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> */}
 
             <div className="cardPlanosumbu">
                 <div className="cardCompletoumbu">
@@ -225,7 +241,7 @@ function LandingPage() {
                         </div>
                         <button className="botaoSem">Assine</button>
                     </div>
-                </div>
+                </div>  
 
 
             </div>

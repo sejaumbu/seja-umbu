@@ -208,19 +208,44 @@ body {
 }
 
 /* estilo cards */
+.cardsDisplay{
+    width: 100%;
+    height: 200px;
+}
 
-.nossosServicos {
+.mySwiper{
+    --swiper-theme-color: #00572E;
+}
+
+.mySwiper svg{
     color: #00572E;
+}
+
+.nossosServicosLP{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossosServicosLP h2{
+    color: #00572E;
+    font-size: 40px;
     font-style: bold;
     font-weight: 900;
     line-height: normal;
 }
 
-.testeClass{
-    margin-bottom: 120px;
-
+.nossosServicosLP p{
+    color: #00572E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
 }
 
 /* Estilo iframe */

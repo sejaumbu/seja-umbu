@@ -101,3 +101,8 @@
     max-width: 95%;
     margin-left: 250px;
 }
+
+.fotoConversa{
+        object-fit: cover;
+        width: 80px;
+}

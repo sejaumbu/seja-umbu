@@ -1,4 +1,6 @@
 import React from 'react'
+import "../barraLateral.css"
+
 
 function ItemBarra({ iconUrl, nome, rota }) {
   return (

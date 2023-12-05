@@ -20,10 +20,20 @@ function App() {
   return (
 
     <div className="rotas">
-      <Notificacoes/>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' Component={LandingPage} />
+          <Route path='/chat' Component={UmchatF} />
+          <Route path='/identidade' Component={IdentidadeVisual} />
+          <Route path='/dashboard' Component={Dashboard} />
+          <Route path='/escalabilidade' Component={Escalabilidade} />
+          <Route path='/notificacoes' Component={Notificacoes} />
+          <Route path='/umblog' Component={Umblog} />
+          {/* <Route path='/login' Component={  }/> */}
+        </Routes>
+      </BrowserRouter>
     </div>
-    
+
   )
 }
 

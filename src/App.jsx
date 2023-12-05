@@ -32,6 +32,7 @@ function App() {
           {/* <Route path='/login' Component={  }/> */}
         </Routes>
       </BrowserRouter>
+
     </div>
 
   )

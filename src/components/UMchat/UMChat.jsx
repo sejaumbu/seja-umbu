@@ -1,5 +1,7 @@
 import Mensagens from './ItemChat/Mensagens.jsx';
 import Contatos from './ItemChat/Contatos.jsx';
+import Mensagens from "./itemChat/Mensagens.jsx";
+import Contatos from './itemChat/Contatos.jsx';  
 import { MdOutlineEmojiEmotions } from "react-icons/md";
 import { BsMic, BsSend } from "react-icons/bs";
 import './UMChat.css';

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Card from 'react-bootstrap/Card';
 
 // Componentes
 import Header from "../../components/header/Header";
@@ -20,10 +21,13 @@ import SlideFoto2 from "../../assets/imageBackground4.svg";
 import SlideFoto3 from "../../assets/imageBackground3.svg";
 import SlideFoto4 from "../../assets/imageBackground2.svg";
 import SlideFoto from "../../assets/backgroundImage.svg";
-import fotoJar from "../../assets/JardineiroFoto.png"
-import fotoJar2 from "../../assets/jardineiroFoto2.svg"
-import fotoJara from "../../assets/jardineiraFoto.svg"
-
+import fotoJar from "../../assets/JardineiroFoto.png";
+import fotoJar2 from "../../assets/jardineiroFoto2.svg";
+import fotoJara from "../../assets/jardineiraFoto.svg";
+import fotoJardim from "../../assets/Jardim.svg"
+import detalhes from "../../assets/detalhesLP.png";
+import detalhes2 from "../../assets/detalhesLP2.png";
+import testIcon from "../../assets/android-chrome-512x512.png";
 
 
 
@@ -41,6 +45,15 @@ function LandingPage() {
         <div>
             <Header />
             <div className="carouselLanding">
+                <div className="carouselLandingConteudo">
+                    <span>
+                        <h2 className='tittleLanding'>Bem vindo ao futuro da</h2>
+                        <h2 className='subTittleLanding'>Jardinagem</h2>
+                        <p>Seu jardim, nossa missão!</p>
+                        <button>Cadastrar</button>
+                    </span>
+                </div>
+                
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
@@ -54,8 +67,8 @@ function LandingPage() {
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
+                    
                 >
-
                     <SwiperSlide><img src={SlideFoto}></img></SwiperSlide>
                     <SwiperSlide><img src={SlideFoto2}></img></SwiperSlide>
                     <SwiperSlide><img src={SlideFoto3}></img></SwiperSlide>
@@ -63,27 +76,73 @@ function LandingPage() {
                 </Swiper>
             </div>
 
-
             <div className="conteudoInteiro">
-                <div className="informacaoSuperior">
-                    <aside><img className='imagemJardinagemSuperior' src={fotoJardS} /></aside>
-                    <div className='parteTextoLanding'>
-                        <h2 className='tituloSuperior'> Seu Jardim, Nossa Missão</h2>
-                        <p className='paragrafoSuperior'>Na Umbu, somos a ponte que conecta apaixonados jardineiros(a) às necessidades específicas dos contratantes. Se você é apaixonado por transformar espaços e está pronto para elevar suas habilidades a novos patamares, a Umbu é o lugar ideal para você encontrar oportunidades de trabalho gratificantes.</p>
+                <div className="informacao1LP">
+                    <div className='parteTextoLanding1LP'>
+                        <h2 className='titulo1LP'> Por que se juntar à Umbu?</h2>
+                        <p className='paragrafo1LP'>Na Umbu, unimos apaixonados por jardins e oportunidades gratificantes.</p>
                     </div>
+                    <img className='imagemJardinagem1LP' src={fotoJardI} />
                 </div>
-                <div className="informacaoInferior">
-                    <aside><img className='imagemJardinagemInferior' src={fotoJardI} /></aside>
-                    <div className='parteTextoLandingInferior'>
-                        <h2 className='tituloInferior'> Por que se juntar à Umbu?</h2>
-                        <p className='paragrafoInferior'>Na Umbu, somos a ponte que conecta apaixonados jardineiros(a) às necessidades específicas dos contratantes. Se você é apaixonado por transformar espaços e está pronto para elevar suas habilidades a novos patamares, a Umbu é o lugar ideal para você encontrar oportunidades de trabalho gratificantes.</p>
+
+                <div className="informacao2LP">
+                    <div className="cardInformacaoLP2">
+                        <h2 className='titulo2LP'>Jardineiros de Qualidade</h2>
+                        <img className='imagemJardinagem2LP' src={fotoJardS} />
+                    </div>
+                    <img src={detalhes} className='detalhesLP2'/>
+                </div>
+
+                <div className="informacao3LP">
+                    <img src={detalhes2} className='detalhesLP3'/>
+                    <div className="cardInformacaoLP3">
+                        <h2 className='titulo3LP'>Saiba mais no UMBlog</h2>
+                        <img className='imagemJardinagem3LP' src={fotoJardim} />
                     </div>
                 </div>
             </div>
+
+            <div className="especialidadesUmbu">
+                <h2>Especialidade dos jardineiros</h2>
+                <div className="iconesEspecilidades">
+                    <div className="conteudoHabilidades">
+                        <aside>
+                            <img src={testIcon}/>
+                        </aside>
+                        <span>Corta grama</span>
+                    </div>
+                    <div className="conteudoHabilidades">
+                        <aside>
+                            <img src={testIcon}/>
+                        </aside>
+                        <span>Podar</span>
+                    </div>
+                    <div className="conteudoHabilidades">
+                        <aside>
+                            <img src={testIcon}/>
+                        </aside>
+                        <span>Decorar plantas</span>
+                    </div>
+                    <div className="conteudoHabilidades">
+                        <aside>
+                            <img src={testIcon}/>
+                        </aside>
+                        <span>Manutenção jardim</span>
+                    </div>
+                    <div className="conteudoHabilidades">
+                        <aside>
+                            <img src={testIcon}/>
+                        </aside>
+                        <span>Limpeza jardim</span>
+                    </div>
+                </div>
+            </div>
+
             <div className='testeClass'>
                 <h2 className="nossosServicos">Conheça nossos serviços</h2>
-                <hr></hr>
+                <hr/>
             </div>
+
             <div className="cardsDisplay">
                 <CardServico
                     servico="Segurança"
@@ -101,6 +160,7 @@ function LandingPage() {
                     iconeCard={<MdRateReview />}
                 />
             </div>
+
             <div className="cardsDisplay">
                 <CardServico
                     servico="UMChat"
@@ -169,9 +229,6 @@ function LandingPage() {
 
 
             </div>
-
-
-
 
             <h2 className="avalicoesClientes" >Avaliações</h2>
 

@@ -18,7 +18,7 @@ export default function Header(){
                         <li><a href="/">Home</a></li>
                         <li><a href="/umchat">Serviços</a></li>
                         <li><a href="/faleconosco">Fale conosco</a></li>
-                        <li><a href='/blog'>UMblog</a></li>
+                        <li><a href='/umblog'>UMblog</a></li>
                         <li><a href="/sobrenos">Sobre nós</a></li>
                     </ul>
                 </nav>

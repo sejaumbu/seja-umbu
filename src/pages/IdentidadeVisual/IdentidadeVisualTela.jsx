@@ -1,12 +1,11 @@
 import React from 'react'
-import "./identidadeVisual.css";
-import ImagemFolhaEsquerda from "../../assets/imgFolhaEsquerda.svg";
-import ImagemLogoUmbu from "../../assets/imgLogoUmbu.svg";
-import ImagemFolhaDireita from "../../assets/imgFolhaDireita.svg";
-import ImagemItensSomando from "../../assets/itensSomando.svg";
-import ImagemLogoUmbuPazinha from "../../assets/imgLogoUmbuPazinha.svg";
-import PaletaDeCores from "../../../src/assets/paleta-cores.svg";
-import AplicacaoVisual from "../../assets/aplicacaoElementoVisual.svg";
+import "./identidade.css";
+import folhaDireita from"../../assets/usadosIdentidade/folhaDireita.png";
+import folhaEsquerda from "../../assets/usadosIdentidade/folhaEsquerda.png";
+import ItensSomados from "../../assets/usadosIdentidade/ItensSomados.png";
+import logoCentral from "../../assets/usadosIdentidade/logoCentral.png";
+import logoUmbu from "../../assets/usadosIdentidade/LogoUMBU.png";
+import Aplicacao from "../../assets/usadosIdentidade/AplicacaoVisual.jpg";
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
 
@@ -18,37 +17,47 @@ function IdentidadeVisualTela() {
                 <div className="tituloIdentidade">
                     <p className="titleV">Nossa Identidade Visual</p>
                 </div>
-                <div className="logoUmbu">
-                    <div className="imgLateral">
-                        <img src={ImagemFolhaEsquerda} alt="Imagem Folha Esquerda" />
-                    </div>
-                    <div className="imgLogo">
-                        <img src={ImagemLogoUmbu} alt="Imagem Logo Umbu" />
-                    </div>
-                    <div className="imgLateral">
-                        <img src={ImagemFolhaDireita} alt="Imagem Folha Direita" />
+
+                <div className='fundo'>  
+                    <div className="logoUmbu">
+                        <div className="imgLateral">
+                            <img src={folhaEsquerda} alt="Imagem Folha Esquerda" />
+                        </div>
+                        <div className="imgLogo">
+                            <img src={logoCentral} alt="Imagem Logo Umbu" />
+                        </div>
+                        <div className="imgLateral">
+                            <img src={folhaDireita} alt="Imagem Folha Direita" />
+                        </div>
                     </div>
                 </div>
+
+
                 <div className="desenvolvimentoLogo">
-                    <div>
-                        <p className="titulos">Desenvolvimento da Logo</p>
-                        <p className="subTitulo">
-                            Comunicando a natureza e a paixão pela jardinagem
-                        </p>
-                    </div>
+                    
+                    <div className="text1">DESENVOLVIMENTO DA LOGO </div>
+                    <div className="Textsub">Comunicando a natureza e a paixão pela jardinagem </div>
+                    
                     <div className="imgFormandoLogo">
-                        <img src={ImagemItensSomando} alt="Icones que formam a logo da umbu" />
-                        <img src={ImagemLogoUmbuPazinha} alt="Logo da umbu" />
+                        <img className="logoI" src={ItensSomados} alt="Icones que formam a logo da umbu" />
+                        <img className="logoU"src={logoUmbu} alt="Logo da umbu" />
                     </div>
+
                 </div>
+
+                
                 <div className="paletaDeCores">
                     <div>
-                        <p className="titulos">Paleta de Cores</p>
-                        <p className="subTitulo">Matizes representativos da marca</p>
+                        <div className="TituloP">Paleta de Cores </div>
+                        <div className="sub">Matizes representativos da marca </div>
                     </div>
+
+
                     <div className="imgPaleta">
-                        <img className="paletaDeCoresFoto" src={PaletaDeCores} alt="" />
+                        
                     </div>
+
+
                 </div>
 
                 <div className="fontes">
@@ -75,7 +84,7 @@ function IdentidadeVisualTela() {
                         <p className="titulos">APLICAÇÕES DE ELEMENTO VISUAL</p>
                         <p className="subTitulo">Matizes representativos da marca</p>
                     </div>
-                    <img src={AplicacaoVisual} alt="Aplicação elemento visual." />
+                    <img src={Aplicacao} alt="Aplicação elemento visual." />
                 </div>
 
             </div>

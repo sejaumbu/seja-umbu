@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.componenteIdentidade {
+    margin: 7vh 0vh 32vh 0vh;
+}
+
+.tituloIdentidade {
+    height: 21vh;
+
+}
+
+.titleV {
+    color: #016c04;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5vh;
+
+}
+
+.logoUmbu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vh;
+}
+
+.fundo {
+    background-color: #d9d9d9;
+}
+
+.imgLogo {
+    padding-top: 9vh;
+    padding-bottom: 7vh;
+}
+
+.desenvolvimentoLogo {
+    font-family: "Montserrat-SemiBold", Helvetica;
+    text-align: center;
+    padding-top: 16vh;
+   
+
+}
+
+.text1 {
+    font-size: 2vw;
+    color: #006845;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center
+}
+
+.Textsub {
+    color: #006845;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 1vw;
+    font-weight: 400;
+    height: 2vw;
+    text-align: center
+}
+.imgFormandoLogo{
+   font-size: 22vh;
+
+}
+
+.logoU{
+    height: auto;
+    width: 20vw;
+}
+.logoI{
+    height: auto;
+    width: 39vw;
+}
+.paletaDeCores{
+    background: rgba(61, 13, 13, 0.41);
+    height: 31vw;
+}
+
+.TituloP{
+    text-align: center;
+  color: #016c05;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 2vw;
+  font-weight: 400;
+  height: 3vw;
+  padding-bottom: 2vw
+}
+.sub{
+    text-align: center;
+    color: #006845;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 1vw;
+    font-weight: 400;
+   
+}

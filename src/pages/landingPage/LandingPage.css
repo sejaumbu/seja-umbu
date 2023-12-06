@@ -92,14 +92,19 @@ body {
 
 
 /* Estilo Informações */
+.conteudoInteiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .informacao1LP{
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 85%;
-    margin-left: 160px;
-    padding: 20px;
-    justify-content: baseline;
+    justify-content: center;
+    width: 90%;
+    justify-content: space-between;
     margin-top: 200px;
 }
 
@@ -117,9 +122,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 85%;
-    margin-left: 160px;
-    padding-left: 20px;
+    width: 90%;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -205,6 +208,117 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 16px;
+}
+
+/* Visão da UMBU */
+
+.visaoUmbuLP{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.conteudoVisaoUmbu{
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+}
+
+.conteudoVisaoUmbu2{
+    display: flex;
+    gap: 50px;
+    padding-left: 350px;
+}
+
+.conteudoVisaoUmbu img, .conteudoVisaoUmbu2 img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contextoUmbu{
+    padding-top: 60px;
+}
+
+.contextoUmbu h2{
+    color: #00572E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contextoUmbu p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 40%;
+}
+
+/* estilo "Espaço delas" */
+.espacoDelas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(rgba(0, 100, 0, 0.5), rgba(0, 100, 0, 0.5)),  url('https://s3-alpha-sig.figma.com/img/40d0/e8a3/a564fa9defe96360aa5fc8b6b444ffc3?Expires=1702857600&Signature=VGUNS1GUB1RYcXfo1rm8Vl4IKTQAWMVMLItZFAiNctdmkFGX2nW7cnN83vIhktf2x8DBXfh9ZAKPrPsHr-awr~50nGRi5fwRBu2oOJu1dscb0O1BtJHNP18E1flc5oivMi8xy2RcL9a9WfpHtPvgtuItRh3ke1vL9OVxvpDLFO5hBJfnwnsxZEDnhwcenu0HMAZDSz1mS6J7Md~9ZHB3f3ejrRUfrGabT7rfR0d8KbYBSTYdA-QBxFqPaLCvFO3xV3OVIgrWhDoFRI8oCPxbWjNtBmtCuZywxphcGfPMg1Xy0IRr4PSOBsW1Vtwc5fattO9nFBJVyR3Isl0meYZ7XA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') 50% / cover no-repeat;  
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.espacoDelas button{
+    width: 432px;
+    height: 86px;
+    border-radius: 10px;
+    background: #16A016;
+    color: white;
+    border: none;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.espacoDelas h2{
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal;
+}
+
+.espacoDelas p{
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.conteudoDelas{
+    display: flex;
+    width: 100%;
+}
+
+.conteudoDelas img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.conteudoDelas :nth-child(1){
+    width: 40%;
+}
+.conteudoDelas :nth-child(2){
+    width: 12%;
+    object-position: -500px;
+}
+.conteudoDelas :nth-child(3){
+    width: 18%; 
+}
+.conteudoDelas :nth-child(4){
+    width: 30%;
 }
 
 /* estilo cards */

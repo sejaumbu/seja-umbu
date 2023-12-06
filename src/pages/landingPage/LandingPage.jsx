@@ -66,7 +66,7 @@ function LandingPage() {
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
+                    className="mySwiper1"
                     
                 >
                     <SwiperSlide><img src={SlideFoto}></img></SwiperSlide>
@@ -154,7 +154,7 @@ function LandingPage() {
                     modules={[Autoplay, Pagination, Navigation]}
                     autoplay={{
                         delay: 2000,
-                        disableOnInteraction: true,
+                        disableOnInteraction: false,
                     }}
                     className="mySwiper"
                 >
@@ -200,8 +200,45 @@ function LandingPage() {
                 </Swiper>
             </div>
 
+            <div className="visaoUmbuLP">
+                <article className='conteudoVisaoUmbu'>
+                    <img src='https://s3-alpha-sig.figma.com/img/5bcf/a172/025954e586d697c63133d18da785671a?Expires=1702857600&Signature=T4JFfFXQIOGMcu75vVtzB38ZQT55Eb1MOeGrXupkqErFrdqjWcagE7x2-ZZrKR7vQ4tf214mam-wNzMxbkqO703kyr9OnHMCNEQRcshYidVaEkSX~htQLEmFbTKW4m16E35tWxiVIHpTSkrRUU5Hb2Xdho4eDMI2Zc8HpGaSsJMHSFMJ2dw77zNEzr1ZeQ4S9et6YrKePFlldGumoyJgWR6YepoUwTwb1wNljeZHgUhNjAdursTinR5rkmkJLxaVMnT76V0~kS4HQkIZZyaQLUpCcSGIb4JV5ul9OHhV7TBd6VD~NihGPyayvvlxE-~KVpKuVBuCyCj-JybvC-jGIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'/>
+                    <div className="contextoUmbu">
+                        <h2>01. Crie seu perfil</h2>
+                        <p>Comece compartilhando suas habilidades, experiência e paixão pela jardinagem para construir um perfil que destaque suas qualidades únicas.</p>
+                    </div>
+                </article>
 
-            <div className="cardPlanosumbu">
+                <article className='conteudoVisaoUmbu2'>
+                    <img src='https://s3-alpha-sig.figma.com/img/c00c/96e5/5d6cdcdfdeb8ded482a7489b85a0d279?Expires=1702857600&Signature=EFelIwOqp8IYqgrKl6~38vHs0LDbBW0r-zSPq9-KNUXaCsFJ5VJ-arYhlRWdObudcBKLfHCZP6mKiGZqTz0JdXW2G8x4YYekZz5ec8r7T7nBX3GGSb4PTrCzEg1iM63OlOSN5~WHzloY717zfaI38SYSMfTfuiTV8B2rdS8N6vbLMnAwvVJWgyfjAFifcDHDCOkvw6JEcgOavdprDfFMNlE9ZwCwQoAo~clublZfQdaaMGzV-CO0LFP1izeaKfUre5QMQwCTLzMBCoWiOnCjx6EHQPEnDt1LmBnHS-xMhpLaMvqixx-FuJmc1E8-LTXIacriov6EAfsdoMfLdZF3tw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'/>
+                    <div className="contextoUmbu">
+                        <h2>02. Explore Nossa Plataforma</h2>
+                        <p>Navegue pela diversidade de projetos e oportunidades disponíveis.</p>
+                    </div>
+                </article>
+
+                <article className='conteudoVisaoUmbu'>
+                    <img src='https://s3-alpha-sig.figma.com/img/916f/d0dc/c7e3713f1b8f650da3c781006d8727bf?Expires=1702857600&Signature=RiBr5FbJ2MFv5SGGs5Z~ZmhEVeB0UDZiTJ30cwhY5reFb-L2ugGDRFcVlfLs41Iyx3ChpbnlBeY96zkPNOKOWijfiPatFphgoNg9MNzSge04cndQmq7SVHeHQNVcrpDa5qqqSdgXDav8Gx8y2HcgEQhH9YPfSvL~VL6gVyQIgBSHbw4LkxVdMdKvL~4~BrzlqvpFFRVdBoJL~zk77omwV3wZ6hM~zAyHq3FOMHSyC0hbd1mpj35Q-GBB0cOot0vrTak5WmOnyU0euZoO-qp0j5Hq1mcdIujmSNVgQeQlbUXXirXACm0rNLyqVBCDuGwkoSGQJn6QSONrVpVXT~T8WQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'/>
+                    <div className="contextoUmbu">
+                        <h2>03. Conecte-se e Transforme Espaços</h2>
+                        <p>Receba solicitações de clientes interessados, estabeleça uma comunicação direta, e comece a transformar espaços verdes enquanto constrói uma reputação sólida na comunidade Umbu.    </p>
+                    </div>
+                </article>
+            </div>
+
+            
+            <div className="espacoDelas">
+                <h2>Elas Podam</h2>
+                <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div className="conteudoDelas">
+                    <img src='https://images.unsplash.com/photo-1629997391037-c3b5210b5d35?q=80&w=2116&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
+                    <img src='https://images.unsplash.com/photo-1674049405746-94d3c13dfe5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
+                    <img src='https://images.unsplash.com/photo-1555955208-94f6fafea771?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
+                    <img src='https://s3-alpha-sig.figma.com/img/99ff/70da/390f375969da9cfa66ed02fa9ae135a7?Expires=1702857600&Signature=BDMsdUa4xmJ3hdO6bKFVPxsXrnr4XOItSlXikXTyJ5BYkiz4USUaOMGZst8sf4Y4C5X3uEL5E9q~CSJrV6W9AcPvKIYgXA1NQbATwHtWuo8Kz0s85DsoL4OSmFEHC6AUXhtXp5hjXNWyPK3TJLYMvWn76yz6mh4HoukCir8fqSiWcTRQqadmkyjw4BI3UMeYp4ncLqQylxr2EcGU9tJOy8atYwRpfNQG8Yb5GVLPesFeYNTa88xjkw0T9rgS4o7M1pz8frABRMaexloA1e~Stp7Q9ApFmLs~i8bYTgsi8oPTvBuwM0x4fo943pQS1oN380JenNbKU7ywDl5Ltl9Kbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'/>
+                </div>
+                <button>Saiba mais</button>
+            </div>
+            {/* <div className="cardPlanosumbu">
                 <div className="cardCompletoumbu">
                     <h2 className='tituloPlanos' >Planos UMBU <span className='premiumCor' >Premium</span></h2>
                     <p className='descricaoPrecos'>Experimente a Umbu gratuitamente por <span className='premiumCor'>2 meses</span>. 
@@ -244,11 +281,12 @@ function LandingPage() {
                 </div>  
 
 
-            </div>
+            </div> */}
 
+            {/*
             <h2 className="avalicoesClientes" >Avaliações</h2>
 
-            <div className="divReviewsCards">
+             <div className="divReviewsCards">
                 <AvaliacoesCliente
                     fotoJard={fotoJar}
                     nomeAvaliacao="José Santos"
@@ -264,7 +302,7 @@ function LandingPage() {
                     nomeAvaliacao="Carlos Silva"
                     descricaoAvaliacao="A Umbu é uma ferramenta indispensável para quem procura serviços de jardinagem de qualidade. A plataforma é fácil de usar, e a variedade de profissionais é impressionante. Ótima experiência!"
                     descricaoTipoUsuario="Cliente" />
-            </div>
+            </div> */}
             <Footer />
         </div>
 

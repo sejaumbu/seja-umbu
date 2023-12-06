@@ -4,34 +4,6 @@
     font-family: Montserrat;
 }
 
-.itensFixo {
-    margin-top: 2%;
-    justify-content: center;
-    background-color: white;
-}
-
-.opcoes {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 4%;
-    justify-content: center;
-    gap: 30vw;
-}
-
-.pOpcoes {
-    color: #006845;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.pOpcoes:nth-child(1) {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-
 .imagens {
     height: 30vh;
     width: 15vw;
@@ -54,7 +26,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
 }
 

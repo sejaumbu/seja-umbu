@@ -2,6 +2,7 @@ import './UmBlog.css';
 import CardBlog from '../cardBlog/CardBlog';
 import IdentidadeVisual from "../../assets/IdentidadeUMBU.svg"
 import umbuPlanta from "../../assets/usadosEscalabilidade/umbuPlanta.png"
+import { useNavigate } from 'react-router';
 
 function UmBlog(){
     return(
@@ -58,7 +59,7 @@ function UmBlog(){
                 tituloMateria = "Escalabilidade" 
                 dataPublicacao ="30 de outubro de 2023" 
                 descricao = "Expandindo Horizontes, Semeando Crescimento e Transformando a Jardinagem em uma Experiência Global." 
-                materia = "./IdentidadeVisual"
+                materia = "../../identidade"
                 />
                 
             </div>

@@ -28,7 +28,7 @@ function App() {
           <Route path='/dashboard' Component={Dashboard} />
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/notificacoes' Component={Notificacoes} />
-          <Route path='/umblog' Component={Umblog} />
+          <Route path='/blog' Component={Umblog} />
           {/* <Route path='/login' Component={  }/> */}
         </Routes>
       </BrowserRouter>

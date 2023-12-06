@@ -1,8 +1,10 @@
 import React from 'react'
 import "./cardCompleto.css"
+import { useNavigate } from 'react-router';
 
 
 function CardBlog({ image, tituloMateria, dataPublicacao, descricao, materia }) {
+    const navigate = useNavigate();
     return (
         <div>
             <div className="cardCompleto">
@@ -13,7 +15,8 @@ function CardBlog({ image, tituloMateria, dataPublicacao, descricao, materia }) 
                     <h2 className="tituloMateria" >{tituloMateria}</h2>
                     <p className="dataPublicacao" >{dataPublicacao}</p>
                     <p className="descricaoCard" >{descricao}</p>
-                    <button className="botaoClica" onClick={materia}>Leia sobre</button>
+                    <button className="botaoClica" onClick={() => navigate("../../identidade")}>Leia sobre</button>
+
                 </div>
 
             </div>

@@ -5,25 +5,11 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import "./Escalabilidade.css";
-import escalabilidade1 from "../../assets/escalabilidade1.svg";
-import escalabilidade2 from "../../assets/escalabilidade2.svg";
-import escalabilidade3 from "../../assets/escalabilidade3.svg";
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 // Imagens
-import fotoJardS from "../../assets/fundoJardinagem.svg";
-import fotoJardI from "../../assets/jardineiraPNGOUT.png";
-import SlideFoto2 from "../../assets/imageBackground4.svg";
-import SlideFoto3 from "../../assets/imageBackground3.svg";
-import SlideFoto4 from "../../assets/imageBackground2.svg";
-import SlideFoto from "../../assets/backgroundImage.svg";
-import fotoJar from "../../assets/JardineiroFoto.png";
-import fotoJar2 from "../../assets/jardineiroFoto2.svg";
-import fotoJara from "../../assets/jardineiraFoto.svg";
+
 import umbuPlanta from "../../assets/usadosEscalabilidade/umbuPlanta.png"
-
-
 import "./escalabilidade.css"
 
 

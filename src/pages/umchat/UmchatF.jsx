@@ -1,5 +1,5 @@
 import React from 'react'
-import UMChat from "../../components/UMchat/UMChat"
+import UMChat from "../../components/umchat/UMChat.jsx"
 
 function UmchatF() {
   return (

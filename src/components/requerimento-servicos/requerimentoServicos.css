@@ -1,0 +1,70 @@
+.requerimentoServicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+}
+
+.formServico1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: start;
+    width: 50%;
+}
+
+.formServico1-radio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: start;
+    width: 50%;
+}
+
+.formServico1-radio label{
+    color: #00572E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.formServico1 label{
+    color: #00572E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    margin-bottom: 10px;
+}
+
+.opServicos1{
+    width: 615px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #00572E;
+    background: #D9D9D9;
+    margin-top: 5%;
+}
+
+.btnRadioServicos{
+    display: flex;
+}
+
+.btnRadioServicos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.btnRadioServicos span{
+    color: #00572E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+}

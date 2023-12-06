@@ -1,13 +1,13 @@
-import './LadoEsquerdoRegistro.css';
+import './swiperRegistro.css';
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import TesteRegistro from '../../assets/ImagemLogin.png'
-import TesteRegistro2 from '../../assets/ImagemLogin2.png'
-import TesteRegistro3 from '../../assets/ImagemLogin3.png'
-import TesteRegistro4 from '../../assets/ImagemLogin4.png'
+import TesteRegistro from '../../../assets/ImagemLogin.png'
+import TesteRegistro2 from '../../../assets/ImagemLogin2.png'
+import TesteRegistro3 from '../../../assets/ImagemLogin3.png'
+import TesteRegistro4 from '../../../assets/ImagemLogin4.png'
 import { Autoplay } from 'swiper/modules'; //Faz o import de um modulo de autoplay;
 
 export default function LadoEsquerdoRegistro() {
@@ -45,6 +45,4 @@ export default function LadoEsquerdoRegistro() {
 
         </div>
     )
-
-
 }

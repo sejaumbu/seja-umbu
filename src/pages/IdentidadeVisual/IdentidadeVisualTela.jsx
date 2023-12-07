@@ -8,6 +8,7 @@ import logoUmbu from "../../assets/usadosIdentidade/LogoUMBU.png";
 import Aplicacao from "../../assets/usadosIdentidade/AplicacaoVisual.jpg";
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
+import { PiPlant } from "react-icons/pi";
 
 function IdentidadeVisualTela() {
     return (
@@ -34,8 +35,7 @@ function IdentidadeVisualTela() {
 
 
                 <div className="desenvolvimentoLogo">
-
-                    <div className="text1">DESENVOLVIMENTO DA LOGO </div>
+                    <div className="text1">Desenvolvimento da Logo </div>
                     <div className="Textsub">Comunicando a natureza e a paixão pela jardinagem </div>
 
                     <div className="imgFormandoLogo">
@@ -49,8 +49,28 @@ function IdentidadeVisualTela() {
 
                 <div className="paletaDeCores">
                     <div>
-                        <div className="TituloP">Paleta de Cores </div>
-                        <div className="sub">Matizes representativos da marca </div>
+                        <h2 className="tituloP">Paleta de Cores </h2>
+                        <p className="sub">Matizes representativos da marca </p>
+                        <div className="folhagens">
+                            <div className="corHex" id='corPrimaria'>
+                                <span className='folhagemItem1'><PiPlant /></span>
+                                <p>#00572E</p>
+                            </div>
+                            <div className="corHex" id='corSecundaria'>
+                                <span className='folhagemItem2' ><PiPlant /></span>
+                                <p>#006845</p>
+                            </div>
+                            <div className="corHex" id='corTercearia'>
+                                <span className='folhagemItem3' ><PiPlant /></span>
+                                <p>#2E7F60</p>
+                            </div>
+                            <div className="corHex" id="corQuarta">
+                                <span className='folhagemItem4' ><PiPlant /></span>
+                                <p>#51C601</p>
+                            </div>
+
+
+                        </div>
                     </div>
 
                     <div className="imgPaleta"></div>
@@ -60,7 +80,7 @@ function IdentidadeVisualTela() {
 
                 <div className="fontes">
 
-                    <div className="titutoF">Fonte Utilizada </div>
+                    <div className="titutoF">Fontes Utilizadas </div>
                     <div className="subF">Formas de fonte para comunicar a mensagem </div>
 
                     <div className="fontesMontserrat">
@@ -68,26 +88,26 @@ function IdentidadeVisualTela() {
                         <div className='FontEs'>
                             <div className="titulo1">CANTORA ONE BOLD</div>
                             <p className="sub1">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 ! @#$%^&amp;*()</p>
-                        
-                        
+
+
                             <div className="titulo2">CANTORA ONE</div>
                             <p className="sub2">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 ! @#$%^&amp;*()</p>
-                        
+
 
                             <div className="titulo3">GUIA DE FONTE</div>
-                            <div className="sub3">Combinação e dimensionamento adequados</div> 
+                            <div className="sub3">Combinação e dimensionamento adequados</div>
                         </div>
 
                         <div className='parte2'>
                             <div className="titulo4">Montserrat</div>
-                            <div className="sub4">SUBTÍTULO</div> 
-                            <div className="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu.</div> 
+                            <div className="sub4">SUBTÍTULO</div>
+                            <div className="paragrafo">
+                                <p>
+                                    UMBU Cria: Nossa Jornada Além do Verde - Acreditamos que os jardins são mais do que apenas espaços verdes; são promotores de qualidade de vida e bem-estar. Comprometidos com a responsabilidade social e ambiental, destinamos parte do nosso faturamento para projetos inovadores de criação e revitalização de áreas verdes em comunidades carentes.
+                                </p>
+                            </div>
                         </div>
-                        
+
                     </div>
 
                 </div>
@@ -99,7 +119,7 @@ function IdentidadeVisualTela() {
                         <p className="subTitulo">Matizes representativos da marca</p>
                     </div>
                     <div className='espaçamentoCima'>
-                    <img className="finalPagina"src={Aplicacao} alt="Aplicação elemento visual." />
+                        <img className="finalPagina" src={Aplicacao} alt="Aplicação elemento visual." />
                     </div>
                 </div>
 

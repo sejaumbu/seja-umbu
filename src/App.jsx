@@ -10,6 +10,7 @@ import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';
 import Escalabilidade from "./pages/Escalabilidade/Escalabilidade.jsx"
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import Umchat from './components/umchat/UMChat.jsx';
+import Registro from "./pages/registro/Registro.jsx";
 // import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
 // import Perfil from './pages/perfil/Perfil.jsx';
 import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
@@ -29,7 +30,7 @@ function App() {
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/notificacoes' Component={Notificacoes} />
           <Route path='/umblog' Component={Umblog} />
-          {/* <Route path='/login' Component={  }/> */}
+           <Route path='/registre' Component={ Registro }/> 
         </Routes>
       </BrowserRouter>
 

@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Card from 'react-bootstrap/Card';
 
 // Componentes
 import Header from "../../components/header/Header";
@@ -22,14 +21,19 @@ import SlideFoto3 from "../../assets/imageBackground3.svg";
 import SlideFoto4 from "../../assets/imageBackground2.svg";
 import SlideFoto from "../../assets/backgroundImage.svg";
 import fotoJar from "../../assets/JardineiroFoto.png";
-import fotoJar2 from "../../assets/jardineiroFoto2.svg";
-import fotoJara from "../../assets/jardineiraFoto.svg";
-import fotoJardim from "../../assets/Jardim.svg"
-import detalhes from "../../assets/detalhesLP.png";
-import detalhes2 from "../../assets/detalhesLP2.png";
+import fotoJar2 from "../../assets/usadosLandingPage/jardineiroFoto2.svg";
+import fotoJara from "../../assets/usadosLandingPage/jardineiraFoto.svg";
+import fotoJardim from "../../assets/usadosLandingPage/Jardim.svg"
+import detalhes from "../../assets/usadosLandingPage/detalhesLP.png";
+import detalhes2 from "../../assets/usadosLandingPage/detalhesLP2.png";
+import detalhes3 from "../../assets/usadosLandingPage/detalhesLP3.png";
+import detalhes4 from "../../assets/usadosLandingPage/detalhesLP4.png";
 import testIcon from "../../assets/android-chrome-512x512.png";
 
-
+// ParceirosImage
+import proa from "../../assets/usadosLandingPage/proa.svg";
+import jbm from "../../assets/usadosLandingPage/jbm.svg";
+import umEntreposto from "../../assets/usadosLandingPage/umEntreposto.svg"
 
 // Estilos locais
 import './LandingPage.css';
@@ -238,71 +242,152 @@ function LandingPage() {
                 </div>
                 <button>Saiba mais</button>
             </div>
-            {/* <div className="cardPlanosumbu">
-                <div className="cardCompletoumbu">
-                    <h2 className='tituloPlanos' >Planos UMBU <span className='premiumCor' >Premium</span></h2>
-                    <p className='descricaoPrecos'>Experimente a Umbu gratuitamente por <span className='premiumCor'>2 meses</span>. 
-                    Após o período de teste, escolha o plano que melhor se adapte a você e colha os frutos de uma experiência premium.</p>
+            
+            
+            <div className="espacoPortifolio">
+                <div className="detalhesLP4">
+                    <img src={detalhes3}/>
                 </div>
-
-
-                <div className="tabelaPrecos">
-                    <div className="planoTipo">
-                        <h4>Mensal</h4>
-                        <p>Jardine com Paixão Mês a Mês: Seu Jardim, Sua Beleza, Sem Compromissos de Longo Prazo.</p>
-                        <div className="precos">
-                            <p><span className="precoValor" >R$50</span> / mês</p>
-                        </div>
-                        <button className="botaoSem">Assine</button>
-                    </div>
-
-                    <div className="recomendadoContainer">
-                        <div className="recomendadoIcone">
-                            <p>Recomendado</p>
-                        </div>
-                        <div className="planoTipo">
-                            <h4>Semestral</h4>
-                            <p>Florindo a Longo Prazo: Economize com Nosso Plano Semestral e Desfrute de Seu Jardim Continuamente.</p>
-                            <div className="precos">
-                                <p><span className="precoValor" >R$275</span> / semestre</p>
+                <div className="conteudoPortifolio">
+                    <h2>Serviços de Alguns <br/> Jardineiros da Plataforma</h2>
+                    <Swiper
+                        spaceBetween={30}
+                        navigation={true}
+                        slidesPerView={3}
+                        modules={[Navigation, Autoplay]}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
+                        className="galeriaSwiper"
+                    >
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
                             </div>
-                            <button className="botaoSem">Assine</button>
-                        </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="portifolioGaleria">
+                                <img src={SlideFoto}/>
+                                <span>José Augusto</span>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
+                <div className="detalhesLP5">
+                    <img src={detalhes4}/>
+                    <button className='vejaMaisPortifolio'>Veja mais</button>
+                </div>
+            </div>
+            
+            <div className="planosUmbu">
+                <span className='testeGratis'>
+                    <h2>Teste nossa plataforma</h2>
+                    <h2>por<span className='planosTextColor'> 2 meses gratuitos</span></h2>
+                </span>
+                <div className="umbuPremium">
+                    <h3>Planos UMBU <span className='planosTextColor2'>Premium</span></h3>
+                    <p>Após o período de teste, escolha o plano que melhor se adapte a você e colha os frutos de uma experiência premium.</p>
+                </div>
+                <div className="cardsPlanos">
+                    <div className="card">
+                        <h3>Mensal</h3>
+                        <span>Jardine com Paixão Mês a Mês: Seu Jardim, Sua Beleza, Sem Compromissos de Longo Prazo.</span>
+                        <br/>
+                        <h4>R$70<span className='tipoPlano'> /mês</span></h4>
+                        <button>Assine</button>
                     </div>
-
-                    <div className="planoTipo">
-                        <h4>Anual</h4>
-                        <p>Jardim em Flor o Ano Inteiro: Maximize suas Economias com Nosso Plano Anual Exclusivo.</p>
-                        <div className="precos">
-                            <p><span className="precoValor" >R$500</span> / ano</p>
-                        </div>
-                        <button className="botaoSem">Assine</button>
+                    <div className="card">
+                        <span className='planoRecomendado'>recomendado</span>
+                        <h3>Semestral</h3>
+                        <span>Florindo a Longo Prazo: Economize com Nosso Plano Semestral e Desfrute de Seu Jardim Continuamente.</span>
+                        <br/>
+                        <h4>R$350<span className='tipoPlano'> /semestral</span></h4>
+                        <button>Assine</button>
                     </div>
-                </div>  
-
-
-            </div> */}
-
-            {/*
-            <h2 className="avalicoesClientes" >Avaliações</h2>
-
-             <div className="divReviewsCards">
-                <AvaliacoesCliente
-                    fotoJard={fotoJar}
-                    nomeAvaliacao="José Santos"
-                    descricaoAvaliacao="A experiência na Umbu foi gratificante, conectando-me a projetos emocionantes alinhados às minhas habilidades como jardineiro."
-                    descricaoTipoUsuario="Jardineiro" />
-                <AvaliacoesCliente
-                    fotoJard={fotoJara}
-                    nomeAvaliacao="Maria Oliveira"
-                    descricaoAvaliacao="A Umbu superou minhas expectativas! Como jardineira, encontrei projetos desafiadores que me permitiram expandir minhas habilidades. A plataforma é intuitiva. Recomendo a todos os profissionais verdes lá fora!"
-                    descricaoTipoUsuario="Jardineira" />
-                <AvaliacoesCliente
-                    fotoJard={fotoJar2}
-                    nomeAvaliacao="Carlos Silva"
-                    descricaoAvaliacao="A Umbu é uma ferramenta indispensável para quem procura serviços de jardinagem de qualidade. A plataforma é fácil de usar, e a variedade de profissionais é impressionante. Ótima experiência!"
-                    descricaoTipoUsuario="Cliente" />
-            </div> */}
+                    <div className="card">
+                        <h3>Anual</h3>
+                        <span>Jardim em Flor o Ano Inteiro: Maximize suas Economias com Nosso Plano Anual Exclusivo</span>
+                        <br/>
+                        <h4>R$700<span className='tipoPlano'> /anual</span></h4>
+                        <button>Assine</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="divReviewsCards">
+                <h2>Feedbacks</h2>
+                <div className="containerFeedbacks">
+                    <AvaliacoesCliente
+                        fotoJard={fotoJar}
+                        nomeAvaliacao="José Santos"
+                        descricaoAvaliacao="A experiência na Umbu foi gratificante, conectando-me a projetos emocionantes alinhados às minhas habilidades como jardineiro."
+                        descricaoTipoUsuario="Jardineiro" />
+                    <AvaliacoesCliente
+                        fotoJard={fotoJara}
+                        nomeAvaliacao="Maria Oliveira"
+                        descricaoAvaliacao="A Umbu superou minhas expectativas! Como jardineira, encontrei projetos desafiadores que me permitiram expandir minhas habilidades. A plataforma é intuitiva. Recomendo a todos os profissionais verdes lá fora!"
+                        descricaoTipoUsuario="Jardineira" />
+                    <AvaliacoesCliente
+                        fotoJard={fotoJar2}
+                        nomeAvaliacao="Carlos Silva"
+                        descricaoAvaliacao="A Umbu é uma ferramenta indispensável para quem procura serviços de jardinagem de qualidade. A plataforma é fácil de usar, e a variedade de profissionais é impressionante. Ótima experiência!"
+                        descricaoTipoUsuario="Cliente" />
+                </div>
+            </div>
+            
+            <div className="parceirosUmbu">
+                <h2>Parceiros</h2>
+                <div className="imageParceiros">
+                    <img src={proa}/>
+                    <img src={umEntreposto}/>
+                    <img src={jbm}/>
+                </div>
+            </div>
+               
             <Footer />
         </div>
 

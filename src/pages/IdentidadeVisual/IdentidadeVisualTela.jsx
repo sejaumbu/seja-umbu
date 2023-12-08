@@ -35,8 +35,8 @@ function IdentidadeVisualTela() {
 
 
                 <div className="desenvolvimentoLogo">
-                    <div className="text1">Desenvolvimento da Logo </div>
-                    <div className="Textsub">Comunicando a natureza e a paixão pela jardinagem </div>
+                    <h2 className="tituloD">Desenvolvimento da Logo</h2>
+                    <p className="Titulosub">Comunicando a natureza e a paixão pela jardinagem</p>
 
                     <div className="imgFormandoLogo">
                         <img className="logoI" src={ItensSomados} alt="Icones que formam a logo da umbu" />
@@ -80,27 +80,27 @@ function IdentidadeVisualTela() {
 
                 <div className="fontes">
 
-                    <div className="titutoF">Fontes Utilizadas </div>
-                    <div className="subF">Formas de fonte para comunicar a mensagem </div>
+                    <h2 className="titutoF">Fontes Utilizadas </h2>
+                    <p className="subF">Formas de fonte para comunicar a mensagem </p>
 
                     <div className="fontesMontserrat">
 
                         <div className='FontEs'>
-                            <div className="titulo1">CANTORA ONE BOLD</div>
+                            <h2 className="titulo1">CANTORA ONE BOLD</h2>
                             <p className="sub1">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 ! @#$%^&amp;*()</p>
 
 
-                            <div className="titulo2">CANTORA ONE</div>
+                            <h2 className="titulo2">CANTORA ONE</h2>
                             <p className="sub2">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 ! @#$%^&amp;*()</p>
 
 
-                            <div className="titulo3">GUIA DE FONTE</div>
-                            <div className="sub3">Combinação e dimensionamento adequados</div>
+                            <h2 className="titulo3">GUIA DE FONTE</h2>
+                            <p className="sub3">Combinação e dimensionamento adequados</p>
                         </div>
 
                         <div className='parte2'>
-                            <div className="titulo4">Montserrat</div>
-                            <div className="sub4">SUBTÍTULO</div>
+                            <h2 className="titulo4">Montserrat</h2>
+                            <h3 className="sub4">SUBTÍTULO</h3>
                             <div className="paragrafo">
                                 <p>
                                     UMBU Cria: Nossa Jornada Além do Verde - Acreditamos que os jardins são mais do que apenas espaços verdes; são promotores de qualidade de vida e bem-estar. Comprometidos com a responsabilidade social e ambiental, destinamos parte do nosso faturamento para projetos inovadores de criação e revitalização de áreas verdes em comunidades carentes.

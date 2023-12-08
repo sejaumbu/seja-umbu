@@ -49,7 +49,7 @@ body{
 
 }
 
-.text1 {
+.tituloD {
     font-size: 2.5vw;
     color: #006845;
     /* font-family: "Roboto-Regular", Helvetica; */
@@ -57,7 +57,7 @@ body{
     text-align: center;
 }
 
-.Textsub {
+.Titulosub {
     color: #006845;
     /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 1vw;

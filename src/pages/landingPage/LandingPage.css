@@ -9,8 +9,8 @@ body {
 }
 
 /* Estilo do carousel */
-.swiper {
-    width: 99vw;
+.mySwiper1 {
+    width: 100%;
     height: 100%;
     --swiper-theme-color: #00C800;
 }
@@ -55,16 +55,16 @@ body {
 }
 
 .carouselLandingConteudo h2{
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
 }
 
 .carouselLandingConteudo p{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -72,11 +72,11 @@ body {
 }
 
 .carouselLandingConteudo button{
-    width: 350px;
-    height: 80px;
+    width: 280px;
+    height: 60px;
     border-radius: 10px;
     background: #00C800;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     color: white;
     margin-top: 30px;
@@ -96,6 +96,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .informacao1LP{
@@ -113,7 +115,7 @@ body {
 }
 
 .imagemJardinagem1LP {
-    width: 450px;
+    width: 420px;
     margin: 50px;
     margin-top: -150px;
 }
@@ -129,11 +131,11 @@ body {
 }
 
 .detalhesLP2{
-    width: 350px;
+    width: 320px;
 }
 
 .detalhesLP3{
-    width: 300px;
+    width: 280px;
 }
 
 .cardInformacaoLP2, .cardInformacaoLP3{
@@ -143,7 +145,7 @@ body {
 }
 
 .imagemJardinagem2LP, .imagemJardinagem3LP {
-    width: 480px;
+    width: 470px;
     margin: 50px;
 }
 
@@ -167,21 +169,21 @@ body {
     width: 100%;
     height: 360px;
     background-color: #00572E;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .especialidadesUmbu h2{
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    font-weight: 700;
 }
 
 .iconesEspecilidades{
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
-    gap: 60px;
+    gap: 20px;
     color: white;
     text-align: center;
 }
@@ -243,7 +245,7 @@ body {
 
 .contextoUmbu h2{
     color: #00572E;
-    font-size: 40px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -262,7 +264,6 @@ body {
     flex-direction: column;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
     background: linear-gradient(rgba(0, 75, 0, 0.9), rgba(0, 75, 0, 0.9)),  url('https://s3-alpha-sig.figma.com/img/40d0/e8a3/a564fa9defe96360aa5fc8b6b444ffc3?Expires=1702857600&Signature=VGUNS1GUB1RYcXfo1rm8Vl4IKTQAWMVMLItZFAiNctdmkFGX2nW7cnN83vIhktf2x8DBXfh9ZAKPrPsHr-awr~50nGRi5fwRBu2oOJu1dscb0O1BtJHNP18E1flc5oivMi8xy2RcL9a9WfpHtPvgtuItRh3ke1vL9OVxvpDLFO5hBJfnwnsxZEDnhwcenu0HMAZDSz1mS6J7Md~9ZHB3f3ejrRUfrGabT7rfR0d8KbYBSTYdA-QBxFqPaLCvFO3xV3OVIgrWhDoFRI8oCPxbWjNtBmtCuZywxphcGfPMg1Xy0IRr4PSOBsW1Vtwc5fattO9nFBJVyR3Isl0meYZ7XA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') 50% / cover no-repeat;  
     color: rgb(255, 255, 255);
     align-items: center;
@@ -286,7 +287,7 @@ body {
 
 .espacoDelas h2{
     color: #FFF;
-    font-size: 50px;
+    font-size: 45px;
     font-style: normal; 
     font-weight: 700;
     line-height: normal;
@@ -346,9 +347,9 @@ body {
 
 .nossosServicosLP h2{
     color: #00572E;
-    font-size: 40px;
+    font-size: 45px;
     font-style: bold;
-    font-weight: 900;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -375,7 +376,7 @@ body {
     text-align: center;
     color: #1B4C34;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -383,6 +384,7 @@ body {
     display: flex;
     justify-content: end;
     width: 100%;
+    margin-bottom: -150px;
 }
 
 .detalhesLP4 img{
@@ -394,10 +396,11 @@ body {
     grid-template-columns: 1fr, 1fr, 1fr;
     align-items: center;
     width: 100%;
+    margin-top: -100px;
 }
 
 .detalhesLP5 img{
-    width: 340px;
+    width: 300px;
     grid-column: 1;
 }
 
@@ -407,8 +410,8 @@ body {
 }
 
 .vejaMaisPortifolio{
-    width: 432px;
-    height: 86px;
+    width: 400px;
+    height: 80px;
     border-radius: 10px;
     background: #16A016;
     border: none;
@@ -451,7 +454,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     background-color: black;
     color: white;
     background: linear-gradient(rgba(0, 75, 0, 0.9), rgba(0, 75, 0, 0.9)),  url('https://s3-alpha-sig.figma.com/img/40d0/e8a3/a564fa9defe96360aa5fc8b6b444ffc3?Expires=1702857600&Signature=VGUNS1GUB1RYcXfo1rm8Vl4IKTQAWMVMLItZFAiNctdmkFGX2nW7cnN83vIhktf2x8DBXfh9ZAKPrPsHr-awr~50nGRi5fwRBu2oOJu1dscb0O1BtJHNP18E1flc5oivMi8xy2RcL9a9WfpHtPvgtuItRh3ke1vL9OVxvpDLFO5hBJfnwnsxZEDnhwcenu0HMAZDSz1mS6J7Md~9ZHB3f3ejrRUfrGabT7rfR0d8KbYBSTYdA-QBxFqPaLCvFO3xV3OVIgrWhDoFRI8oCPxbWjNtBmtCuZywxphcGfPMg1Xy0IRr4PSOBsW1Vtwc5fattO9nFBJVyR3Isl0meYZ7XA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') 50% / cover no-repeat;
@@ -461,7 +463,7 @@ body {
 }
 
 .planosUmbu h2{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -551,13 +553,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center ;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .divReviewsCards h2{
     color: #1B4C34;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
     margin-bottom: 80px;
 }
@@ -577,7 +579,7 @@ body {
 
 .parceirosUmbu h2{
     color: #1B4C34;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
     margin-bottom: 50px;
 }

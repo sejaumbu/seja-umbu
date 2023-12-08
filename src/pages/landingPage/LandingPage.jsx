@@ -80,7 +80,7 @@ function LandingPage() {
                 </Swiper>
             </div>
 
-            <div className="conteudoInteiro">
+            {/* <div className="conteudoInteiro">
                 <div className="informacao1LP">
                     <div className='parteTextoLanding1LP'>
                         <h2 className='titulo1LP'> Por que se juntar à Umbu?</h2>
@@ -104,7 +104,7 @@ function LandingPage() {
                         <img className='imagemJardinagem3LP' src={fotoJardim} />
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="especialidadesUmbu">
                 <h2>Especialidade dos jardineiros</h2>
@@ -144,7 +144,7 @@ function LandingPage() {
 
             <div className='nossosServicosLP'>
                 <h2 className="nossosServicos">Serviços da UMBU</h2>
-                <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <p>Alguns dos serviços que a UMBU desenvolveu para entregar o melhor da nossa plataforma</p>
                 <hr/>
             </div>
 
@@ -251,7 +251,7 @@ function LandingPage() {
                 <div className="conteudoPortifolio">
                     <h2>Serviços de Alguns <br/> Jardineiros da Plataforma</h2>
                     <Swiper
-                        spaceBetween={30}
+                        spaceBetween={400}
                         navigation={true}
                         slidesPerView={3}
                         modules={[Navigation, Autoplay]}

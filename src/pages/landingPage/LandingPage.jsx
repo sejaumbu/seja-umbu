@@ -29,6 +29,11 @@ import detalhes2 from "../../assets/usadosLandingPage/detalhesLP2.png";
 import detalhes3 from "../../assets/usadosLandingPage/detalhesLP3.png";
 import detalhes4 from "../../assets/usadosLandingPage/detalhesLP4.png";
 import testIcon from "../../assets/android-chrome-512x512.png";
+import especilidade1 from "../../assets/usadosLandingPage/especialidadeCortar.svg";
+import especilidade2 from "../../assets/usadosLandingPage/especialidadePodar.svg";
+import especilidade3 from "../../assets/usadosLandingPage/especialidadeDecorar.svg";
+import especilidade4 from "../../assets/usadosLandingPage/especialidadeManutencao.svg";
+import especilidade5 from "../../assets/usadosLandingPage/especialidadeLimpeza.svg";
 
 // ParceirosImage
 import proa from "../../assets/usadosLandingPage/proa.svg";
@@ -111,31 +116,31 @@ function LandingPage() {
                 <div className="iconesEspecilidades">
                     <div className="conteudoHabilidades">
                         <aside>
-                            <img src={testIcon}/>
+                            <img src={especilidade1}/>
                         </aside>
-                        <span>Corta grama</span>
+                        <span>Cortar grama</span>
                     </div>
                     <div className="conteudoHabilidades">
                         <aside>
-                            <img src={testIcon}/>
+                            <img src={especilidade2}/>
                         </aside>
                         <span>Podar</span>
                     </div>
                     <div className="conteudoHabilidades">
                         <aside>
-                            <img src={testIcon}/>
+                            <img src={especilidade3}/>
                         </aside>
                         <span>Decorar plantas</span>
                     </div>
                     <div className="conteudoHabilidades">
                         <aside>
-                            <img src={testIcon}/>
+                            <img src={especilidade4}/>
                         </aside>
                         <span>Manutenção jardim</span>
                     </div>
                     <div className="conteudoHabilidades">
                         <aside>
-                            <img src={testIcon}/>
+                            <img src={especilidade5}/>
                         </aside>
                         <span>Limpeza jardim</span>
                     </div>
@@ -144,7 +149,7 @@ function LandingPage() {
 
             <div className='nossosServicosLP'>
                 <h2 className="nossosServicos">Serviços da UMBU</h2>
-                <p>Alguns dos serviços que a UMBU desenvolveu para entregar o melhor da nossa plataforma</p>
+                <p>Alguns dos serviços que a UMBU desenvolveu para entregar o melhor da nossa plataforma.</p>
                 <hr/>
             </div>
 

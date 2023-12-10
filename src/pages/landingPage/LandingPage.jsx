@@ -238,7 +238,7 @@ function LandingPage() {
             
             <div className="espacoDelas">
                 <h2>Elas Podam</h2>
-                <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Cultivando Empoderamento para Jardineiras - Conectando Raízes, Rompendo Barreiras e Florescendo Juntas!</p>
                 <div className="conteudoDelas">
                     <img src='https://images.unsplash.com/photo-1629997391037-c3b5210b5d35?q=80&w=2116&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
                     <img src='https://images.unsplash.com/photo-1674049405746-94d3c13dfe5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
@@ -268,56 +268,56 @@ function LandingPage() {
                     >
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
+                                <img src="https://rhodamaw.com/wp-content/uploads/2020/05/Medium-garden-design-ideas-3-900x506.jpg"/>
                                 <span>José Augusto</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://www.thespruce.com/thmb/BZ2JArSXFhBIEICTBeTmeapIfiE=/2892x0/filters:no_upscale():max_bytes(150000):strip_icc()/small-garden-ideas-and-inspiration-4101842-01-5e0462c2365e42de86a4f3ebc2152c1b.jpg"/>
+                                <span>Rogério Maranhão</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://i0.wp.com/revistadecor.com.br/wp-content/uploads/2023/05/Garden-Park-Gramado-201122-14-scaled.jpg?fit=1156%2C650&ssl=1"/>
+                                <span>José Fernando</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://media.houseandgarden.co.uk/photos/6189431af6eb732bf13e46a8/1:1/w_1600%2Cc_limit/rbd061120351-production_digital033x.jpg"/>
+                                <span>Ana Cláudia</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://gardenstovisit.co.nz/media/waefluxy/house.jpg?anchor=center&mode=crop&width=2000&rnd=132513096473630000"/>
+                                <span>Leonardo Brito</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://hestercombe.imgix.net/uploads/images/_800x418_crop_center-center_82_none/Hestercombe-Gardens_aerial_Pawel-Borowski_DJI_0089.jpg?mtime=1612869161"/>
+                                <span>Geovanna Rameiro</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://www.turismoroma.it/sites/default/files/Roseto%20comunale_0.jpg"/>
+                                <span>Lucas Fernandes</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://media.istockphoto.com/id/1308087213/photo/backyard-english-cottage-garden-colorful-flowering-plant-and-green-grass-lawn-brown-pavement.jpg?s=612x612&w=0&k=20&c=eO3fqOVuPsSjsRqz-FET_VQAg5TsmVrlQWL_xLwiJgA="/>
+                                <span>Alexandra Roberto</span>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portifolioGaleria">
-                                <img src={SlideFoto}/>
-                                <span>José Augusto</span>
+                                <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-60524819,width-600,resizemode-4/60524819.jpg"/>
+                                <span>Fernando Luiz</span>
                             </div>
                         </SwiperSlide>
                     </Swiper>

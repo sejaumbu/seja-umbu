@@ -5,3 +5,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 } */
+.main {
+    margin-left: 280px;
+}
+
+.linkFuncionalidade {
+    width: 345px;
+    height: 235px;
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+.linkFuncionalidade img {
+    position: absolute;
+    border-radius: 35px;
+    max-width: 100%;
+    z-index: 0;
+    max-height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.linkFuncionalidade p {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    z-index: 2;
+    margin-top: 50px;
+    font-weight: 700;
+}

@@ -3,8 +3,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { LuShovel } from "react-icons/lu";
 import { SlArrowRight } from "react-icons/sl";
 
-export default function telaRegistro1(props) {
-
+export default function telaRegistro1({avancarRegistroContratante, avancarRegistro1}) {
     return (
         <div className="ConteudoDireito">
             <div className='header'> 
@@ -13,12 +12,12 @@ export default function telaRegistro1(props) {
            
             <div className='container-conteudoDireito'>
 
-                <div className="titulo">
-                    <h2 className=''>Junte-se a nós!</h2>
-                    <p className='paragrafo'>Para começa esta jornada, diga-nos que tipo de conta <br /> você estaria abrindo</p>
+                <div className="tituloRegistro">
+                    <h3>Junte-se a nós!</h3>
+                    <p>Para começar esta jornada, diga-nos que tipo de conta <br /> você estaria abrindo</p>
                 </div>
 
-                <button className='botaoCompleto'> 
+                <button className='botaoCompleto' onClick={avancarRegistroContratante}>
                     <span className='iconeTipoConta'><IoPersonOutline /></span>
                     <div className="descricaoTexto">
                        <h4>Contratante</h4>
@@ -27,7 +26,7 @@ export default function telaRegistro1(props) {
                     <SlArrowRight />
                 </button>
 
-                <button className='botaoCompleto' onClick={props.avancarRegistro1}> 
+                <button className='botaoCompleto' onClick={avancarRegistro1}>
                     <span className='iconeTipoConta'><LuShovel /></span>
                     <div className="descricaoTexto">
                         <h4>Jardineiro</h4>

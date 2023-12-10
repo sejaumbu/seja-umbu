@@ -7,7 +7,6 @@ function CardServico({servico, descricao, iconeCard}) {
       <div className="CardServico">
         <span className='iconesServicos'>{iconeCard} </span>
         <h3 className='servicoTitulo'>{servico}</h3>
-        <p className='descricaoTitulo'>{descricao}</p>
       </div>
     </div>
       

@@ -8,7 +8,7 @@ export default function ConteudoDireito1() {
     return (
         <div className="ConteudoDireito">
             <div className='header'> 
-                <p>Já possui uma conta? <a className="entrar" href="/login">Entrar</a></p> 
+                <p>Já possui uma conta? <a className="entrar" href="/login">Entrar</a></p>
             </div>
            
             <div className='container-conteudoDireito'>
@@ -26,7 +26,6 @@ export default function ConteudoDireito1() {
                     </div>
                     <SlArrowRight />
                 </button>
-
 
                 <button className='botaoCompleto'> 
                     <span className='iconeTipoConta'><LuShovel /></span>

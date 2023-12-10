@@ -1,26 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: white;
+}
 .componenteIdentidade {
     margin: 2vw 0vh 9vw 0vh;
-    
 }
 
 .tituloIdentidade {
     height: 21vh;
-
 }
 
 .titleV {
     color: #016c04;
-    font-family: "Montserrat-SemiBold", Helvetica;
+    /* font-family: "Montserrat-SemiBold", Helvetica; */
     font-size: 3vw;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     padding-top: 5vh;
-
 }
 
 .logoUmbu {
@@ -32,7 +33,7 @@
 .fundo {
     padding-top: 0vw;
     margin-top: 1vw;
-    background-color: #d9d9d9;
+    /* background-color: #d9d9d9; */
 }
 
 .imgLogo {
@@ -41,198 +42,248 @@
 }
 
 .desenvolvimentoLogo {
-    font-family: "Montserrat-SemiBold", Helvetica;
+    /* font-family: "Montserrat-SemiBold", Helvetica; */
     text-align: center;
     padding-top: 12vh;
     padding-bottom: 3vw;
 
 }
 
-.text1 {
-    font-size: 2vw;
+.tituloD {
+    font-size: 2.5vw;
     color: #006845;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    text-align: center
+    /* font-family: "Roboto-Regular", Helvetica; */
+    font-weight: 700;
+    text-align: center;
 }
 
-.Textsub {
+.Titulosub {
     color: #006845;
-    font-family: "Montserrat-Regular", Helvetica;
+    /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 1vw;
     font-weight: 400;
     height: 2vw;
-    text-align: center
-}
-.imgFormandoLogo{
-   font-size: 22vh;
-
+    text-align: center;
 }
 
-.logoU{
+.imgFormandoLogo {
+    font-size: 22vh;
+}
+
+.logoU {
     height: auto;
     width: 20vw;
 }
-.logoI{
+
+.logoI {
     height: auto;
     width: 39vw;
 }
-.paletaDeCores{
-    background: rgba(61, 21, 21, 0.642);
-    height: 31vw;
-    padding-top: 2vw;
+
+.paletaDeCores {
+    height: 75vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-top: 5vw;
+    /* background-color: #e3d5ca; */
+    background-image: url(https://img.freepik.com/free-photo/white-recycle-paper-texture_1194-6392.jpg);
 }
 
-.TituloP{
+.tituloP {
     text-align: center;
-  color: #016c05;
-  font-family: "Montserrat-Regular", Helvetica;
-  font-size: 2vw;
-  font-weight: 400;
-  height: 3vw;
-  padding-bottom: 2vw
+    color: #016c05;
+    /* font-family: "Montserrat-Regular", Helvetica; */
+    font-size: 2.5vw;
+    font-weight: 700;
+    height: 3vw;
+    padding-bottom: 2vw;
 }
-.sub{
+
+.sub {
     text-align: center;
     color: #006845;
-    font-family: "Montserrat-Regular", Helvetica;
+    /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 1vw;
     font-weight: 400;
-   
 }
-.titutoF{
-    font-size: 2vw;
+
+.titutoF {
+    font-size: 2.5vw;
     color: #006845;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    text-align: center
+    /* font-family: "Roboto-Regular", Helvetica; */
+    font-weight: 700;
+    text-align: center;
 }
-.subF{
+
+.subF {
     color: #006845;
-    font-family: "Montserrat-Regular", Helvetica;
+    /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 1vw;
     font-weight: 400;
     height: 2vw;
-    text-align: center
+    text-align: center;
 }
-.fontes{
+
+.fontes {
     padding-top: 9vh;
     padding-bottom: 17vh;
 }
-.fontesMontserrat{
+
+.fontesMontserrat {
     display: flex;
     margin-left: 7vw;
     margin-right: 7vw;
-    
 }
-.FontEs{
+
+.FontEs {
     padding-right: 19vw;
     padding-top: 16vh;
 }
-.titulo1{
-    width: 32vw;
-  color: #000000;
-  font-family: "CantoraOne-Regular", Helvetica;
-  font-size: 2vw;
-  font-weight: 400;
-  height: 3vw;
-}
 
-.sub1{
-    height: 5vw;
-    width: 35vw;
-    color: #000000;
-    font-family: "CantoraOne-Regular", Helvetica;
-    font-size: 1vw;
-    font-weight: 400;
-    height: 5vw;
-}
-
-.titulo2{
+.titulo1 {
     width: 32vw;
     color: #000000;
-    font-family: "CantoraOne-Regular", Helvetica;
+    /* font-family: "CantoraOne-Regular", Helvetica; */
     font-size: 2vw;
     font-weight: 400;
     height: 3vw;
 }
 
-.sub2{
+.sub1 {
     height: 5vw;
     width: 35vw;
     color: #000000;
-    font-family: "CantoraOne-Regular", Helvetica; 
+    /* font-family: "CantoraOne-Regular", Helvetica; */
     font-size: 1vw;
     font-weight: 400;
     height: 5vw;
 }
 
-.titulo3{
+.titulo2 {
     width: 32vw;
     color: #000000;
-    font-family: "CantoraOne-Regular", Helvetica;
+    /* font-family: "CantoraOne-Regular", Helvetica; */
     font-size: 2vw;
     font-weight: 400;
     height: 3vw;
-
 }
 
-.sub3{
+.sub2 {
     height: 5vw;
     width: 35vw;
     color: #000000;
-    font-family: "CantoraOne-Regular", Helvetica; 
+    /* font-family: "CantoraOne-Regular", Helvetica; */
     font-size: 1vw;
     font-weight: 400;
     height: 5vw;
 }
-.parte2{
+
+.titulo3 {
+    width: 32vw;
+    color: #000000;
+    /* font-family: "CantoraOne-Regular", Helvetica; */
+    font-size: 2vw;
+    font-weight: 400;
+    height: 3vw;
+}
+
+.sub3 {
+    height: 5vw;
+    width: 35vw;
+    color: #000000;
+    /* font-family: "CantoraOne-Regular", Helvetica; */
+    font-size: 1vw;
+    font-weight: 400;
+    height: 5vw;
+}
+
+.parte2 {
     padding-top: 16vh;
 }
-.titulo4{
-    font-family: "Montserrat-Regular", Helvetica;
+
+.titulo4 {
+    /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 3vw;
-    font-weight: 400; 
+    font-weight: 400;
     width: 32vw;
     color: #000000;
     height: 4vw;
 }
-.sub4{
+
+.sub4 {
     color: #000000;
-    font-family: "Montserrat-Regular", Helvetica;
+    /* font-family: "Montserrat-Regular", Helvetica; */
     font-size: 2vw;
     font-weight: 100;
     height: 4vw;
-  
-}
-.paragrafo{
-    height: 14vw; 
 }
 
-.aplicacaoElementoVisual{
-  
-  text-align: center
+.paragrafo {
+    height: 14vw;
 }
-.titulos{
+
+.aplicacaoElementoVisual {
+    text-align: center;
+}
+
+.titulos {
     font-size: 2vw;
-  color: #006845;
-  font-family: "Roboto-Regular", Helvetica;
-  font-weight: 400;
+    color: #006845;
+    /* font-family: "Roboto-Regular", Helvetica; */
+    font-weight: 400;
 }
 
 .subTitulo {
-	color: #006845;
-	font-family: "Montserrat-Regular", Helvetica;
-	font-size: 1vw;
-	font-weight: 400;
-	height: 2vw;
-	text-align: center;
+    color: #006845;
+    /* font-family: "Montserrat-Regular", Helvetica; */
+    font-size: 1vw;
+    font-weight: 400;
+    height: 2vw;
+    text-align: center;
 }
-.espaçamentoCima{
+
+.espaçamentoCima {
     padding-top: 4vw;
     padding-bottom: 0vw;
 }
-.finalPagina{
-   
+
+.finalPagina {
     height: 36vw;
 }
+
+.titulo1, .titulo2, .titulo3{
+    font-family: 'Cantora One', sans-serif;
+}
+
+
+.folhagens{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+#corPrimaria{
+    color: #00572E;
+}
+
+#corSecundaria{
+    color: #006845;
+}
+#corTercearia{
+    color:  #2E7F60;
+}
+#corQuarta {
+    color:  #51C601;
+}
+
+
+.corHex p{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+

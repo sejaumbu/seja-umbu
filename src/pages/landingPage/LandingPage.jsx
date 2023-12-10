@@ -34,6 +34,11 @@ import especilidade2 from "../../assets/usadosLandingPage/especialidadePodar.svg
 import especilidade3 from "../../assets/usadosLandingPage/especialidadeDecorar.svg";
 import especilidade4 from "../../assets/usadosLandingPage/especialidadeManutencao.svg";
 import especilidade5 from "../../assets/usadosLandingPage/especialidadeLimpeza.svg";
+import fotoJar from "../../assets/jardineiroFoto.png"
+import fotoJar2 from "../../assets/jardineiroFoto2.svg"
+import fotoJara from "../../assets/jardineiraFoto.svg"
+
+
 
 // ParceirosImage
 import proa from "../../assets/usadosLandingPage/proa.svg";

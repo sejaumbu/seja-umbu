@@ -1,13 +1,86 @@
-import React from 'react'
-import "./Escalabilidade.css"
-import escalabilidade1 from "../../assets/escalabilidade1.svg"
-import escalabilidade2 from "../../assets/escalabilidade2.svg"
-import escalabilidade3 from "../../assets/escalabilidade3.svg"
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+// Estilos Swiper
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+// Imagens
 
-function Escalabilidade(props) {
+import umbuPlanta from "../../assets/usadosEscalabilidade/umbuPlanta.png"
+import "./escalabilidade.css"
+
+
+
+function Escalabilidade() {
     return (
         <div>
-            <h2 className="titulo">Futuro da UMBU</h2>
+            <Header />
+            <div className="tituloCaroussel">
+            </div>
+            <div className="carouselEscalabilidade">
+                <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: true,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={false}
+                    modules={[Autoplay, Pagination, Navigation]}
+                    className="mySwiper"
+                >
+
+                    <SwiperSlide>
+                        <div className="slideUmbuNosJardins">
+                            <h2 className='tituloSlider'> <span className="detalheTitulo">Projeto UMBU Cria: </span>Conectando Pessoas, Transformando Espaços Verdes</h2>
+                            <img src={umbuPlanta} alt="" className="image" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideUmbuNosJardins">
+                            <h2 className='tituloSlider'> <span className="detalheTitulo">Projeto UMBU Cria: </span>Conectando Pessoas, Transformando Espaços Verdes</h2>
+                            <img src={umbuPlanta} alt="" className="image" />
+                        </div>
+                    </SwiperSlide>
+                 
+                 
+
+                </Swiper>
+                {/* <Swiper
+                    effect={'fade'}
+                    navigation={true}
+                    modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                    className="mySwiper carousel-blog"
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    }}
+                    pagination={true}
+                    loop={true}
+                >
+                    <SwiperSlide>
+                        <a href="">
+                            <div className="box-slide-imagem-1 slide-carousel">
+                                <div className='slide-content'>
+                                    <span>AGRICULTURA URBANA</span>
+                                    <h2>
+                                        Conheça o Telhado Verde do Shopping Eldorado: Iniciativa
+                                        promove horta e compostagem.
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </SwiperSlide> */}
+
+
+            </div>
+            {/* <h2 className="titulo">Futuro da UMBU</h2>
             <div className="box1">
                 <img className='imgAreasComuns' src={escalabilidade1} />
                 <div className='text'>
@@ -28,8 +101,8 @@ function Escalabilidade(props) {
                     <p className='TextMaior3'> Vitrine para lojas de jardinagem</p>
                     <p className='TextMenor3'>Permitindo que anunciem seus produtos mediante uma mensalidade simbólica. Isso facilitará aos jardineiros encontrar equipamentos de qualidade e proporcionará maior visibilidade aos negócios do setor.</p>
                 </div>
-            </div>
-
+            </div> */}
+            <Footer />
         </div>
     )
 }

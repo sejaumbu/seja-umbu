@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ConteudoCentral {
+    padding-top: 15vh;
+    margin-left: 28vw;
+    margin-right: 30vw;
+    width: 115vh;
+    position: fixed
+}
+
+
+.ConteudoCentral .rectangle {
+    background-color: #d9d9d95e;
+    border-radius: 20px;
+    height: 46vh;
+    height: 75vh;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px
+}
+
+.header {
+    height: 12vh;
+
+
+}
+
+.header p {
+    color: #0f4229;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5vh
+    
+}
+
+.Icon {
+    font-size: 16vh;
+    letter-spacing: 0;
+    line-height: normal;
+
+    text-align: center;
+
+    color: #0F4229D9;
+}
+
+.text-wrapper1 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1vh;
+    height: -moz-available;
+    font-size: 3vh
+}
+
+.text-wrapper2 {
+    color: #0f4229;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 2vh;
+    text-align: center;
+
+    height: -moz-available;
+}
+
+.Finalpagina {
+    margin-top: 21vh;
+
+    display: flex;
+
+}
+
+.icon2 {
+    font-size: 3vh;
+    padding-left: 3vh;
+    padding-right: 1vh;
+}
+
+.text-w {
+    font-size: 3vh;
+    color: #0f4229;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+
+    letter-spacing: 0;
+    padding-right: 20vh;
+
+    text-align: center;
+}
+
+button {
+    background-color: #0f4229;
+  border-radius: 4vh;
+  height: 6vh;
+  width: 22vh;
+}
+.Add{
+    color: #ffffff;
+    
+}

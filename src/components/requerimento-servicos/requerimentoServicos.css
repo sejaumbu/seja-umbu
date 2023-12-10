@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85vw;
 }
 
 .formServico1{
@@ -40,11 +39,11 @@
 }
 
 .opServicos1{
-    width: 615px;
+    width: 500px;
     height: 70px;
     border-radius: 10px;
     border: 1px solid #00572E;
-    background: #D9D9D9;
+    padding-left: 10px;
     margin-top: 5%;
 }
 
@@ -67,4 +66,148 @@
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 24px */
+}
+
+/* Etapa de endereço formulário */
+
+.enderecoServico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: start;
+    width: 50%;
+    gap: 15px;
+}
+
+.enderecoServico h3{
+    color: #00572E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.enderecoServico label{
+    color: #00572E;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.cepRequerimento{
+    display: flex;
+    flex-direction: column;
+}
+
+.cepRequerimento input{
+    display: flex;
+    width: 752px;
+    padding: 10px;
+}
+
+.enderecoRequerimento{
+    display: flex;
+    flex-direction: column;
+}
+
+.enderecoRequerimento input{
+    display: flex;
+    width: 752px;
+    padding: 10px;
+    
+}
+
+.localRequerimento{
+    display: flex;
+    gap: 50px
+}
+
+.cidadeRequerimento{
+    display: flex;
+    flex-direction: column;
+}
+
+.cidadeRequerimento input{
+    display: flex;
+    width: 205px;
+    padding: 10px;
+}
+
+.estadoRequerimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estadoRequerimento select{
+    display: flex;
+    padding: 10px;
+    width: 205px;
+}
+
+/* Etapa do formulário observação */
+.observacaoServico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: start;
+    width: 50%;
+}
+
+.observacaoServico h3{
+    color: #00572E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.containderObservacaoServico{
+    display: flex;
+    gap: 50px;
+}
+
+.containderObservacaoServico label{
+    color: #00572E;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.containderObservacaoServico textarea{
+    resize: none;
+}
+
+.descricaoServico{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarioServico{
+    display: flex;
+    flex-direction: column;
+}
+
+/* botão geral para avançar as etapas */
+.bntAvancarEspaco{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.btnVoltarRequerimento{
+    width: 180px;
+    height: 60px;
+    border: 1px solid #00572E;
+    border-radius: 10px;
+    background: white;
+    color: #00572E;
+}
+
+.btnAvancarRequerimento{
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: #00572E;
+    color: white;
 }

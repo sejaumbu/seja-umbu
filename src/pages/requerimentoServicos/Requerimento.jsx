@@ -6,7 +6,9 @@ export default function Requerimento(){
     return(
         <div className="requerimento">
             <BarraLateral/>
-            <RequerimentoServicos/>
+            <div className="ladoDireitoRequerimento">
+                <RequerimentoServicos/>
+            </div>
         </div>
     )
 }

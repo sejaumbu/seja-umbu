@@ -15,6 +15,9 @@ import Registro from "./pages/registro/Registro.jsx";
 // import Perfil from './pages/perfil/Perfil.jsx';
 import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 import Umblog from "./pages/umblog/UmblogF.jsx"
+import Editarperfil from"./pages/PerfilEdit/Editarperfil.jsx"
+
+
 
 
 function App() {
@@ -30,7 +33,8 @@ function App() {
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/notificacoes' Component={Notificacoes} />
           <Route path='/umblog' Component={Umblog} />
-           <Route path='/registre' Component={ Registro }/> 
+          <Route path='/registre' Component={ Registro }/> 
+          <Route path='/editar' Component={Editarperfil}/>
         </Routes>
       </BrowserRouter>
 

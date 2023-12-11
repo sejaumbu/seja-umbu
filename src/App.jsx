@@ -38,7 +38,7 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      {<Teste/>}
+      {/* {<Teste/>} */}
 
     </div>
 

@@ -6,16 +6,29 @@ import "./dashboard.css"
 function Dashboard() {
   
   return (
-    <div className='sepador'>
-      <div> <BarraLateral ></BarraLateral></div>
-      <div className="main">
-        <div className="abaSuperior">
-          <div className="linkFuncionalidade">
-            {/* alterar com foto do mockup */}
-            <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="foto de chat" className="fundo" />
-            <p>Conheça o UMCHAT: Négocie com segurança e facilidade</p>
+    <div className='divisaoTelaDash'>
+      <div className="menuDash">
+        <BarraLateral/>
+      </div>
+      <div className="conteudoDashboard">
+        <div className="funcionalidadesDashboard">
+          <div className="servicoDash1">
+              <h3>Conheça o UMCHAT:</h3>
+              <h3>Négocie com segurança e facilidade</h3>
+          </div>
+          <div className="servicoDash2">
+              <h3>Conheça o Perfil:</h3>
+              <h3>Négocie com segurança e facilidade</h3>
+          </div>
+          <div className="servicoDash3">
+              <h3>Conheça o Portfólio:</h3>
+              <h3>Négocie com segurança e facilidade</h3>
           </div>
         </div>
+        <div className="parceriaDash">
+            <a href='https://wa.me/5511989107716?text=Ol%C3%A1%21+Vim+pela+%40sejaumbu%2C+gostaria+de+fazer+um+or%C3%A7amento.+%F0%9F%AA%B4%E2%98%98%EF%B8%8F'><button>Acesse</button></a>
+        </div>
+        
       </div>
     </div>
   )

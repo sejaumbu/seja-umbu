@@ -1,12 +1,8 @@
-body{
-    background-color: #EFF3F6;
-}
-
-
 .conteudoRegistro1{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #EFF3F6;
 }
 
 .login{

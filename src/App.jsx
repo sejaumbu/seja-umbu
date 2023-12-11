@@ -19,6 +19,7 @@ import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 import Registro from "./pages/registro/Registro.jsx";
 import Umblog from "./pages/umblog/UmblogF.jsx"
 import Teste from './pages/testeCompetencia/Teste.jsx';
+import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path='/umblog' Component={Umblog} />
           <Route path='/registro' Component={ Registro }/>
           <Route path='/editar' Component={Editarperfil}/>
+          <Route path='/perfil' Component={AbaPortfolio}/>
         </Routes>
       </BrowserRouter>
 

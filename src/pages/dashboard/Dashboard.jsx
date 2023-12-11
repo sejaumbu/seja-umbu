@@ -26,7 +26,7 @@ function Dashboard() {
           </div>
         </div>
         <div className="parceriaDash">
-            <a href='https://www.umentreposto.com/'><button>Acesse</button></a>
+            <a href='https://wa.me/5511989107716?text=Ol%C3%A1%21+Vim+pela+%40sejaumbu%2C+gostaria+de+fazer+um+or%C3%A7amento.+%F0%9F%AA%B4%E2%98%98%EF%B8%8F'><button>Acesse</button></a>
         </div>
         
       </div>

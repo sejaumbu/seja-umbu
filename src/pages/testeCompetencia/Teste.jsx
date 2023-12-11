@@ -4,7 +4,7 @@ import geranio from '../../assets/flores/Geranio.svg'
 
 function Teste() {
   return (
-    <div>
+    <div className='testeCompetencia'>
 
       <h2>Teste de Competência</h2>
 

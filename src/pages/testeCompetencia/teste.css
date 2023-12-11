@@ -21,13 +21,13 @@
 
 }
 
-h3 {
+.testeCompetencia h3 {
     font-weight: bold;
     font-size: 27px;
     margin: 3% 0;
 }
 
-h2 {
+.testeCompetencia h2 {
     font-weight: bold;
     font-size: 35px;
     display: flex;

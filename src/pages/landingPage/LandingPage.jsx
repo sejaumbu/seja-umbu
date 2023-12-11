@@ -1,58 +1,57 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
-// Componentes
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import CardServico from "../../components/cardServico/CardServico";
-import AvaliacoesCliente from "../../components/avaliacoes/AvaliacoesCliente"
-
-// Estilos Swiper
+import { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+// Componentes
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import CardServico from '../../components/cardServico/CardServico';
+import AvaliacoesCliente from '../../components/avaliacoes/AvaliacoesCliente';
+
+// Estilos Swiper
+
 // Imagens
-import fotoJardS from "../../assets/fundoJardinagem.svg";
-import fotoJardI from "../../assets/jardineiraPNGOUT.png";
-import SlideFoto2 from "../../assets/imageBackground4.svg";
-import SlideFoto3 from "../../assets/imageBackground3.svg";
-import SlideFoto4 from "../../assets/imageBackground2.svg";
-import SlideFoto from "../../assets/backgroundImage.svg";
-import fotoJar from "../../assets/JardineiroFoto.png";
-import fotoJar2 from "../../assets/usadosLandingPage/jardineiroFoto2.svg";
-import fotoJara from "../../assets/usadosLandingPage/jardineiraFoto.svg";
-import fotoJardim from "../../assets/usadosLandingPage/Jardim.svg"
-import detalhes from "../../assets/usadosLandingPage/detalhesLP.png";
-import detalhes2 from "../../assets/usadosLandingPage/detalhesLP2.png";
-import detalhes3 from "../../assets/usadosLandingPage/detalhesLP3.png";
-import detalhes4 from "../../assets/usadosLandingPage/detalhesLP4.png";
-import testIcon from "../../assets/android-chrome-512x512.png";
-import especilidade1 from "../../assets/usadosLandingPage/especialidadeCortar.svg";
-import especilidade2 from "../../assets/usadosLandingPage/especialidadePodar.svg";
-import especilidade3 from "../../assets/usadosLandingPage/especialidadeDecorar.svg";
-import especilidade4 from "../../assets/usadosLandingPage/especialidadeManutencao.svg";
-import especilidade5 from "../../assets/usadosLandingPage/especialidadeLimpeza.svg";
-import fotoJar from "../../assets/jardineiroFoto.png"
-import fotoJar2 from "../../assets/jardineiroFoto2.svg"
-import fotoJara from "../../assets/jardineiraFoto.svg"
-
-
+import fotoJardS from '../../assets/fundoJardinagem.svg';
+import fotoJardI from '../../assets/jardineiraPNGOUT.png';
+import SlideFoto2 from '../../assets/imageBackground4.svg';
+import SlideFoto3 from '../../assets/imageBackground3.svg';
+import SlideFoto4 from '../../assets/imageBackground2.svg';
+import SlideFoto from '../../assets/backgroundImage.svg';
+import fotoJar from '../../assets/JardineiroFoto.png';
+import fotoJar2 from '../../assets/usadosLandingPage/jardineiroFoto2.svg';
+import fotoJara from '../../assets/usadosLandingPage/jardineiraFoto.svg';
+import fotoJardim from '../../assets/usadosLandingPage/Jardim.svg';
+import detalhes from '../../assets/usadosLandingPage/detalhesLP.png';
+import detalhes2 from '../../assets/usadosLandingPage/detalhesLP2.png';
+import detalhes3 from '../../assets/usadosLandingPage/detalhesLP3.png';
+import detalhes4 from '../../assets/usadosLandingPage/detalhesLP4.png';
+import testIcon from '../../assets/android-chrome-512x512.png';
+import especilidade1 from '../../assets/usadosLandingPage/especialidadeCortar.svg';
+import especilidade2 from '../../assets/usadosLandingPage/especialidadePodar.svg';
+import especilidade3 from '../../assets/usadosLandingPage/especialidadeDecorar.svg';
+import especilidade4 from '../../assets/usadosLandingPage/especialidadeManutencao.svg';
+import especilidade5 from '../../assets/usadosLandingPage/especialidadeLimpeza.svg';
+import fotoJar from '../../assets/jardineiroFoto.png';
+import fotoJar2 from '../../assets/jardineiroFoto2.svg';
+import fotoJara from '../../assets/jardineiraFoto.svg';
 
 // ParceirosImage
-import proa from "../../assets/usadosLandingPage/proa.svg";
-import jbm from "../../assets/usadosLandingPage/jbm.svg";
-import umEntreposto from "../../assets/usadosLandingPage/umEntreposto.svg"
+import proa from '../../assets/usadosLandingPage/proa.svg';
+import jbm from '../../assets/usadosLandingPage/jbm.svg';
+import umEntreposto from '../../assets/usadosLandingPage/umEntreposto.svg';
 
 // Estilos locais
 import './LandingPage.css';
 
-// react icons
-import { MdOutlineSecurity, MdRateReview, MdOutlineMarkUnreadChatAlt } from "react-icons/md";
-import { IoMdPhotos } from "react-icons/io";
-import { TbGardenCart } from "react-icons/tb";
-import { PiPlantBold } from "react-icons/pi";
+// React Icons
+import { MdOutlineSecurity, MdRateReview, MdOutlineMarkUnreadChatAlt } from 'react-icons/md';
+import { IoMdPhotos } from 'react-icons/io';
+import { TbGardenCart } from 'react-icons/tb';
+import { PiPlantBold } from 'react-icons/pi';
+
 
 function LandingPage() {
     return (

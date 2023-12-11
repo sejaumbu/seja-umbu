@@ -5,7 +5,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Editarperfil from"./pages/PerfilEdit/Editarperfil.jsx"
+import Editarperfil from "./pages/PerfilEdit/Editarperfil.jsx"
 
 // Import das Rotas
 import LandingPage from './pages/landingPage/LandingPage';
@@ -20,6 +20,8 @@ import Registro from "./pages/registro/Registro.jsx";
 import Umblog from "./pages/umblog/UmblogF.jsx"
 import Teste from './pages/testeCompetencia/Teste.jsx';
 import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
+import Login from './pages/login/Login.jsx';
+
 
 function App() {
   return (
@@ -28,19 +30,21 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' Component={LandingPage} />
-          <Route path='/chat' Component={Umchat} />
-          <Route path='/identidade' Component={IdentidadeVisual} />
+          <Route path='/perfil' Component={AbaPortfolio} />
           <Route path='/dashboard' Component={Dashboard} />
           <Route path='/escalabilidade' Component={Escalabilidade} />
+          <Route path='/identidade' Component={IdentidadeVisual} />
+          <Route path='/login' Component={Login}
           <Route path='/notificacoes' Component={Notificacoes} />
+
+          <Route path='/chat' Component={Umchat} />
           <Route path='/umblog' Component={Umblog} />
-          <Route path='/registro' Component={ Registro }/>
-          <Route path='/editar' Component={Editarperfil}/>
-          <Route path='/perfil' Component={AbaPortfolio}/>
-          <Route path='/teste' Component={Teste}/>
+          <Route path='/registro' Component={Registro} />
+          <Route path='/editar' Component={Editarperfil} />
+          <Route path='/testeConhecimeto' Component={Teste} />
+
         </Routes>
       </BrowserRouter>
-    
 
 
     </div>

@@ -58,8 +58,8 @@ function LandingPage() {
             <div className="carouselLanding">
                 <div className="carouselLandingConteudo">
                     <span>
-                        <h2 className='tittleLanding'>Bem vindo ao futuro da</h2>
-                        <h2 className='subTittleLanding'>Jardinagem</h2>
+                        <h2 id='tittleLanding'>Bem vindo ao futuro da</h2>
+                        <h2 id='subTittleLanding'>Jardinagem</h2>
                         <p>Seu jardim, nossa missão!</p>
                         <button>Cadastrar</button>
                     </span>
@@ -77,7 +77,7 @@ function LandingPage() {
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper1"
+                    className="swiperLanding"
                     
                 >
                     <SwiperSlide><img src={SlideFoto}></img></SwiperSlide>
@@ -167,7 +167,7 @@ function LandingPage() {
                         delay: 2000,
                         disableOnInteraction: false,
                     }}
-                    className="mySwiper"
+                    className="swiperServicos"
                 >
                     <SwiperSlide>
                         <CardServico

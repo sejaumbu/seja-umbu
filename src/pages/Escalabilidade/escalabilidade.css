@@ -1,20 +1,10 @@
 .escalabilidadeSwiper {
-    width: 80vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    border-radius: 20px;
-
-}
-
-.swiper-slide {
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    --swiper-theme-color: #00C800;
 }
 
 .escalabilidadeSwiper img {
@@ -25,9 +15,8 @@
 }
 
 .slideUmbuNosJardins{
-    width: 80vw;
-    height: 75vh;
-
+    width: 100%;
+    height: 500px;
 }
 
 .tituloSlider{
@@ -73,4 +62,26 @@
     gap: 10px;
     display: flexbox;
     flex-direction: row;
+}
+
+.conteudoEscalabilidade{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.conteudoEscalabilidade h3{
+    color: #00572E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.conteudoEscalabilidade p{
+    color: #666;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

@@ -4,9 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-import Editarperfil from"./pages/PerfilEdit/Editarperfil.jsx"
-
 // // Import das Rotas
 // import LandingPage from './pages/landingPage/LandingPage';
 // import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';
@@ -18,6 +15,7 @@ import Editarperfil from"./pages/PerfilEdit/Editarperfil.jsx"
 // import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 // import Umblog from "./pages/umblog/UmblogF.jsx"
 import Teste from './pages/testeCompetencia/Teste.jsx';
+
 
 function App() {
   return (
@@ -32,8 +30,6 @@ function App() {
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/notificacoes' Component={Notificacoes} />
           <Route path='/umblog' Component={Umblog} />
-          <Route path='/registre' Component={ Registro }/> 
-          <Route path='/editar' Component={Editarperfil}/>
           { <Route path='/login' Component={  }/> }
         </Routes>
       </BrowserRouter> */}

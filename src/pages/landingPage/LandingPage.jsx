@@ -20,10 +20,10 @@ import SlideFoto2 from "../../assets/imageBackground4.svg";
 import SlideFoto3 from "../../assets/imageBackground3.svg";
 import SlideFoto4 from "../../assets/imageBackground2.svg";
 import SlideFoto from "../../assets/backgroundImage.svg";
-import fotoJar from "../../assets/JardineiroFoto.png";
+import fotoJar from "../../assets/jardineiroFoto.png";
 import fotoJar2 from "../../assets/usadosLandingPage/jardineiroFoto2.svg";
 import fotoJara from "../../assets/usadosLandingPage/jardineiraFoto.svg";
-import fotoJardim from "../../assets/usadosLandingPage/Jardim.svg"
+import fotoJardim from "../../assets/usadosLandingPage/jardim.svg"
 import detalhes from "../../assets/usadosLandingPage/detalhesLP.png";
 import detalhes2 from "../../assets/usadosLandingPage/detalhesLP2.png";
 import detalhes3 from "../../assets/usadosLandingPage/detalhesLP3.png";
@@ -58,8 +58,8 @@ function LandingPage() {
             <div className="carouselLanding">
                 <div className="carouselLandingConteudo">
                     <span>
-                        <h2 id='tittleLanding'>Bem vindo ao futuro da</h2>
-                        <h2 id='subTittleLanding'>Jardinagem</h2>
+                        <h2 className='tittleLanding'>Bem vindo ao futuro da</h2>
+                        <h2 className='subTittleLanding'>Jardinagem</h2>
                         <p>Seu jardim, nossa missão!</p>
                         <button>Cadastrar</button>
                     </span>
@@ -77,7 +77,7 @@ function LandingPage() {
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="swiperLanding"
+                    className="mySwiper1"
                     
                 >
                     <SwiperSlide><img src={SlideFoto}></img></SwiperSlide>
@@ -167,7 +167,7 @@ function LandingPage() {
                         delay: 2000,
                         disableOnInteraction: false,
                     }}
-                    className="swiperServicos"
+                    className="mySwiper"
                 >
                     <SwiperSlide>
                         <CardServico

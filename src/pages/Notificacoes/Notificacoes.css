@@ -3,6 +3,42 @@
     padding: 0;
 }
 
+.itensFixo {
+    margin-left: 4%;
+    margin-right:  4%;
+
+    
+}
+
+.titulo {
+    color: #000;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 4%;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+.pOpcoes {
+    color: #565656;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pOpcoes:first-child {
+    font-weight: bold;
+}
+
 .notificacao {
     margin-top: 2%;
     margin-left: 4%;

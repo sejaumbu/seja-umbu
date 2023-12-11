@@ -34,7 +34,8 @@ function App() {
           <Route path='/dashboard' Component={Dashboard} />
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/identidade' Component={IdentidadeVisual} />
-          <Route path='/login' Component={Login}
+          <Route path='/login' Component={Login} />
+
           <Route path='/notificacoes' Component={Notificacoes} />
 
           <Route path='/chat' Component={Umchat} />

@@ -9,7 +9,7 @@ body {
 }
 
 /* Estilo do carousel */
-.swiperLanding {
+.mySwiper1 {
     width: 100%;
     height: 100%;
     --swiper-theme-color: #00C800;
@@ -82,11 +82,11 @@ body {
     margin-top: 30px;
 }
 
-#tittleLanding{
+.tittleLanding{
     color: white;
 }
 
-#subTittleLanding{
+.subTittleLanding{
     color: #00C800;
 }
 

@@ -37,10 +37,11 @@ function App() {
           <Route path='/registro' Component={ Registro }/>
           <Route path='/editar' Component={Editarperfil}/>
           <Route path='/perfil' Component={AbaPortfolio}/>
+          <Route path='/teste' Component={Teste}/>
         </Routes>
       </BrowserRouter>
 
-      {<Teste/>}
+      
 
     </div>
 

@@ -33,7 +33,7 @@ function Escalabilidade() {
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
+                    className="escalabilidadeSwiper"
                 >
 
                     <SwiperSlide>

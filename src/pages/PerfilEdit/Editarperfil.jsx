@@ -8,7 +8,7 @@ import './perfil.css'
 
 export default function Editarperfil() {
     return (
-        <div>
+        <div className='editarPerfil'>
             <div> <BarraLateral /></div>
 
             <div className='Conteudo'>

@@ -1,10 +1,10 @@
 import React from 'react'
 import ItensSuperior from './Avaliações/ItensSuperior'
 import ComentarioNotas from './Avaliações/ComentarioNotas'
-// import avatarM1 from "../../assets/avatarM1.svg"
-// import avatarM7 from "../../assets/avatarM7.svg"
-// import avatarH3 from "../../assets/avatarH3.svg"
-// import avatarH6 from "../../assets/avatarH6.svg"
+import avatarM1 from "../../assets/avatarM1.svg"
+import avatarM7 from "../../assets/avatarM7.svg"
+import avatarH3 from "../../assets/avatarH3.svg"
+import avatarH6 from "../../assets/avatarH6.svg"
 import { FaStar } from "react-icons/fa";
 
 

@@ -40,7 +40,6 @@ function App() {
           <Route path='/teste' Component={Teste}/>
         </Routes>
       </BrowserRouter>
-    
 
 
     </div>

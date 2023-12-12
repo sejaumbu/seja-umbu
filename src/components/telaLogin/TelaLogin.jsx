@@ -21,6 +21,17 @@ export default function TelaLogin1(){
                     <input type="password" className="Inputs" placeholder="Senha" required/>
                 </div>
 
+                async function fetchJardineirosJSON(params) {
+                    const response = await fetch('/jardineiros');
+                    const jardineiros = await response.json();
+                    return jardineiros;
+                }
+
+                fetchJardineirosJSON().then(jardineiros => {
+                    jardineiros;
+                })
+
+                
                 <div className="botoes">
                     <button className="btnLogar">Logar</button>
                     <span>OU</span>

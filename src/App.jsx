@@ -1,8 +1,7 @@
-
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // // Import das Rotas
 // import LandingPage from './pages/landingPage/LandingPage';
@@ -14,14 +13,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // // import Perfil from './pages/perfil/Perfil.jsx';
 // import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 // import Umblog from "./pages/umblog/UmblogF.jsx"
-import Teste from './pages/testeCompetencia/Teste.jsx';
-
+// import TelaRegistroT2 from "./components/telasRegistro/telaRegistro2/TelaRegistroT2.jsx";
+// import Teste from "./pages/testeCompetencia/Teste.jsx";
+// import Requerimento from "./pages/requerimentoServicos/Requerimento";
+import LandingPage from "./pages/landingPage/LandingPage";
 
 function App() {
   return (
-
     <div className="rotas">
-      {/* <BrowserRouter>
+      {/* { <BrowserRouter>
         <Routes>
           <Route path='/' Component={LandingPage} />
           <Route path='/chat' Component={Umchat} />
@@ -30,17 +30,13 @@ function App() {
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/notificacoes' Component={Notificacoes} />
           <Route path='/umblog' Component={Umblog} />
-          { <Route path='/login' Component={  }/> }
+          <Route path='/login' Component={  }/>
         </Routes>
-      </BrowserRouter> */}
-
-      {<Teste/>}
-
+      </BrowserRouter> } */}
+      <LandingPage />
+      {/*<Teste />*/}
     </div>
-
-  )
+  );
 }
 
 export default App;
-
-

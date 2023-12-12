@@ -17,10 +17,10 @@ export default function Footer() {
                     <span className="divisoria" />
                     <p>Somos a plataforma que valoriza o trabalho dos jardineiros e conecta apaixonados por jardins a serviços personalizados.</p>
                     <div className="linkIcons">
-                        <a href="#" className="backgroundIcon"><GrFacebookOption /></a>
-                        <a href="#" className="backgroundIcon"><GrInstagram /></a>
-                        <a href="#" className="backgroundIcon"><GrLinkedin /></a>
-                        <a href="#" className="backgroundIcon"><GrGithub /></a>
+                        <a href="https://www.facebook.com/people/Sejaumbu/61552400456797/" className="backgroundIcon" target="_blank"><GrFacebookOption /></a>
+                        <a href="https://www.instagram.com/sejaumbu/" className="backgroundIcon" target="_blank"><GrInstagram /></a>
+                        <a href="https://www.linkedin.com/company/sejaumbu/" className="backgroundIcon" target="_blank"><GrLinkedin /></a>
+                        <a href="https://github.com/sejaumbu" className="backgroundIcon" target="_blank"><GrGithub /></a>
                     </div>
                 </div>
                 <div className="colunaFooter">
@@ -29,8 +29,8 @@ export default function Footer() {
                     <nav>
                         <ul className="listFooter">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">UMblog</a></li>
-                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href='/umblog'>UMblog</a></li>
+                            <li><a href="/sobrenos">Sobre nós</a></li>
                             <li><a href="#">Nossos serviços</a></li>
                         </ul>
                     </nav>
@@ -41,17 +41,17 @@ export default function Footer() {
                     <nav>
                         <ul className="listFooterContent">
                             <li>
-                                <a href="#">Conheça mais sobre jardinagem</a>
+                                <a href='/umblog'>Conheça mais sobre jardinagem</a>
                                 <div className="confiraFooter">
                                     <span className="IconsFooter"><SlCalender /></span>
-                                    <span className="calender">23 May 2021</span>
+                                    <span className="calender">23 Outubro de 2023</span>
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Qual é a nossa missão?</a>
+                                <a href='/umblog'>Conheça nossa identidade</a>
                                 <div className="confiraFooter">
                                     <span className="IconsFooter"><SlCalender /></span>
-                                    <span className="calender">23 May 2021</span>
+                                    <span className="calender">15 de novembro de 2023</span>
                                 </div>
                             </li>
                         </ul>

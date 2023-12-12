@@ -51,7 +51,7 @@ export default function Editarperfil() {
 
                                         <div className="input-container">
                                             <span className="icon_cidade">
-                                                 <SlArrowDown />
+                                                <SlArrowDown />
                                             </span>
                                             <input className='Input2'
                                                 type="text"
@@ -66,7 +66,7 @@ export default function Editarperfil() {
                                         <label className='Label2' id='labeldois' for="estadoInput">Estado</label>
                                         <div className="input-container">
                                             <span className="icon_estado">
-                                                 <SlArrowDown />
+                                                <SlArrowDown />
                                             </span>
                                             <input className='Input2'
                                                 type="text"
@@ -100,11 +100,11 @@ export default function Editarperfil() {
 
 
                             <div className='foto_inf'>
-                                <img className='fotoJ' src={foto} alt=""  />  
+                                <img className='fotoJ' src={foto} alt="" />
                                 <div className="icon-foto">
                                     <span className="icon_foto">
-                                    <FaPenToSquare />
-                                    </span> 
+                                        <FaPenToSquare />
+                                    </span>
                                 </div>
 
                                 <label for="ContatoInput">Contato (Número de contato)</label>

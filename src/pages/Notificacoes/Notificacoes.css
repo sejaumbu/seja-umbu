@@ -101,3 +101,29 @@
         object-fit: cover;
         width: 80px;
 }
+
+
+#botaoContinue  {
+  appearance: none;
+  background-color: #13aa52;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  font-size: 14px;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 15%;
+  height: 5%;
+  margin: 5px;
+ 
+}
+
+
+#botaoContinue:hover {
+  background-color: #006845;
+}
+

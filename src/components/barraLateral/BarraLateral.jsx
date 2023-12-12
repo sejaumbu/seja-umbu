@@ -5,11 +5,12 @@ import { FiHome } from 'react-icons/fi';
 import { BiMessage, BiHelpCircle } from 'react-icons/bi';
 import { CgProfile } from "react-icons/cg"
 import { AiOutlineShoppingCart, AiOutlineHistory } from "react-icons/ai"
-import { MdOutlineNotificationsActive, MdOutlineSettings } from "react-icons/md"
+import { MdOutlineNotificationsActive, MdOutlineSettings, MdOutlineLibraryBooks } from "react-icons/md"
 import { TbPhotoPlus } from "react-icons/tb"
 import "../barraLateral/barraLateral.css"
 import fotoJar from "../../assets/jardineiroFoto.png"
-import { PiBookOpenText } from "react-icons/pi";
+import { RiPagesLine } from "react-icons/ri";
+
 
 function BarraLateral() {
   return (
@@ -38,11 +39,11 @@ function BarraLateral() {
           rota={"/perfil"}
         />
         
-        {/* <ItemBarra
-          iconUrl={<AiOutlineShoppingCart />}
-          nome={"UMShop"}
-          rota={"/umshop"}
-        /> */}
+        <ItemBarra
+          iconUrl={<MdOutlineLibraryBooks />}
+          nome={"Teste de Conhecimento"}
+          rota={"/testeConhecimento"}
+        />
 
         <ItemBarra
           iconUrl={<MdOutlineNotificationsActive />}
@@ -59,7 +60,7 @@ function BarraLateral() {
 
       <div className='itemFinal'>
       <ItemBarra
-          iconUrl={<PiBookOpenText />}
+          iconUrl={<RiPagesLine />}
           nome={"UMBLog"}
           rota={'/umblog'}
         />

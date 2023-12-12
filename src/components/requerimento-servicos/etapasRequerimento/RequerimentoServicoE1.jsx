@@ -1,4 +1,9 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function RequerimentoServicoE1() {
+    const navigate = useNavigate();
+
     return (
         <form className='formServico1'>
             <label>Qual serviço você procura?</label>
@@ -13,7 +18,7 @@ export default function RequerimentoServicoE1() {
                 <option value='sistemaIrrigacao'>Sistema de irrigação</option>
             </select>
             <div className="bntAvancarEspaco">
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnAvancarRequerimento' onClick={ () => navigate('/requerimento2')}>Avançar</button>
             </div>
         </form>
     )

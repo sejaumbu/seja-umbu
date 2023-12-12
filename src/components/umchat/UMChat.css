@@ -231,5 +231,10 @@
 /* Espaço para a estilização do balão de mensagem*/
 
 .umChat{
-    font-weight: 700;
+    font-weight: 600;
+}
+
+#inclusaoSimbolo{
+    display: flex;
+    justify-content: center ;
 }

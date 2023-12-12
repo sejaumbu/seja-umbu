@@ -6,9 +6,11 @@ import './UMChat.css';
 
 export default function UMChat() {
     return (
-        <main className='umchat'>
+        <div className='umchat'>
             <div className='listaContatos'>
-                <h2 className='umChat'>UmChat</h2>
+                <div className="inclusaoSimbolo">
+                    <h2 className='umChat'>UmChat</h2>
+                </div>
                 <Contatos
                     iconesContatos="https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg"
                     nomeContato="Rafaela Silva"
@@ -47,6 +49,6 @@ export default function UMChat() {
                     <button className='voiceButton'><BsMic /></button>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }

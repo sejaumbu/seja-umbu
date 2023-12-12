@@ -1,8 +1,6 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
-export default function RequerimentoServicoE1() {
-    const navigate = useNavigate();
+export default function RequerimentoServicoE1(props) {
 
     return (
         <form className='formServico1'>
@@ -18,7 +16,7 @@ export default function RequerimentoServicoE1() {
                 <option value='sistemaIrrigacao'>Sistema de irrigação</option>
             </select>
             <div className="bntAvancarEspaco">
-                <button className='btnAvancarRequerimento' onClick={ () => navigate('/requerimento2')}>Avançar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

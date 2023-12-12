@@ -116,6 +116,7 @@
 
 .localRequerimento{
     display: flex;
+    align-items: center;
     gap: 50px
 }
 
@@ -141,6 +142,7 @@
     padding: 10px;
     width: 205px;
 }
+
 
 /* Etapa do formulário observação */
 .observacaoServico{

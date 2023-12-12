@@ -1,6 +1,4 @@
-import { useNavigate } from "react-router-dom";
-export default function RequerimentoServicoE4() {
-    const navigate = useNavigate();
+export default function RequerimentoServicoE4(props) {
     return (
         <form className='formServico1-radio'>
             <label>É um projeto de paisagismo?</label>
@@ -13,8 +11,8 @@ export default function RequerimentoServicoE4() {
                 <span>Não</span>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'onClick={ () => navigate('/requerimento3')}>Voltar</button>
-                <button className='btnAvancarRequerimento'onClick={ () => navigate('/requerimento5')}>Avançar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

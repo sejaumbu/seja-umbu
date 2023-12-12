@@ -77,7 +77,7 @@ function LandingPage() {
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper1"
+                    className="mySwiperLP"
                     
                 >
                     <SwiperSlide><img src={SlideFoto}></img></SwiperSlide>

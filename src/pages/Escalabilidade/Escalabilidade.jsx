@@ -59,9 +59,9 @@ function Escalabilidade() {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className="conteudoEscalabilidadeTexto">
+            <div className="conteudoEscalabilidade">
                 <h2>Escalabilidade</h2>
-                <p>A escalabilidade é a capacidade de uma empresa de crescer e se desenvolver de forma sustentável, sem perder a qualidade dos seus produtos e serviços. A escalabilidade é um dos fatores que mais influenciam no sucesso de uma empresa, pois é ela que permite que a empresa cresça sem perder a qualidade de seus produtos e serviços. A escalabilidade é um dos fatores que mais influenciam no sucesso de uma empresa, pois é ela que permite que a empresa cresça sem perder a qualidade de seus produtos e serviços.</p>
+                <p>Na Umbu, nossa ênfase na escalabilidade permeia todos os aspectos, desde a infraestrutura até o design de produtos. Comprometidos com o crescimento sustentável, buscamos soluções que atendam às demandas atuais e proporcionem uma base sólida para a expansão contínua, permitindo que nossos clientes evoluam com confiança ao lado da Umbu.</p>
             </div>
             <Footer />
         </div>

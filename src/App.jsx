@@ -20,7 +20,7 @@ import Umblog from "./pages/umblog/UmblogF.jsx"
 import TesteCompetencia from './pages/testeCompetencia/TesteCompetencia.jsx';
 import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
 import Login from './pages/login/Login.jsx';
-import Publi from './pages/Publi/Publi.jsx';
+// import Publi from './pages/Publi/Publi.jsx';
 import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
 import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 import RequerimentoServicoE1 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE1.jsx';
@@ -53,17 +53,16 @@ function App() {
           <Route path='/registro' Component={Registro} />
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimento' Component={TesteCompetencia} />
-          <Route path='/portfolio' Component={AbaPortfolio} />
-          <Route path='/publicar' Component={Publi} />
+          {/* <Route path='/publicar' Component={Publi} /> */}
           <Route path='/faleconosco' Component={Faleconosco} />
-          <Route path='/editarperfil' Component={Editarperfil} />
-          {/* <Route path='/requerimento1' Component={RequerimentoServicoE1} />
+          <Route path='/editarperfil' Component={Editarperfil} /> 
+          <Route path='/requerimento1' Component={RequerimentoServicoE1} />
           <Route path='/requerimento2' Component={RequerimentoServicoE2} />
           <Route path='/requerimento3' Component={RequerimentoServicoE3} />
           <Route path='/requerimento4' Component={RequerimentoServicoE4} />
           <Route path='/requerimento5' Component={RequerimentoServicoE5} />
           <Route path='/requerimento6' Component={RequerimentoServicoE6} />
-          <Route path='/requerimento7' Component={RequerimentoServicoE7} /> */}
+          <Route path='/requerimento7' Component={RequerimentoServicoE7} />
           <Route path='/requerimento' Component={Requerimento} />
         
         </Routes>

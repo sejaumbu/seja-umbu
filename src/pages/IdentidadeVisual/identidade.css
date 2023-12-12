@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: white;
-}
 .componenteIdentidade {
     margin: 2vw 0vh 9vw 0vh;
 }

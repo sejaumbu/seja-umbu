@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export default function RequerimentoServicoE5() {
+    const navigate = useNavigate();
     return (
         <form className='formServico1-radio'>
             <label>Quando você pretende realizar o serviço?</label>
@@ -19,8 +22,8 @@ export default function RequerimentoServicoE5() {
                 <span>Nos próximos 30 dias</span>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'>Voltar</button>
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnVoltarRequerimento'onClick={ () => navigate('/requerimento4')}>Voltar</button>
+                <button className='btnAvancarRequerimento'onClick={ () => navigate('/requerimento6')}>Avançar</button>
             </div>
         </form>
     )

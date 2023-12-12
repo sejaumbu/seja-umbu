@@ -9,7 +9,7 @@ function PerfilSuperior({ nota }) {
     
     <div className="cardPerfil">
 
-      <div className="cardFundo"> </div>
+      <div className="cardFundoPS"> </div>
 
       <div className="cardPrincipalConteudo">
         <aside className="fotoCardPerfil">

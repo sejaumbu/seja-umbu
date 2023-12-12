@@ -7,15 +7,14 @@ import { FcGoogle } from "react-icons/fc";
 function TelaRegistroContratanteT2(props) {
   return (
     <div className="containerT2">
-        <div className="headerT2">
-            <span><IoIosArrowBack /> Voltar</span>
-            <div className="etapa">
-                <p>Etapa 01/02</p>
-                <strong>Informações Pessoais</strong>
-            </div>
-        </div>
-
         <form className="formT2">
+            <div className="headerT2">
+                <span><IoIosArrowBack /> Voltar</span>
+                <div className="etapa">
+                    <p>Etapa 01/02</p>
+                    <strong>Informações Pessoais</strong>
+                </div>
+            </div>
             <h2>Registre uma conta!</h2>
             <h4>Comece a cultivar oportunidades de sucesso!</h4>
 

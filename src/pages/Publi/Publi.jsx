@@ -1,5 +1,5 @@
 import React from 'react'
-import './Estilopub.css'
+import './estilopub.css'
 import BarraLateral from '../../components/barraLateral/BarraLateral'
 import { MdAddPhotoAlternate } from "react-icons/md";
 import { IoIosPhonePortrait } from "react-icons/io";

@@ -1,8 +1,11 @@
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { CiLock } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
+import { useNavigate, Link } from "react-router-dom";
 import './telaRegistro4.css'
 export default function TelaRegistro4() {
+    const navigate = useNavigate();
+
     return (
         <div className="telaRegistro4">
             <div className="headerRT4">
@@ -33,7 +36,7 @@ export default function TelaRegistro4() {
                     <button>Instalação de Sistemas de Drenagem <FaRegCircleCheck /></button>
                 </div>
                 <div className="enviarHabilidades">
-                    <button>Salvar & Continuar</button>
+                    <button onClick={ () => navigate('/painelcontrole')}>Salvar & Continuar</button>
                     <span><CiLock/> Suas informações estão protegidas com segurança</span>
                 </div>
             </div>

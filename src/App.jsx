@@ -37,16 +37,13 @@ function App() {
           <Route path='/login' Component={Login}/>
           <Route path='/notificacoes' Component={Notificacoes} />
           <Route path='/perfil' Component={Perfil} />
-
           <Route path='/chat' Component={Umchat} />
           <Route path='/umblog' Component={Umblog} />
           <Route path='/registro' Component={Registro} />
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimeto' Component={Teste} />
-
         </Routes>
       </BrowserRouter>
-
 
 
     </div>

@@ -107,4 +107,4 @@ function Escalabilidade() {
     )
 }
 
-export default Escalabilidade
+export default Escalabilidade;

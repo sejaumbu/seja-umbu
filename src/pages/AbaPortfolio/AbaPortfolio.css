@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -11,4 +11,15 @@
 
 .portfolio{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.AbaPortfolio{
+    display: flex;
+    justify-content: center;
+ 
 }

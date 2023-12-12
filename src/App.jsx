@@ -16,6 +16,7 @@ import Registro from "./pages/registro/Registro.jsx";
 import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 import Umblog from "./pages/umblog/UmblogF.jsx"
 import Editarperfil from"./pages/PerfilEdit/Editarperfil.jsx"
+import ElasPodam from "./pages/ElasPodam/elasPodam.jsx";
 
 
 
@@ -35,6 +36,8 @@ function App() {
           <Route path='/umblog' Component={Umblog} />
           <Route path='/registre' Component={ Registro }/> 
           <Route path='/editar' Component={Editarperfil}/>
+          <Route path='/Elas' Component={ElasPodam}/>
+
         </Routes>
       </BrowserRouter>
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import './Portfolio.css'
 
-function ItensFixo() {
+function ItensFixo({ funcaoComponent }) {
   return (
     <div>
     <div className="itensFixo">
         <div className="opcoes">
-            <p className='pOpcoes'>Portfólio</p>
-            <p className='pOpcoes'>Avaliações</p>
+            <p onClick={funcaoComponent('Portfolio')} className='pOpcoes'>Portfólio</p>
+            <p onClick={funcaoComponent('Avaliacoes')} className='pOpcoes'>Avaliações</p>
         </div>
         <hr />
     </div>

@@ -21,6 +21,8 @@ import Umblog from "./pages/umblog/UmblogF.jsx"
 import Teste from './pages/testeCompetencia/Teste.jsx';
 import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
 import Login from './pages/login/Login.jsx';
+import Publicacao from './pages/Publi/Publicacao.jsx';
+
 
 
 function App() {
@@ -35,15 +37,14 @@ function App() {
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/identidade' Component={IdentidadeVisual} />
           <Route path='/login' Component={Login} />
-
           <Route path='/notificacoes' Component={Notificacoes} />
-
           <Route path='/chat' Component={Umchat} />
           <Route path='/umblog' Component={Umblog} />
           <Route path='/registro' Component={Registro} />
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimeto' Component={Teste} />
-
+          <Route path='/publicar' Component={Publicacao} />
+         
         </Routes>
       </BrowserRouter>
 

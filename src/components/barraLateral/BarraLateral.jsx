@@ -9,7 +9,7 @@ import { MdOutlineNotificationsActive, MdOutlineSettings } from "react-icons/md"
 import { TbPhotoPlus } from "react-icons/tb"
 import "../barraLateral/barraLateral.css"
 import fotoJar from "../../assets/jardineiroFoto.png"
-
+import { PiBookOpenText } from "react-icons/pi";
 
 function BarraLateral() {
   return (
@@ -25,33 +25,31 @@ function BarraLateral() {
         <ItemBarra
           iconUrl={<FiHome />}
           nome={"Página Inicial"}
-          rota={"/pagina-inicial"}
+          rota={'/painelcontrole'}
         />
         <ItemBarra
           iconUrl={<BiMessage />}
           nome={"UMChat"}
-          rota={"/umchat"}
+          rota={'/chat'}
         />
         <ItemBarra
           iconUrl={<CgProfile />}
           nome={"Perfil"}
           rota={"/perfil"}
         />
-        <ItemBarra
+        
+        {/* <ItemBarra
           iconUrl={<AiOutlineShoppingCart />}
           nome={"UMShop"}
           rota={"/umshop"}
-        />
+        /> */}
+
         <ItemBarra
           iconUrl={<MdOutlineNotificationsActive />}
           nome={"Notificações"}
-          rota={"/notificacoes"}
+          rota={'/notificacoes'}
         />
-        <ItemBarra
-          iconUrl={<AiOutlineHistory />}
-          nome={"Historico"}
-          rota={"/historico"}
-        />
+       
         <ItemBarra
           iconUrl={<TbPhotoPlus />}
           nome={"Publicar"}
@@ -60,15 +58,20 @@ function BarraLateral() {
       </div>
 
       <div className='itemFinal'>
+      <ItemBarra
+          iconUrl={<PiBookOpenText />}
+          nome={"UMBLog"}
+          rota={'/umblog'}
+        />
         <ItemBarra
           iconUrl={<BiHelpCircle />}
-          nome={"Ajuda"}
-          rota={"/ajuda"}
+          nome={"Fale Conosco"}
+          rota={"/faleconosco"}
         />
         <ItemBarra
           iconUrl={<MdOutlineSettings />}
-          nome={"Configurações"}
-          rota={"/configuracoes"}
+          nome={"Editar Perfil"}
+          rota={"/editarperfil"}
         />
       </div>
 

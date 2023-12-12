@@ -5,7 +5,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Editarperfil from "./pages/PerfilEdit/Editarperfil.jsx"
 
 // Import das Rotas
 import LandingPage from './pages/landingPage/LandingPage';
@@ -21,6 +20,9 @@ import Umblog from "./pages/umblog/UmblogF.jsx"
 import Teste from './pages/testeCompetencia/Teste.jsx';
 import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
 import Login from './pages/login/Login.jsx';
+import Publi from './pages/Publi/Publi.jsx';
+import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
+import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 
 
 function App() {
@@ -29,9 +31,11 @@ function App() {
     <div className="rotas">
       <BrowserRouter>
         <Routes>
+          
+             
           <Route path='/' Component={LandingPage} />
           <Route path='/perfil' Component={AbaPortfolio} />
-          <Route path='/dashboard' Component={Dashboard} />
+          <Route path='/painelcontrole' Component={Dashboard} />
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/identidade' Component={IdentidadeVisual} />
           <Route path='/login' Component={Login}/>
@@ -42,6 +46,10 @@ function App() {
           <Route path='/registro' Component={Registro} />
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimeto' Component={Teste} />
+          <Route path='/portfolio' Component={AbaPortfolio} />
+          <Route path='/publicar' Component={Publi} />
+          <Route path='/faleconosco' Component={Faleconosco} />
+          <Route path='/editarperfil' Component={Editarperfil} />
         </Routes>
       </BrowserRouter>
 

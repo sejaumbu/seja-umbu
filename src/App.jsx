@@ -31,6 +31,7 @@ import RequerimentoServicoE5 from './components/requerimento-servicos/etapasRequ
 import RequerimentoServicoE6 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE6.jsx';
 import RequerimentoServicoE7 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE7.jsx';
 import Requerimento from './pages/requerimentoServicos/Requerimento.jsx';
+import SobreNos from './pages/SobreNós/Sobrenos.jsx';
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
           <Route path='/requerimento6' Component={RequerimentoServicoE6} />
           <Route path='/requerimento7' Component={RequerimentoServicoE7} />
           <Route path='/requerimento' Component={Requerimento} />
+          <Route path='/sobrenos' Component={SobreNos} /> 
         
         </Routes>
       </BrowserRouter>

@@ -4,6 +4,14 @@
 
 }
 
+#conteudoCompletoElas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 97vw;
+}
+
 .capa {
     position: relative;
     display: inline-block;

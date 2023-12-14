@@ -41,7 +41,7 @@ function BarraLateral() {
         
         <ItemBarra
           iconUrl={<MdOutlineLibraryBooks />}
-          nome={"Teste de Conhecimento"}
+          nome={"Teste"}
           rota={"/testeConhecimento"}
         />
 

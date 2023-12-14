@@ -1,8 +1,8 @@
-.swiperSobreNos {
+.swiperSobreNos > .swiperSobreNos {
     height: 410px;
 }
 
-.swiper-slide {
+.swiperSobreNos > .swiper-slide {
     background-color: #00572E;
     width: 100%;
     height: 100%;

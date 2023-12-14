@@ -46,7 +46,10 @@ header nav ul{
 }
 
 .listNav a:hover{
- color: #002619; 
+ color: #002619;
+ border-bottom: #006845 solid 5px;
+ transition: 0.3s (xgit);
+ 
 }
 
 .logotipo{

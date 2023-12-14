@@ -1,9 +1,8 @@
 .barraLateral {
     width: 255px;
     height: 100vh;
-    position: fixed;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: white;
+    background-color: #006845;
 }
 
 .barraLateral li{
@@ -12,15 +11,18 @@
 
 .barraLateral a{
     text-decoration: none;
-    color: #006845;
+    color: white;
 }
 
 .itemSite {
     padding-left: 10px;
+
 }
 
 .container {
     padding: 8px;
+    border-bottom: 1px solid white;
+
 }
 
 .cardJardineiro {
@@ -30,8 +32,9 @@
 .categories {
     padding: 15px;
     cursor: pointer;
-    font-weight: 500;
-    color: #666666;
+    font-weight: 400;
+    color: white;
+
 }
 
 .container:hover {
@@ -39,8 +42,9 @@
     padding: 20px;
     cursor: pointer;
     background: rgba(0, 104, 69, 0.18);
-    color: #006845;
+    color: white;
     width: 245px;
+    font-size: 19px;
 
 }
 
@@ -50,8 +54,8 @@
 }
 
 .iconUrl:hover {
-    color: #006845;
-    font-weight: 700;
+    color: white;
+    font-weight: 900;
 }
 
 .itemFinal {

@@ -2,9 +2,10 @@ import React from 'react'
 import "../perfilSuperior/perfilSuperior.css"
 import { IoStar } from "react-icons/io5";
 import fotoJar from "../../assets/jardineiroFoto.png"
-
+import { useNavigate } from 'react-router-dom';
 
 function PerfilSuperior({ nota }) {
+  const navigate = useNavigate();
   return (
     
     <div className="cardPerfil">
@@ -40,7 +41,7 @@ function PerfilSuperior({ nota }) {
 
 
           <div className="conteudoLadoDireito">
-            <button>Contrate</button>
+            <button onClick={ () => navigate('/chat')} >Contrate</button>
           </div>
         </div>
 

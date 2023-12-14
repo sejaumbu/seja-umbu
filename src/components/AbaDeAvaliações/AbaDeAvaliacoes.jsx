@@ -6,6 +6,7 @@ import ComentarioNotas from './Avaliações/ComentarioNotas'
 // import avatarH3 from "../../assets/avatarH3.svg"
 // import avatarH6 from "../../assets/avatarH6.svg"
 import { FaStar } from "react-icons/fa";
+import './AbaDeAvaliacoes.css'
 
 
 function AbaDeAvaliacoes(props) {

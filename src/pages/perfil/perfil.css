@@ -1,27 +1,27 @@
 .mainPerfil{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
-
-.AbaPortfolio{
     display: flex;
-    justify-content: center;
- 
 }
 
-/* .mainPerfil{
+.mainPerfilPerfil{
+    max-width: 100% ;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-left: 300px;
-} */
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+    margin-left: 150px;
+}
 
-.mainPerfilPerfi{
+.barraLateral{
+    position: fixed;
+}
+
+.portfolio{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin:auto;
+    border-radius:10px;
+    margin: auto;
+    max-width: 75%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+

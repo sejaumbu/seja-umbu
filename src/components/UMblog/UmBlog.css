@@ -43,68 +43,6 @@
     width: 100vw;
 }
 
-.cardUmblog{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 380px;
-    height: 440px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.03);
-    background: #FFF;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
-}
-
-.cardUmblog img{
-    width: 130px;
-}
-
-.cardTittle-umblog{
-    padding-left: 40px;
-    padding-right: 40px;
-    color: #285A43;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.cardText-umblog{
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 18px;
-}
-
-.cardUmblog-2{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 380px;
-    height: 440px;
-    border-radius: 10px;
-    background: #006845;
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);
-    color: white;
-}
-
-.cardUmblog-2 img{
-    width: 130px;
-}
-
-.cardTittle-umblog-2{
-    padding-left: 40px;
-    padding-right: 40px;
-    color: white;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.cardText-umblog-2{
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 18px;
-}
-
 .conceitosUmblog{
     display: flex;
     justify-content: center;

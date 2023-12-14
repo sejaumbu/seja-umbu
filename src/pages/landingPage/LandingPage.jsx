@@ -167,7 +167,7 @@ function LandingPage() {
                         delay: 2000,
                         disableOnInteraction: false,
                     }}
-                    className="mySwiper"
+                    className="mySwiperLP"
                 >
                     <SwiperSlide>
                         <CardServico

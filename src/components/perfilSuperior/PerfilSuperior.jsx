@@ -35,7 +35,6 @@ function PerfilSuperior({ nota }) {
               <p className="habilidades">Manutenção</p>
               <p className="verMaisPerfil">Ver mais...</p>
             </div>
-
           </div>
 
 

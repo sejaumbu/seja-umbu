@@ -2,7 +2,7 @@
     width: 255px;
     height: 100vh;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: #006845;
+    background-color: white;
 }
 
 .barraLateral li{
@@ -11,7 +11,7 @@
 
 .barraLateral a{
     text-decoration: none;
-    color: white;
+    color: #006545;
 }
 
 .itemSite {
@@ -33,7 +33,7 @@
     padding: 15px;
     cursor: pointer;
     font-weight: 400;
-    color: white;
+    color: #006545;
 
 }
 
@@ -42,7 +42,7 @@
     padding: 20px;
     cursor: pointer;
     background: rgba(0, 104, 69, 0.18);
-    color: white;
+    color: #006545;
     width: 245px;
     font-size: 19px;
 
@@ -54,7 +54,7 @@
 }
 
 .iconUrl:hover {
-    color: white;
+    color: #006545;
     font-weight: 900;
 }
 

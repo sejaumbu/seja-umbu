@@ -16,7 +16,7 @@
 
 .pOpcoes {
     color: #565656;
-    font-size: 21px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -78,7 +78,18 @@
 
 .reviews{
     color: #006845;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    margin-left: 27%;
+    margin-left: 120px;
+
+}
+
+
+.marginAvaliacoes{
+ max-width: 70%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-left: 120px;
 }

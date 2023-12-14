@@ -9,14 +9,15 @@
 
 .cardJardineiro h4 {
     font-size: 22px;
-    color: white;
+    color: #006545;
     height: 900;
     margin: 5px;
 }
 
 .cardJardineiro h2 {
     font-size: 17px;
-    color: white;
+    color: grey ; 
+
 }
 
 .cardJardineiro img {

@@ -37,7 +37,7 @@
 .image{
     position: absolute;
     z-index: 1;
-    filter: blur(1.5px);
+    filter: blur(0px);
 
 }
 

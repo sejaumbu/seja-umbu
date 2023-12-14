@@ -1,4 +1,7 @@
-export default function RequerimentoServicoE1() {
+import React from 'react';
+
+export default function RequerimentoServicoE1(props) {
+
     return (
         <form className='formServico1'>
             <label>Qual serviço você procura?</label>
@@ -13,7 +16,7 @@ export default function RequerimentoServicoE1() {
                 <option value='sistemaIrrigacao'>Sistema de irrigação</option>
             </select>
             <div className="bntAvancarEspaco">
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

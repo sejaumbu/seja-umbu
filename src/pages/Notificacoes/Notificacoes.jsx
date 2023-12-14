@@ -1,6 +1,6 @@
 import React from 'react'
 import BarraLateral from '../../components/barraLateral/BarraLateral'
-import ItensFixo from '../../components/Notificações/BoxNotificacao/ItensFixo'
+import Opcoes from '../../components/Notificações/BoxNotificacao/Opcoes'
 import BoxNotificacao from '../../components/Notificações/BoxNotificacao/BoxNotificacao'
 // import avatarM1 from "../../assets/j"
 // import avatarM7 from "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -17,7 +17,7 @@ function Notificacoes() {
       <div className="conteudoNotificacao">
 
         <div className='notificacoes'>
-          <ItensFixo />
+          <Opcoes />
           <BoxNotificacao
             imgPerfil="https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg"
             nomeContratante="Rafaela  Silva"

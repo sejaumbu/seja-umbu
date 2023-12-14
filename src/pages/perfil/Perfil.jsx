@@ -2,7 +2,7 @@ import React from 'react'
 import Dashboard from '../dashboard/Dashboard'
 import PerfilSuperior from "../../components/perfilSuperior/PerfilSuperior"
 import "./perfilSuperior.css"
-import Portfolio from "../../components/Portfolio/Portfolio"
+import AbaPortfolio from '../AbaPortfolio/AbaPortfolio'
 
 function Perfil() {
     return (
@@ -11,7 +11,7 @@ function Perfil() {
 
             <div className="mainPerfil">
                 <PerfilSuperior />
-                <Portfolio/>
+                <AbaPortfolioPortfolio/>
             </div>
 
 

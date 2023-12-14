@@ -5,10 +5,11 @@ import { FiHome } from 'react-icons/fi';
 import { BiMessage, BiHelpCircle } from 'react-icons/bi';
 import { CgProfile } from "react-icons/cg"
 import { AiOutlineShoppingCart, AiOutlineHistory } from "react-icons/ai"
-import { MdOutlineNotificationsActive, MdOutlineSettings } from "react-icons/md"
+import { MdOutlineNotificationsActive, MdOutlineSettings, MdOutlineLibraryBooks } from "react-icons/md"
 import { TbPhotoPlus } from "react-icons/tb"
 import "../barraLateral/barraLateral.css"
 import fotoJar from "../../assets/jardineiroFoto.png"
+import { RiPagesLine } from "react-icons/ri";
 
 
 function BarraLateral() {
@@ -25,33 +26,31 @@ function BarraLateral() {
         <ItemBarra
           iconUrl={<FiHome />}
           nome={"Página Inicial"}
-          rota={"/pagina-inicial"}
+          rota={'/painelcontrole'}
         />
         <ItemBarra
           iconUrl={<BiMessage />}
           nome={"UMChat"}
-          rota={"/umchat"}
+          rota={'/chat'}
         />
         <ItemBarra
           iconUrl={<CgProfile />}
           nome={"Perfil"}
           rota={"/perfil"}
         />
+        
         <ItemBarra
-          iconUrl={<AiOutlineShoppingCart />}
-          nome={"UMShop"}
-          rota={"/umshop"}
+          iconUrl={<MdOutlineLibraryBooks />}
+          nome={"Teste"}
+          rota={"/testeConhecimento"}
         />
+
         <ItemBarra
           iconUrl={<MdOutlineNotificationsActive />}
           nome={"Notificações"}
-          rota={"/notificacoes"}
+          rota={'/notificacoes'}
         />
-        <ItemBarra
-          iconUrl={<AiOutlineHistory />}
-          nome={"Historico"}
-          rota={"/historico"}
-        />
+       
         <ItemBarra
           iconUrl={<TbPhotoPlus />}
           nome={"Publicar"}
@@ -60,15 +59,20 @@ function BarraLateral() {
       </div>
 
       <div className='itemFinal'>
+      <ItemBarra
+          iconUrl={<RiPagesLine />}
+          nome={"UMBLog"}
+          rota={'/umblog'}
+        />
         <ItemBarra
           iconUrl={<BiHelpCircle />}
-          nome={"Ajuda"}
-          rota={"/ajuda"}
+          nome={"Fale Conosco"}
+          rota={"/faleconosco"}
         />
         <ItemBarra
           iconUrl={<MdOutlineSettings />}
-          nome={"Configurações"}
-          rota={"/configuracoes"}
+          nome={"Editar Perfil"}
+          rota={"/editarperfil"}
         />
       </div>
 

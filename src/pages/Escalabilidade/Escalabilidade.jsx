@@ -12,8 +12,6 @@ import Footer from '../../components/footer/Footer';
 import umbuPlanta from "../../assets/usadosEscalabilidade/umbuPlanta.png"
 import "./escalabilidade.css"
 
-
-
 function Escalabilidade() {
     return (
         <div>
@@ -26,16 +24,15 @@ function Escalabilidade() {
                     centeredSlides={true}
                     autoplay={{
                         delay: 2500,
-                        disableOnInteraction: true,
+                        disableOnInteraction: false,
                     }}
                     pagination={{
                         clickable: true,
                     }}
                     navigation={false}
                     modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
+                    className="escalabilidadeSwiper"
                 >
-
                     <SwiperSlide>
                         <div className="slideUmbuNosJardins">
                             <h2 className='tituloSlider'> <span className="detalheTitulo">Projeto UMBU Cria: </span>Conectando Pessoas, Transformando Espaços Verdes</h2>
@@ -48,63 +45,27 @@ function Escalabilidade() {
                             <img src={umbuPlanta} alt="" className="image" />
                         </div>
                     </SwiperSlide>
-                 
-                 
-
+                    <SwiperSlide>
+                        <div className="slideUmbuNosJardins">
+                            <h2 className='tituloSlider'> <span className="detalheTitulo">Projeto UMBU Cria: </span>Conectando Pessoas, Transformando Espaços Verdes</h2>
+                            <img src={umbuPlanta} alt="" className="image" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideUmbuNosJardins">
+                            <h2 className='tituloSlider'> <span className="detalheTitulo">Projeto UMBU Cria: </span>Conectando Pessoas, Transformando Espaços Verdes</h2>
+                            <img src={umbuPlanta} alt="" className="image" />
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
-                {/* <Swiper
-                    effect={'fade'}
-                    navigation={true}
-                    modules={[Autoplay, Pagination, Navigation, EffectFade]}
-                    className="mySwiper carousel-blog"
-                    autoplay={{
-                        delay: 3000,
-                        disableOnInteraction: true,
-                    }}
-                    pagination={true}
-                    loop={true}
-                >
-                    <SwiperSlide>
-                        <a href="">
-                            <div className="box-slide-imagem-1 slide-carousel">
-                                <div className='slide-content'>
-                                    <span>AGRICULTURA URBANA</span>
-                                    <h2>
-                                        Conheça o Telhado Verde do Shopping Eldorado: Iniciativa
-                                        promove horta e compostagem.
-                                    </h2>
-                                </div>
-                            </div>
-                        </a>
-                    </SwiperSlide> */}
-
-
             </div>
-            {/* <h2 className="titulo">Futuro da UMBU</h2>
-            <div className="box1">
-                <img className='imgAreasComuns' src={escalabilidade1} />
-                <div className='text'>
-                    <p className='TextMaior'>  Áreas verdes mais comuns na cidade</p>
-                    <p className='TextMenor'> Investir em áreas carentes de espaços verdes e locais de convivência. Nosso objetivo é tornar áreas verdes mais comuns na cidade, impactando positivamente não apenas os lugares, mas também a vida das pessoas ao nosso redor.  </p>
-                </div>
+            <div className="conteudoEscalabilidade">
+                <h2>Escalabilidade</h2>
+                <p>Na Umbu, nossa ênfase na escalabilidade permeia todos os aspectos, desde a infraestrutura até o design de produtos. Comprometidos com o crescimento sustentável, buscamos soluções que atendam às demandas atuais e proporcionem uma base sólida para a expansão contínua, permitindo que nossos clientes evoluam com confiança ao lado da Umbu.</p>
             </div>
-            <div className="box2">
-                <div className='text2'>
-                    <p className='TextMaior2'>  Versão mobile UMBU</p>
-                    <p className='TextMenor2'>Estamos desenvolvendo uma versão mobile da UMBU para tornar a plataforma mais acessível aos jardineiros. Além disso, estamos implementando uma vitrine para lojas de jardinagem, permitindo que anunciem seus produtos mediante uma mensalidade simbólica. Isso facilitará aos jardineiros encontrar equipamentos de qualidade e proporcionará maior visibilidade aos negócios do setor. </p>
-                </div>
-                <img className="imgMobile" src={escalabilidade2} />
-            </div>
-            <div className="box3">
-                <img className="imgUMshop" src={escalabilidade3} />
-                <div className='text3'>
-                    <p className='TextMaior3'> Vitrine para lojas de jardinagem</p>
-                    <p className='TextMenor3'>Permitindo que anunciem seus produtos mediante uma mensalidade simbólica. Isso facilitará aos jardineiros encontrar equipamentos de qualidade e proporcionará maior visibilidade aos negócios do setor.</p>
-                </div>
-            </div> */}
             <Footer />
         </div>
     )
 }
 
-export default Escalabilidade
+export default Escalabilidade;

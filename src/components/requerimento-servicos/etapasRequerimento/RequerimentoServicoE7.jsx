@@ -1,4 +1,4 @@
-export default function RequerimentoServicoE7(){
+export default function RequerimentoServicoE7(props){
     return(
         <form className="observacaoServico">
             <h3>Observações/descrição do serviço</h3>
@@ -13,8 +13,8 @@ export default function RequerimentoServicoE7(){
                 </div>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'>Voltar</button>
-                <button className='btnAvancarRequerimento'>Enviar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

@@ -1,78 +1,87 @@
-.swiper {
-    width: 80vw;
+.escalabilidadeSwiper {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-    border-radius: 20px;
-
+    margin-bottom: 100px;
+    --swiper-theme-color: #00C800;
 }
 
-.swiper-slide {
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
+.escalabilidadeSwiper img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-
-
-
 .slideUmbuNosJardins{
-    width: 80vw;
-    height: 75vh;
-
+    width: 100%;
+    height: 80vh;
 }
 
 .tituloSlider{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     color: white;
-    font-size: 30px;
-    margin-top: 420px;
-    margin-left: 25px;
     font-weight: 700;
     font-size: 32px;
     position: absolute;
     z-index: 2;
-    text-shadow: black 0.1em 0.1em 0.2em
-
+    text-shadow: black 0.1em 0.1em 0.2em;
+    justify-content: end;
+    padding-bottom: 80px;
+    padding-left: 80px;
 }
+
 .image{
     position: absolute;
     z-index: 1;
     filter: blur(1.5px);
 
 }
+
 .detalheTitulo{
     color:#16A016;
 }
 
 .carouselEscalabilidade{
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
 .descricaoEscalabilidade{
     font-size: 20px;
     max-width: 80%;
-    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     text-align: justify;
-
 }
 
 .tituloCaroussel h2{
     gap: 10px;
     display: flexbox;
     flex-direction: row;
+}
+
+.conteudoEscalabilidade{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 80%;
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+
+
+.conteudoEscalabilidade h2{
+    color: #00572E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }

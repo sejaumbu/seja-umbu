@@ -1,4 +1,5 @@
-export default function RequerimentoServicoE2() {
+export default function RequerimentoServicoE2(props) {
+
     return (
         <form className='formServico1-radio'>
             <label>Qual é o tamanho do jardim?</label>
@@ -19,8 +20,8 @@ export default function RequerimentoServicoE2() {
                 <span>Muito grande (200m² ou mais)</span>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'>Voltar</button>
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

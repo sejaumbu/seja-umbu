@@ -1,4 +1,4 @@
-export default function RequerimentoServicoE3() {
+export default function RequerimentoServicoE3(props) {
     return (
         <form className='formServico1-radio'>
             <label>Qual é o local do serviço?</label>
@@ -19,8 +19,8 @@ export default function RequerimentoServicoE3() {
                 <span>Outro</span>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'>Voltar</button>
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

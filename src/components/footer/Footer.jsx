@@ -11,7 +11,7 @@ import "../footer/footer.css";
 
 export default function Footer() {
     return (
-        <footer>
+        <footer id="footer">
             <div className="footerContent">
                 <div className="colunaFooter">
                     <h3>Quem somos?</h3>
@@ -42,17 +42,17 @@ export default function Footer() {
                     <nav>
                         <ul className="listFooterContent">
                             <li>
-                                <a href="#">Conheça mais sobre jardinagem</a>
+                                <a href='/umblog'>Conheça mais sobre jardinagem</a>
                                 <div className="confiraFooter">
                                     <span className="IconsFooter"><SlCalender /></span>
-                                    <span className="calender">23 May 2021</span>
+                                    <span className="calender">23 Outubro de 2023</span>
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Qual é a nossa missão?</a>
+                                <a href='/umblog'>Conheça nossa identidade</a>
                                 <div className="confiraFooter">
                                     <span className="IconsFooter"><SlCalender /></span>
-                                    <span className="calender">23 May 2021</span>
+                                    <span className="calender">15 de novembro de 2023</span>
                                 </div>
                             </li>
                         </ul>

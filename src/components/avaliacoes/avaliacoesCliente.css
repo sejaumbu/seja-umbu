@@ -1,10 +1,12 @@
 .cardAvaliacao {
     display: flex;
     flex-direction: column;
-    width: 27vw;
-    height: 37vh;
+    width: 380px;
+    height: auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .cardFundo {

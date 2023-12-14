@@ -1,7 +1,84 @@
-/* 
-
-
-.separador{
+.divisaoTelaDash{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
+    grid-template-columns: 1fr 4fr;
+}
+
+.conteudoDashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;  
+}
+
+.funcionalidadesDashboard{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 200px;  
+}
+
+.servicoDash1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: linear-gradient(rgba(138, 185, 33, 0.37), rgba(138, 185, 33, 0.37)), url(https://s3-alpha-sig.figma.com/img/5ccf/1cc0/5c8f5ff5903186b9e53f60de8f5b1188?Expires=1703462400&Signature=lOjjfEwnOaeVy8Bmx70rexgfPqxAQw19j7CCcwOF7~vf2va4P7XybPsLDUVsp7OSBabL6CwAtuqJDOTdl1PR4V8CLGW5jjrXr2D0z00X5RPtpuD0bSTf8XyMjlvuybS8wFII5vbqIZSGyVsnHRhw7iG~ZaLoy0elUiMw6O8r-K5D0iRNv7xl-TtIe9yYBg18npYHkh0Dy4O~5zDzJPPBrTZwgTM3q~FzxpCf2QC4wLUWWz~-fd30PJscdo27ek0XX4KJtwkd71ZEYNgfuPUPQDjSZtJIDZK4Q2fCrIGMtATa6YjfF0vN5beQRTTKRu7WkmgIcNhbx2JJs-nHXmvJuA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    width: 35%;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.servicoDash2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: linear-gradient(rgba(138, 185, 33, 0.37), rgba(138, 185, 33, 0.37)), url(https://s3-alpha-sig.figma.com/img/f946/49b3/af5cb6e53985655eb884013188b494bb?Expires=1703462400&Signature=WFmAMXjfJkKBaUdpeoni2XqYYj-EoCka3GfJUBWh8JfUw9qC51Igln-33LMIb6v43F06959eCR4zNUPtJuMfWhIw3NY3Xljlegr1ni1TcCrFJ3gDslOMdyrhf11J4UpG~QUBJjN~7KG93hg0-GlEQxdZvKbiffmKe7kBmq~GbhSB4vd4ZUtCjZxyfRjJKTvhkHlAVLREvkjA8JtuRdkyENxquveTKVa8HtwVn4teqG4TTZHclj3DsDz-q1JjDnKZhEV5ik5IleKuqotzR2~bkax12QNIG2qE0VhhIE1U9IqtgAf8GD9yrhSAsapFeQgzcQpjAtm43tNgXCEcI7~cYA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    width: 35%;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.servicoDash3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: linear-gradient(rgba(138, 185, 33, 0.37), rgba(138, 185, 33, 0.37)), url(https://s3-alpha-sig.figma.com/img/3ede/a6c6/4cb364d1c7b33d74ff6ee8ae66fc2ca8?Expires=1703462400&Signature=RucvkAmBsVBShsYnobM7Lz9cgxbmOBbzJCX9bpWDS6ZxxLfTFRZ5IHhytGf3vBfE9gw5lYL-g47lznfF93cOKqhHlBDP22PC~qtrFxBYSC7JdFE8I3xgCf65MiL~Wft1~JUJRG0m9xOSsv4c7~Hutn7ThfuFX2fLEbrwsM2yznNjPeolbedGxR5wtdIf~rcOrZt13WzLFu-hwV71Vfs8RC7ZmotxmuLt363KOKdfWM~HyenkNd2b66a-QmR76RyX-SJ5w--hsZmF-BX7SS5wF72vvdd91NrxgdysT4T5a7cR7kw~l2r3lu1FeClUcZ-G~9p7tY6WljMaRiCGMp2ofg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    width: 35%;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.funcionalidadesDashboard h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.parceriaDash{
+    width: 90%;
+    height: 500px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/43df/13fa/5010cf3a3f26e5859d4f60bf2f576d11?Expires=1703462400&Signature=Cch6qbzEKs1UI61eDmNaAyUA0hW~5lgxvqwLuN6bFBaE6oIDPKoNYEtkY498BRNimuuyFmZqymaNJwC~igWfJoK7a33c1DsaUWP0bYj-n~HoXkkosRG~Y7SuWAp62wf9A-wM27yDrDWNstEf5jdv8CVkYWP6ewcd75-YFCphGsBoLxTwjprCFwqIm3aPF3YOG-IrnHdqyiDxiRyT9PhsEMnzHtQaxq3uSyF415ovOoCn4eXxm~vtY4qsgG0buE9ke11yxKHN4qI8ajLFtR9zynQax9JQ~4uycx2afZcd~WzxkGhT0zFhLhY0ylFuASlEHgClHPwFY8Rj3BdevJcjkw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 75px;
+    padding-bottom: 80px;
+}
+
+.parceriaDash button{
+    width: 171.422px;
+    height: 42.822px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: #006845;
+    color: white;
+    border: none;
+}

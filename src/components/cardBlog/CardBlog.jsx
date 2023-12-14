@@ -1,8 +1,10 @@
 import React from 'react'
 import "./cardCompleto.css"
+import { useNavigate } from 'react-router-dom'
 
 
 function CardBlog({ image, tituloMateria, dataPublicacao, descricao, materia }) {
+    const navigate = useNavigate();
     return (
         <div>
             <div className="cardCompleto">

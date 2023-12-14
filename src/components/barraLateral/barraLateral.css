@@ -4,21 +4,23 @@
     position: fixed;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: white;
-
 }
 
-.containerBarraLateral {
+.barraLateral li{
     list-style: none;
-    padding: 8px;
 }
 
-.containerBarraLateral a{
+.barraLateral a{
     text-decoration: none;
-    padding-left: 20px;
+    color: #006845;
 }
 
-.containerBarraLateral svg{
-    color: #006845;
+.itemSite {
+    padding-left: 10px;
+}
+
+.container {
+    padding: 8px;
 }
 
 .cardJardineiro {
@@ -26,38 +28,37 @@
 }
 
 .categories {
-    padding-left: 15px;
+    padding: 15px;
     cursor: pointer;
     font-weight: 500;
     color: #666666;
-    font-size: 18px;
 }
 
-.containerBarraLateral:hover {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    padding: 20px;
+.container:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
     cursor: pointer;
     background: rgba(0, 104, 69, 0.18);
-    color:#006845;
+    color: #006845;
     width: 245px;
 
 }
 
-.iconUrl{
+.iconUrl {
     font-size: 18px;
     cursor: pointer;
 }
 
-.iconUrl:hover{
+.iconUrl:hover {
     color: #006845;
     font-weight: 700;
-
 }
 
-.itemFinal{
-    margin-top: 60px;
+.itemFinal {
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
-.itemSite{
-    margin-top:35px;
-
+.itemSite {
+    margin-top: 20px;
 }

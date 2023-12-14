@@ -10,7 +10,7 @@ import "../footer/footer.css";
 
 export default function Footer() {
     return (
-        <footer>
+        <footer id="footer">
             <div className="footerContent">
                 <div className="colunaFooter">
                     <h3>Quem somos?</h3>

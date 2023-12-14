@@ -1,0 +1,114 @@
+.divFaleconosco {
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 90vh ;
+}
+
+
+.bodyFaleconosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faleconosco-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.faleconosco-input {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.faleconosco-textarea {
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.faleconosco-button {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.faleconosco-button:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.faleconosco-button:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.faleconosco-button:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.faleconosco-title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.faleconosco-text{
+    align-items: center;
+    text-align: center;
+}
+.faleconosco-subtitle{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.ladoDireitoFaleconosco {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #27ae60;
+    border-radius: 20px 0px 0px 20px;
+
+}

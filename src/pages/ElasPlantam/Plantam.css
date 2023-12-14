@@ -7,6 +7,7 @@
 .capa {
     position: relative;
     display: inline-block;
+    width: 99vw;
   }
   
   .texto-meio {

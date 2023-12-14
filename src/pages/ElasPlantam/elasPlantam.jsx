@@ -9,15 +9,21 @@ import imagem3 from "../../assets/usadosElasPlantam/Imagem3.png"
 
 //Componentes
 import Footer from "../../components/footer/Footer";
+import Header from '../../components/header/Header';
+
+
 
 import "./Plantam.css";
+
 function elasPlantam() {
     const navigate = useNavigate();
 
     return (
 
         <div>
+            <Header/>
             <div className='capa'>
+                
                 <img className='capa' src={Capa} alt="" />
                 <div className='texto-meio'>
                     <h2 className='Titulo'>Elas Plantam</h2>

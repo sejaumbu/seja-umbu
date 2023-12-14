@@ -17,7 +17,7 @@ import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx"
 import Registro from "./pages/registro/Registro.jsx";
 import Umblog from "./pages/umblog/UmblogF.jsx"
 import TesteCompetencia from './pages/testeCompetencia/TesteCompetencia.jsx';
-import ElasPlantam from './pages/ElasPlantam/elasPlantam.jsx';
+import ElasPlantam from './pages/ElasPlantam/ElasPlantam.jsx';
 import Login from './pages/login/Login.jsx';
 import Publi from './pages/Publicacao/Publicacao.jsx';
 import Faleconosco from './pages/faleconosco/Faleconosco.jsx';

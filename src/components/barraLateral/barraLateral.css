@@ -7,38 +7,40 @@
 
 }
 
-.containerBarraLateral {
-    list-style: none;
+.itemSite {
+    margin: 10px;
+}
+
+.container {
     padding: 8px;
+
 }
 
-.containerBarraLateral a{
-    text-decoration: none;
-    padding-left: 20px;
-}
-
-.containerBarraLateral svg{
-    color: #006845;
-}
 
 .cardJardineiro {
     padding: 10px;
 }
 
+.itemFinal {
+    margin: 10px;
+}
+
 .categories {
-    padding-left: 15px;
+    padding: 15px;
     cursor: pointer;
     font-weight: 500;
     color: #666666;
-    font-size: 18px;
+
+
 }
 
-.containerBarraLateral:hover {
+.container:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    padding: 20px;
     cursor: pointer;
     background: rgba(0, 104, 69, 0.18);
     color:#006845;
     width: 245px;
+    border-radius: 30px;
 
 }
 
@@ -47,11 +49,13 @@
     cursor: pointer;
 }
 
+
 .iconUrl:hover{
     color: #006845;
     font-weight: 700;
 
 }
+
 
 .itemFinal{
     margin-top: 60px;

@@ -8,12 +8,14 @@ import ComentarioNotas from './Avaliações/ComentarioNotas'
 import { FaStar } from "react-icons/fa";
 
 
-function AbaDeAvaliacoes() {
+function AbaDeAvaliacoes(props) {
   return (
     <div className='notificacoes'>
-      <ItensSuperior
+      {/* <ItensSuperior
         reviews="5"
-      />
+      /> */}
+      <h4 className='reviews'>All Reviews (40)</h4>
+
       <ComentarioNotas
 
         imgPerfil="https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg"
@@ -28,7 +30,7 @@ function AbaDeAvaliacoes() {
       />
 
       <ComentarioNotas
-        imgPerfil="https://i.pinimg.com/originals/6b/b6/0f/6bb60f9f19d2ab89b7884be903f85576.jpg"
+        imgPerfil = "https://media.licdn.com/dms/image/D4D08AQE0CXu4hnoe7g/croft-frontend-shrinkToFit1024/0/1646754728586?e=2147483647&v=beta&t=ADkOVwOwmP-4rCH4y0g2_OBFlsszl01TpQPhCgt5SSc"
         nomeContratante="Ronaldo Nazario"
         nota1={<FaStar />}
         nota2={<FaStar />}
@@ -41,7 +43,7 @@ function AbaDeAvaliacoes() {
 
 
       <ComentarioNotas
-        imgPerfil="https://images.pexels.com/photos/13211891/pexels-photo-13211891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        imgPerfil="https://www.ups.com/assets/resources/webcontent/images/manage-shipping-profile-G-1189349093-Q421.jpg"
         nomeContratante="Gabriel Santana"
         nota1={<FaStar />}
         nota2={<FaStar />}
@@ -54,7 +56,7 @@ function AbaDeAvaliacoes() {
 
 
       <ComentarioNotas
-        imgPerfil="https://i.pinimg.com/originals/19/c7/4f/19c74f6a44c05aba8bf74c829fd0527d.jpg"
+        imgPerfil="https://images.unsplash.com/photo-1619895862022-09114b41f16f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D"  
         nomeContratante="Manuella Jaidan"
         nota1={<FaStar />}
         nota2={<FaStar />}
@@ -67,7 +69,7 @@ function AbaDeAvaliacoes() {
 
 
       <ComentarioNotas
-        imgPerfil="https://i.pinimg.com/originals/c3/02/bd/c302bdbab47f484464c67978004413bc.jpg"
+        imgPerfil="https://sarahclaysocial.com/wp-content/uploads/2020/10/sarah-clay-3.jpg"
         nomeContratante="Rafaella Costa"
         nota1={<FaStar />}
         nota2={<FaStar />}

@@ -39,12 +39,12 @@
     justify-content: center;
 }
 
-.imgPerfil {
-    display: flex;
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    margin-right: 4%;
+.imgPerfilPerfil{
+    object-fit: cover;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    margin-right: 4px;
 }
 
 .box {

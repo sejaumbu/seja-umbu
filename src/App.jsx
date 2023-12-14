@@ -20,7 +20,7 @@ import TesteCompetencia from './pages/testeCompetencia/TesteCompetencia.jsx';
 import ElasPlantam from './pages/ElasPlantam/ElasPlantam.jsx';
 import Login from './pages/login/Login.jsx';
 import Publi from './pages/Publicacao/Publicacao.jsx';
-import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
+// import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
 import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 import Perfil from './pages/perfil/Perfil.jsx'
 import Requerimento from './pages/requerimentoServicos/Requerimento.jsx';
@@ -49,7 +49,7 @@ function App() {
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimento' Component={TesteCompetencia} />
           <Route path='/publicar' Component={Publi} />
-          <Route path='/faleconosco' Component={Faleconosco} />
+          {/* <Route path='/faleconosco' Component={Faleconosco} /> */}
           <Route path='/editarperfil' Component={Editarperfil} /> 
           <Route path='/requerimento' Component={Requerimento} />
           <Route path='/sobrenos' Component={SobreNos} />           

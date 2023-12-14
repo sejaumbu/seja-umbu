@@ -82,7 +82,7 @@
     padding-bottom: 30px;
 }
 
-button {
+.btn-seguranca{
     background-color: #006845;
     border-radius: 10px;
     height: 53px;
@@ -93,7 +93,7 @@ button {
     border: none;
   }
   
-  button:hover {
+  .btn-seguranca:hover {
     background-color: #00C800; 
   }
 

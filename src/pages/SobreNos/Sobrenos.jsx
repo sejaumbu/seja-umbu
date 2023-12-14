@@ -10,8 +10,8 @@ import 'swiper/css/navigation';
 
 
 import './sobrenos.css';
-import Header from '../../components/Header/Header.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
+import Footer from '../../components/footer/Footer.jsx';
+import Header from '../../components/header/Header.jsx';
 
 function Sobrenos() {
     return (

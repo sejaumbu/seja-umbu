@@ -24,7 +24,7 @@ import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
 import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 import Perfil from './pages/perfil/Perfil.jsx'
 import Requerimento from './pages/requerimentoServicos/Requerimento.jsx';
-import SobreNos from './pages/SobreNós/Sobrenos.jsx';
+import SobreNos from './pages/SobreNos/Sobrenos.jsx';
 import Planos  from  './pages/Planos/Planos.jsx';
 
 

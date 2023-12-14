@@ -7,49 +7,48 @@
 }
 
 .umblogTittle{
-    font-size: 5.5rem;
+    font-size: 6rem;
     color: #0F4229;
     font-weight: bold;
     margin-top: 60px;
 }
 
 .UmblogFrase{
-    font-size: 22px;
+    font-size: 28px;
     color: #646464;
     width: 80%;
     margin-bottom: 50px;
 }
 
 .Subtittles{
-    color: #0F4229; 
+    color: #016C05; 
     font-size: 34px;
     font-style: normal;
     font-weight: 800;
     padding-left: 10%;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .containerValores{
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
 .valoresUmblog{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
-    gap: 50px;
-    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    width: 100vw;
 }
 
 .cardUmblog{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 320px;
-    height: 400px;
+    width: 380px;
+    height: 440px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.03);
     background: #FFF;
@@ -79,8 +78,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 320px;
-    height: 400px;
+    width: 380px;
+    height: 440px;
     border-radius: 10px;
     background: #006845;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.02);

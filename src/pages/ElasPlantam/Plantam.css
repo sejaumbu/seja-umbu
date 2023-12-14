@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.capa {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .texto-meio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+.Titulo {
+    font-size: 51px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.SubTitulo {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    height: 2vw;
+    text-align: center;
+}
+
+.Capa {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+
+.Texto-inicial {
+    margin-top: 7vw;
+
+
+}
+
+
+.inicio {
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+
+}
+
+.mulheres-container {
+    padding-top: 47px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+}
+
+.titulo-mulheres {
+    color: #000000;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 71px;
+}
+
+.paragrafo-mulheres {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    padding-bottom: 30px;
+}
+
+.btn-seguranca{
+    background-color: #006845;
+    border-radius: 10px;
+    height: 53px;
+    width: 313px;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease; 
+    border: none;
+  }
+  
+  .btn-seguranca:hover {
+    background-color: #00C800; 
+  }
+
+.seguranca-container{
+    line-height: 71px;
+    padding-top: 47px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.terceiro-paragrafo{
+    padding-top: 22px;
+}
+
+.titulo-seguranca{
+    color: #000000;
+    font-size: 37px;
+    font-weight: 511;
+    line-height: 71px;
+}
+.paragrafo-seguranca{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+}
+.ImgSeguranca{
+    display: flex;
+    margin: inherit;
+    width: 100vw;
+}
+
+.img-1{
+    width: 600px;
+}
+
+.img-2{
+    width: 600px;
+}
+
+.img-3{
+    width: 600px;
+    padding: 0px 0px 60px 0px;
+}
+
+.textSeguranca{
+    padding-top: 16vw;
+    color: #000000;
+}
+
+.paragrafo-img {
+    width: 65%;
+    font-size: 30px;
+    margin: 70px;
+    font-weight: normal;
+    line-height: 1.6;
+  }

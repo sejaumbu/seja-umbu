@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
-export default function RequerimentoServicoE2() {
-    const navigate = useNavigate();
+export default function RequerimentoServicoE2(props) {
 
     return (
         <form className='formServico1-radio'>
@@ -23,8 +20,8 @@ export default function RequerimentoServicoE2() {
                 <span>Muito grande (200m² ou mais)</span>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento' onClick={ () => navigate('/requerimento1')}>Voltar</button>
-                <button className='btnAvancarRequerimento' onClick={ () => navigate('/requerimento3')}>Avançar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

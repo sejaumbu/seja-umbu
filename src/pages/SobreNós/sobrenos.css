@@ -1,0 +1,140 @@
+.swiperSobreNos {
+    height: 410px;
+}
+
+.swiper-slide {
+    background-color: #00572E;
+    width: 100%;
+    height: 100%;
+}
+
+.cardPhoto {
+    background-color: white;
+    width: 235px;
+    height: 330px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+
+.cardPhoto .fotocard {
+    border-radius: 550px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    /* max-width: 70%; */
+    gap: 50px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #006845;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.backgroundIconSobreNos {
+    font-size: 45px;
+    gap: 50px;
+    color: #006845;
+}
+
+.nomeintegrante {
+    color: #006845;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.profissao {
+    display: flex;
+    text-align: justify;
+    color: rgb(103, 102, 102);
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.sectionCards {
+    background: #00572E;
+    /* background: linear-gradient(90deg, rgba(0,101,69,1) 0%, rgba(177,209,130,1) 100%); */
+
+}
+
+.tituloPaginaSobre {
+    font-size: 55px;
+    font-weight: 700;
+    display: flex;
+    color: #00572E;
+    margin-top: 50px;
+
+}
+
+
+.tituloSo {
+    max-width: 84%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.tituloSo  > p {
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.tituloSetor{
+    font-weight: 600;
+    color: black;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.integrantes{
+    font-size: 25px;
+}
+
+.descricaoCargos{
+    max-width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin:auto;
+
+}
+
+.descricaoCargo{
+    font-size: 17px;
+}
+
+.footerSobreNos{
+    margin-top: 200px;
+}

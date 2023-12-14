@@ -1,4 +1,4 @@
-export default function RequerimentoServicoE6(){
+export default function RequerimentoServicoE6(props){
     return(
         <form className="enderecoServico">
             <h3>Endereço do serviço</h3>
@@ -13,12 +13,12 @@ export default function RequerimentoServicoE6(){
             <div className="localRequerimento">
                 <div className="cidadeRequerimento">
                     <label>Cidade</label>
-                    <input type='text' placeholder='Ex: Rua 123, N° 230, centro'/>
+                    <input type='text' placeholder='Ex: São paulo'/>
                 </div>
                 <div className="estadoRequerimento">
                     <label>Estado</label>
                     
-                    <select className="Inputs" required>
+                    <select className="selectLocalidadeReq" required>
                         <option value="" disabled selected>Selecione</option>
                         <option value="SaoPaulo">São Paulo</option>
                         <option value="RioDeJaneiro">Rio de Janeiro</option>
@@ -44,8 +44,8 @@ export default function RequerimentoServicoE6(){
                 </div>
             </div>
             <div className="bntAvancarEspaco">
-                <button className='btnVoltarRequerimento'>Voltar</button>
-                <button className='btnAvancarRequerimento'>Avançar</button>
+                <button className='btnVoltarRequerimento' onClick={props.voltarReq}>Voltar</button>
+                <button className='btnAvancarRequerimento' onClick={props.avancarReq}>Avançar</button>
             </div>
         </form>
     )

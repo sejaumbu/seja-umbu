@@ -238,3 +238,13 @@
     display: flex;
     justify-content: center ;
 }
+
+.btnVolta {
+    background: none;
+    border: none;
+    cursor: pointer; 
+   color: white;
+   padding-right: 200px;
+   padding-top: 20px;
+  }
+  

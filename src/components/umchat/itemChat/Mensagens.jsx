@@ -5,7 +5,7 @@ export default function Mensagens() {
             <div className="headerMensagens">
                 <div className="infoContato">            
 
-                    <img  className='fotoConversa' src="https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg" className="fotoContato" />
+                  <img  className='fotoConversa' src="https://shotkit.com/wp-content/uploads/bb-plugin/cache/cool-profile-pic-matheus-ferrero-landscape-6cbeea07ce870fc53bedd94909941a4b-zybravgx2q47.jpeg"/>
                     <p>Rafaela Silva</p>
                 </div>
                 <button className="messageActions"><AiOutlineMore /></button>

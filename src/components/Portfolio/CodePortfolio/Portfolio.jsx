@@ -1,5 +1,5 @@
 import React from 'react'
-import Fotos from './Publicacoes/Fotos'
+import Fotos from '../Publicacoes/Fotos'
 
 
 function Portfolio() {

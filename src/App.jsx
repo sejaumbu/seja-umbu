@@ -13,16 +13,15 @@ import Escalabilidade from "./pages/Escalabilidade/Escalabilidade.jsx"
 import Dashboard from './pages/dashboard/Dashboard.jsx';
 import Umchat from './components/umchat/UMChat.jsx';
 // import AbaDeAvaliacoes from './components/AbaDeAvaliações/AbaDeAvaliacoes.jsx';
-import Perfil from './pages/perfil/Perfil.jsx';
 import IdentidadeVisual from "./pages/IdentidadeVisual/IdentidadeVisualTela.jsx";
 import Registro from "./pages/registro/Registro.jsx";
 import Umblog from "./pages/umblog/UmblogF.jsx"
 import TesteCompetencia from './pages/testeCompetencia/TesteCompetencia.jsx';
-import AbaPortfolio from './pages/AbaPortfolio/AbaPortfolio.jsx';
 import Login from './pages/login/Login.jsx';
 import Publi from './pages/Publi/Publi.jsx';
 import Faleconosco from './pages/faleconosco/Faleconosco.jsx';
 import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
+import Perfil from './pages/perfil/Perfil.jsx'
 import RequerimentoServicoE1 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE1.jsx';
 import RequerimentoServicoE2 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE2.jsx';
 import RequerimentoServicoE3 from './components/requerimento-servicos/etapasRequerimento/RequerimentoServicoE3.jsx';
@@ -41,7 +40,6 @@ function App() {
         <Routes>
 
           <Route path='/' Component={LandingPage} />
-          <Route path='/perfil' Component={AbaPortfolio} />
           <Route path='/painelcontrole' Component={Dashboard} />
           <Route path='/escalabilidade' Component={Escalabilidade} />
           <Route path='/identidade' Component={IdentidadeVisual} />
@@ -53,7 +51,6 @@ function App() {
           <Route path='/registro' Component={Registro} />
           <Route path='/editar' Component={Editarperfil} />
           <Route path='/testeConhecimento' Component={TesteCompetencia} />
-          <Route path='/portfolio' Component={AbaPortfolio} />
           <Route path='/publicar' Component={Publi} />
           <Route path='/faleconosco' Component={Faleconosco} />
           <Route path='/editarperfil' Component={Editarperfil} />

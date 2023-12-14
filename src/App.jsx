@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 // Import das Rotas
 import LandingPage from './pages/landingPage/LandingPage';
 import Notificacoes from './pages/Notificacoes/Notificacoes.jsx';

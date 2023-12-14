@@ -15,7 +15,7 @@ function CardBlog({ image, tituloMateria, dataPublicacao, descricao, materia }) 
                     <h2 className="tituloMateria" >{tituloMateria}</h2>
                     <p className="dataPublicacao" >{dataPublicacao}</p>
                     <p className="descricaoCard" >{descricao}</p>
-                    <button className="botaoClica" onClick={materia}>Leia sobre</button>
+                    <button className="botaoClica" onClick={() => navigate(materia)}>Saiba mais</button>
                 </div>
 
             </div>

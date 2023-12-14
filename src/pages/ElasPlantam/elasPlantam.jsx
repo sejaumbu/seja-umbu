@@ -37,7 +37,7 @@ function elasPlantam() {
                     <div className='segundo-paragrafo'>
                         <h2 className='titulo-mulheres'>Mulheres que podam o mundo</h2>
                         <p className='paragrafo-mulheres'>A nossa missão é ser uma aliada para um número crescente de mulheres no universo da jardinagem, auxiliando-as a assumir o controle de suas vidas e oferecendo novas oportunidades de renda. Buscamos apoiar as mulheres na conquista de seus objetivos, promovendo a autonomia tanto pessoal quanto financeira. Dessa forma, encorajamos a participação ativa das mulheres em nossa plataforma, incentivando não apenas a integração delas, mas também a indicação de outras mulheres que desejem explorar esse novo horizonte na jardinagem.</p>
-                        <button type = "button" onClick={ () => navigate('/registro')}>CADASTRE-SE</button>
+                        <button className='btn-seguranca' type = "button" onClick={ () => navigate('/registro')}>CADASTRE-SE</button>
                     </div>
 
                 </div>

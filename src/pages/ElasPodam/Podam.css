@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100vw;
+    margin-left: 0px;
+    display: flex;
+    background: #006845;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0px;
+    border-bottom: 1px solid #006845;
+}
+
+.aliarItens {
+    align-items: center;
+}
+
+.TituloE {
+    font-size: 51px;
+    color: #ffffff;
+    /* font-family: "Roboto-Regular", Helvetica; */
+    font-weight: 402;
+    text-align: center;
+
+}
+
+.inicioTi {
+    color: #ffffff;
+    /* font-family: "Montserrat-Regular", Helvetica; */
+    font-size: 20px;
+    font-weight: 400;
+    height: 2vw;
+    text-align: center;
+}
+
+.imagem1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+
+.ConteudoCentral {
+    margin-top: 7vw;
+
+
+}
+
+
+.inicio {
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.title {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+
+}
+
+.PartMulheres {
+    padding-top: 47px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+}
+
+.TituloM {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 71px;
+}
+
+.P_2 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    padding-bottom: 30px;
+}
+
+button {
+    
+    background-color: #006845;
+    border-radius: 15px;
+    height: 53px;
+    width: 313px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.PartSeguran{
+    line-height: 71px;
+    padding-top: 47px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.terceiro_p{
+    padding-top: 22px;
+}
+
+.TituloS{
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 37px;
+    font-weight: 511;
+    line-height: 71px;
+}
+.P_3{
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+}
+.Foto_T{
+    display: flex;
+    margin: inherit;
+   
+}
+.fotos{
+    width: 46vw;
+}
+
+.textinf{
+    padding-top: 18vw;
+}
+
+.textinf p{
+    padding-top: 40px;
+    margin-left:  20px;
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 32px;
+    margin-right:  20px;
+}

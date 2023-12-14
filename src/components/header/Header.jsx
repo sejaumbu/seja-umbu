@@ -19,7 +19,10 @@ export default function Header(){
                         <li><Link to='/'>Home</Link></li>
                         <li><a href="/umchat">Serviços</a></li>
                         <li><a href="/faleconosco">Fale conosco</a></li>
-                        <li><Link to='/umblog'>UMblog</Link></li>
+                        <li><a href='/blog'>UMblog</a></li>
+                        <li><a href="/sobrenos">Sobre nós</a></li>
+                        <li><a href="/planos">Planos</a></li>
+
                     </ul>
                 </nav>
 
@@ -35,6 +38,7 @@ export default function Header(){
                     <Dropdown.Item href="/faleconosco">Fale conosco</Dropdown.Item>
                     <Dropdown.Item><Link to="/umblog">UMblog</Link></Dropdown.Item>
                     <Dropdown.Item href="/sobrenos">Sobre nós</Dropdown.Item>
+                    <Dropdown.Item href="/planos">Planos</Dropdown.Item>
                     <hr/>
                     <Dropdown.Item href="/registro">Login/Registro</Dropdown.Item>
                 </DropdownButton>

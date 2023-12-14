@@ -330,41 +330,6 @@ function LandingPage() {
                 </div>
             </div>
             
-            <div className="planosUmbu">
-                <span className='testeGratis'>
-                    <h2>Teste nossa plataforma</h2>
-                    <h2>por<span className='planosTextColor'> 2 meses gratuitos</span></h2>
-                </span>
-                <div className="umbuPremium">
-                    <h3>Planos UMBU <span className='planosTextColor2'>Premium</span></h3>
-                    <p>Após o período de teste, escolha o plano que melhor se adapte a você e colha os frutos de uma experiência premium.</p>
-                </div>
-                <div className="cardsPlanos">
-                    <div className="card">
-                        <h3>Mensal</h3>
-                        <span>Jardine com Paixão Mês a Mês: Seu Jardim, Sua Beleza, Sem Compromissos de Longo Prazo.</span>
-                        <br/>
-                        <h4>R$70<span className='tipoPlano'> /mês</span></h4>
-                        <button>Assine</button>
-                    </div>
-                    <div className="card">
-                        <span className='planoRecomendado'>recomendado</span>
-                        <h3>Semestral</h3>
-                        <span>Florindo a Longo Prazo: Economize com Nosso Plano Semestral e Desfrute de Seu Jardim Continuamente.</span>
-                        <br/>
-                        <h4>R$350<span className='tipoPlano'> /semestral</span></h4>
-                        <button>Assine</button>
-                    </div>
-                    <div className="card">
-                        <h3>Anual</h3>
-                        <span>Jardim em Flor o Ano Inteiro: Maximize suas Economias com Nosso Plano Anual Exclusivo</span>
-                        <br/>
-                        <h4>R$700<span className='tipoPlano'> /anual</span></h4>
-                        <button>Assine</button>
-                    </div>
-                </div>
-            </div>
-            
             <div className="divReviewsCards">
                 <h2>Feedbacks</h2>
                 <div className="containerFeedbacks">

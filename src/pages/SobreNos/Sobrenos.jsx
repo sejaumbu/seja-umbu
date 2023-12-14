@@ -32,7 +32,7 @@ function Sobrenos() {
                 slidesPerView={5}
                 className="swiperSobreNos"
             >
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://media.licdn.com/dms/image/D4D03AQE78ZAuB8rkUw/profile-displayphoto-shrink_400_400/0/1694717478295?e=1707350400&v=beta&t=CXIwmm5CzCFpPlR1LdKwWPYc3AphfwMHdFFX3PU-8Iw' alt="Camile Santana" />
                         <div className="infos">
@@ -46,7 +46,7 @@ function Sobrenos() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://avatars.githubusercontent.com/u/115378745?v=4' alt="Maicoln Pereira" />
                         <div className="infos">
@@ -61,7 +61,7 @@ function Sobrenos() {
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://media.licdn.com/dms/image/D4D03AQHYFom1ViuvIw/profile-displayphoto-shrink_400_400/0/1692478688931?e=1707955200&v=beta&t=5sQnV4YpNNBRsW9GJscPWFrSZcF55IlQHU67IEuIYAE' alt="Gustavo de Melo" />
                         <div className="infos">
@@ -75,7 +75,7 @@ function Sobrenos() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://media.licdn.com/dms/image/D4D03AQGKYL6_6nxc5Q/profile-displayphoto-shrink_400_400/0/1697089198877?e=1707955200&v=beta&t=rb1kj0PrA86wMBinWxsg-6VvMGshJOcCbdWzTzCABoc' alt="Ingrid Vitória" />
                         <div className="infos">
@@ -90,7 +90,7 @@ function Sobrenos() {
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://avatars.githubusercontent.com/u/110247321?v=4' alt="Bruno Jaidan" />
                         <div className="infos">
@@ -104,7 +104,7 @@ function Sobrenos() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://avatars.githubusercontent.com/u/119820823?v=4' alt="Felipe Oliveira" />
                         <div className="infos">
@@ -118,7 +118,7 @@ function Sobrenos() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://media.licdn.com/dms/image/D4E03AQHEarcytVyGvQ/profile-displayphoto-shrink_400_400/0/1696596377380?e=1707955200&v=beta&t=wifn3tNHSvjWPU7LvBhbfidYEBD2Gfxt0JhGIgTL5sE' alt="Lucas Bonfim" />
                         <div className="infos">
@@ -132,7 +132,7 @@ function Sobrenos() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className='containerCardSobreNos'>
                     <div className="cardPhoto">
                         <img className='fotocard' src='https://media.licdn.com/dms/image/D4D03AQE1nR7QuBXn4g/profile-displayphoto-shrink_400_400/0/1699486882137?e=1707955200&v=beta&t=CkXCgH4MjxUDeBGTZtSIokuXkD0r6PheXNnsW_cvYG4' alt="Gabriel Borges" />
                         <div className="infos">
@@ -149,7 +149,7 @@ function Sobrenos() {
             </Swiper>
 
             <div className="descricaoCargos">
-                <h2 className='tituloPaginaSobre'> Como semeamos a UMBU?</h2>
+                <h2 className='tituloPaginaSobre2'> Como semeamos a UMBU?</h2>
 
                 <div className="setorFull">
                     <h2 className='tituloSetor'>UI/UX Designer e Social Media</h2>

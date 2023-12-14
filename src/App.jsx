@@ -25,6 +25,7 @@ import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 import Perfil from './pages/perfil/Perfil.jsx'
 import Requerimento from './pages/requerimentoServicos/Requerimento.jsx';
 import SobreNos from './pages/SobreNós/Sobrenos.jsx';
+import Planos  from  './pages/Planos/Planos.jsx';
 
 
 function App() {
@@ -51,7 +52,9 @@ function App() {
           <Route path='/faleconosco' Component={Faleconosco} />
           <Route path='/editarperfil' Component={Editarperfil} /> 
           <Route path='/requerimento' Component={Requerimento} />
-          <Route path='/sobrenos' Component={SobreNos} /> 
+          <Route path='/sobrenos' Component={SobreNos} />           
+          <Route path='/planos' Component={Planos} /> 
+
         
         </Routes>
       </BrowserRouter>

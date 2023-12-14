@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { useNavigate } from 'react-router-dom';
 
 // Componentes
 import Header from "../../components/header/Header";
@@ -52,6 +53,7 @@ import { TbGardenCart } from "react-icons/tb";
 import { PiPlantBold } from "react-icons/pi";
 
 function LandingPage() {
+    const navigate = useNavigate();
     return (
         <div>
             <Header />
@@ -61,7 +63,7 @@ function LandingPage() {
                         <h2 className='tittleLanding'>Bem vindo ao futuro da</h2>
                         <h2 className='subTittleLanding'>Jardinagem</h2>
                         <p>Seu jardim, nossa missão!</p>
-                        <button>Cadastrar</button>
+                        <button onClick={ () => navigate('/registro')} >Cadastrar</button>
                     </span>
                 </div>
                 
@@ -247,7 +249,7 @@ function LandingPage() {
                     <img src='https://images.unsplash.com/photo-1555955208-94f6fafea771?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
                     <img src='https://s3-alpha-sig.figma.com/img/99ff/70da/390f375969da9cfa66ed02fa9ae135a7?Expires=1702857600&Signature=BDMsdUa4xmJ3hdO6bKFVPxsXrnr4XOItSlXikXTyJ5BYkiz4USUaOMGZst8sf4Y4C5X3uEL5E9q~CSJrV6W9AcPvKIYgXA1NQbATwHtWuo8Kz0s85DsoL4OSmFEHC6AUXhtXp5hjXNWyPK3TJLYMvWn76yz6mh4HoukCir8fqSiWcTRQqadmkyjw4BI3UMeYp4ncLqQylxr2EcGU9tJOy8atYwRpfNQG8Yb5GVLPesFeYNTa88xjkw0T9rgS4o7M1pz8frABRMaexloA1e~Stp7Q9ApFmLs~i8bYTgsi8oPTvBuwM0x4fo943pQS1oN380JenNbKU7ywDl5Ltl9Kbg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'/>
                 </div>
-                <button>Saiba mais</button>
+                <button onClick={ () => navigate('/elasplantam')}>Saiba mais</button>
             </div>
             
             
@@ -326,7 +328,7 @@ function LandingPage() {
                 </div>
                 <div className="detalhesLP5">
                     <img src={detalhes4}/>
-                    <button className='vejaMaisPortifolio'>Veja mais</button>
+                    <button  onClick={ () => navigate('/elasplantam')} className='vejaMaisPortifolio'>Veja mais</button>
                 </div>
             </div>
             
@@ -341,12 +343,12 @@ function LandingPage() {
                     <AvaliacoesCliente
                         fotoJard={fotoJara}
                         nomeAvaliacao="Maria Oliveira"
-                        descricaoAvaliacao="A Umbu superou minhas expectativas! Como jardineira, encontrei projetos desafiadores que me permitiram expandir minhas habilidades. A plataforma é intuitiva. Recomendo a todos os profissionais verdes lá fora!"
+                        descricaoAvaliacao="A Umbu superou minhas expectativas! A plataforma é intuitiva. Recomendo a todos os profissionais verdes lá fora!"
                         descricaoTipoUsuario="Jardineira" />
                     <AvaliacoesCliente
                         fotoJard={fotoJar2}
                         nomeAvaliacao="Carlos Silva"
-                        descricaoAvaliacao="A Umbu é uma ferramenta indispensável para quem procura serviços de jardinagem de qualidade. A plataforma é fácil de usar, e a variedade de profissionais é impressionante. Ótima experiência!"
+                        descricaoAvaliacao="A Umbu é uma ferramenta indispensável para quem jardinagem de qualidade. A plataforma é fácil de usar, e a variedade de profissionais é impressionante."
                         descricaoTipoUsuario="Cliente" />
                 </div>
             </div>

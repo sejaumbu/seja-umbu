@@ -17,11 +17,10 @@ export default function Header(){
                 <nav className="navegacao">
                     <ul className="listNav">
                         <li><Link to='/'>Home</Link></li>
-                        <li><a href="/umchat">Serviços</a></li>
-                        <li><a href="/faleconosco">Fale conosco</a></li>
-                        <li><a href='/blog'>UMblog</a></li>
-                        <li><a href="/sobrenos">Sobre nós</a></li>
+                        <li><a href='/umblog'>UMblog</a></li>
                         <li><a href="/planos">Planos</a></li>
+                        <li><a href="/faleconosco">Fale conosco</a></li>
+
 
                     </ul>
                 </nav>

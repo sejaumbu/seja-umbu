@@ -1,16 +1,17 @@
 
 
 .cardFundoPS {
-    width: 100%;
+    width: 70vw;
     height: 180px;
     border-radius: 10px;
     background: #006845;
+    
 }
 
 
 
 /* Estilo para os textos na parte superior */
-.parteCimaConteudo p {
+.parteCimaConteudo > p {
     color: #006845;
     font-size: 12px; /* Convertido de 1.7vw para px */
     color: black;
@@ -26,6 +27,8 @@
 .cardPerfil {
     box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1.5px; /* Convertido para px */
     border-radius: 10px;
+    width: 70vw;
+    margin-bottom: 40px;
 }
 
 /* Estilo para o conteúdo principal do card */

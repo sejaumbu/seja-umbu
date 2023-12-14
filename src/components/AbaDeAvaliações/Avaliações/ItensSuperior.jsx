@@ -11,7 +11,6 @@ function ItensSuperior(props) {
                 </div>
                 <hr />
             </div>
-            <h4 className='reviews'>All Reviews ({props.reviews})</h4>
         </div>
     )
 }

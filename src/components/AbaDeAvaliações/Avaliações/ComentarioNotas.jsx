@@ -6,7 +6,7 @@ function ComentarioNotas(props) {
     return (
         <div>
             <div className='avaliacao'>
-                <img className='imgPerfil' src={props.imgPerfil} />
+                <img className='imgPerfilPerfil' src={props.imgPerfil} />
                 <div className='box'>
                     <div className='nomeContratante'>
                         {props.nomeContratante}

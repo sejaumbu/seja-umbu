@@ -68,18 +68,21 @@
 }
 
 .parceriaDash img{
-    width: 100%;
+    width: 1000px;
+    height: 90%;
     object-fit: contain;
     border-radius: 15px;
     z-index: -1;
 }
 
-.parceriaDash button{
+.parceriaDash  button{
     width: 171.422px;
     height: 42.822px;   
     border-radius: 19px;
     background: #006845;
     color: white;
+    margin-top: -80px;
+    margin-left: -260px;
     border: none;
 }
 

@@ -80,20 +80,18 @@ function UmBlog(){
                 descricao = "Teste nossa plataforma por 2 meses gratuitos." 
                 materia = "/planos"
                 />
+                
                 <div className="cardCompleto">
-                <div className="cardImagem">
-                    <img src="https://classic.exame.com/wp-content/uploads/2020/12/PROA_Processo_Seletivo_GutoGarrote.jpg?quality=70&strip=info&w=1024" alt="" className="imagem" />
+                    <div className="cardImagem">
+                        <img src="https://classic.exame.com/wp-content/uploads/2020/12/PROA_Processo_Seletivo_GutoGarrote.jpg?quality=70&strip=info&w=1024" alt="" className="imagem" />
+                        <h2 className="tituloMateria" >PROA</h2>
+                        <p className="dataPublicacao" >30 de outubro de 2023</p>
+                        <p className="descricaoCard" >Conheça mais sobre o Instituto PROA</p>
+                    </div>
+                    <div className="restanteCard">
+                       <a href="https://www.proa.org.br/" target="_blank" rel="noopener noreferrer"><button className="botaoClica">Saiba mais</button></a>
+                    </div>
                 </div>
-                <div className="restanteCard">
-                    <h2 className="tituloMateria" >PROA</h2>
-                    <p className="dataPublicacao" >30 de outubro de 2023</p>
-                    <p className="descricaoCard" >Conheça mais sobre o Instituto PROA</p>
-                    <button className="botaoClica" onClick= "www.proa.org.br/proprofissao/">Saiba mais</button>
-                </div>
-
-            </div>
-                
-                
             </div>
         </div>  
     )

@@ -25,6 +25,7 @@ import Editarperfil from './pages/PerfilEdit/Editarperfil.jsx';
 import Perfil from './pages/perfil/Perfil.jsx'
 import Requerimento from './pages/requerimentoServicos/Requerimento.jsx';
 import SobreNos from './pages/SobreNós/Sobrenos.jsx';
+import Pagamento from './pages/Pagamento/Pagamento.jsx';
 
 
 function App() {
@@ -52,7 +53,7 @@ function App() {
           <Route path='/editarperfil' Component={Editarperfil} /> 
           <Route path='/requerimento' Component={Requerimento} />
           <Route path='/sobrenos' Component={SobreNos} /> 
-        
+          <Route path='/pagamento' Component={Pagamento}/>
         </Routes>
       </BrowserRouter>
 

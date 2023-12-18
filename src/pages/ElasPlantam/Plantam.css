@@ -37,7 +37,7 @@
 
 .SubTitulo {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     height: 2vw;
     text-align: center;
@@ -136,7 +136,7 @@
 }
 
 .img-1{
-    width: 600px;
+    max-width: 600px;
 }
 
 .img-2{

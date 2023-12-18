@@ -5,8 +5,25 @@ import { BsMic, BsSend } from "react-icons/bs";
 import './UMChat.css';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa6";
+import { useState } from 'react';
+
+
+
 
 export default function UMChat() {
+    const [mensagens, setMensagens] = useState({
+        mensagem: '',
+        enviado: false,
+    });
+
+    const handleSend = () => {
+        
+    }
+
+    const handleChanges = (e) => {  
+        setMensagens({mensagem: e.target.value, ...mensagens});
+        console.log(mensagem)
+    }
     const navigate = useNavigate();
     return (
         <div>
@@ -45,12 +62,14 @@ export default function UMChat() {
 
                 </div>
                 <div>
-                    <Mensagens />
+                    <Mensagens 
+                    infoMensagem={mensagens}
+                    />
                     <div className='footerMessage'>
                         <div className="inputMessage">
                             <MdOutlineEmojiEmotions />
-                            <input placeholder='Escreva para o prestador de serviço...' />
-                            <button className='sendButton'><BsSend /></button>
+                            <input onChange={handleChanges}  placeholder='Escreva para o prestador de serviço...'  />
+                            <button className='sendButton' ><BsSend /></button>
                         </div>
                         <button className='voiceButton'><BsMic /></button>
                     </div>
@@ -59,3 +78,6 @@ export default function UMChat() {
         </div>
     )
 }
+
+
+

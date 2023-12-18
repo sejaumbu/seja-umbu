@@ -8,7 +8,8 @@ import logoUmbu from "../../assets/usadosIdentidade/LogoUMBU.png";
 import Aplicacao from "../../assets/usadosIdentidade/AplicacaoVisual.jpg";
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
-import { PiPlant } from "react-icons/pi";
+import { PiPlantFill } from "react-icons/pi";
+import { RiPlantFill } from "react-icons/ri";
 
 function IdentidadeVisualTela() {
     return (
@@ -53,19 +54,19 @@ function IdentidadeVisualTela() {
                         <p className="sub">Matizes representativos da marca </p>
                         <div className="folhagens">
                             <div className="corHex" id='corPrimaria'>
-                                <span className='folhagemItem1'><PiPlant /></span>
+                                <span className='folhagemItem1'><RiPlantFill /></span>
                                 <p>#00572E</p>
                             </div>
                             <div className="corHex" id='corSecundaria'>
-                                <span className='folhagemItem2' ><PiPlant /></span>
+                                <span className='folhagemItem2' ><RiPlantFill /></span>
                                 <p>#006845</p>
                             </div>
                             <div className="corHex" id='corTercearia'>
-                                <span className='folhagemItem3' ><PiPlant /></span>
+                                <span className='folhagemItem3' ><RiPlantFill /></span>
                                 <p>#2E7F60</p>
                             </div>
                             <div className="corHex" id="corQuarta">
-                                <span className='folhagemItem4' ><PiPlant /></span>
+                                <span className='folhagemItem4' ><RiPlantFill /></span>
                                 <p>#51C601</p>
                             </div>
 

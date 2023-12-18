@@ -1,5 +1,7 @@
 import { AiOutlineMore } from "react-icons/ai";
-export default function Mensagens() {
+
+export default function Mensagens({infoMensagem}) {
+    console.log(infoMensagem)
     return (
         <>
             <div className="headerMensagens">

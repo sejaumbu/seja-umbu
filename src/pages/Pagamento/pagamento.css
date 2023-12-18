@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form_De_Pagemnto {
+    margin-left: 15px;
+    padding-top: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tituloFP {
+    padding-top: 7px;
+    color: #006845;
+    width: 530px;
+    height: 4vw;
+    text-align: center;
+    padding-top: 19px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 501;
+
+}
+
+.box_pagamento {
+    display: flex;
+    gap: 10px;
+    background: #ffffff;
+    width: 100%;
+}
+
+.primeiroBox {
+    width: 61vw;
+    background-color: #DFDFDF;
+    border: 1px solid;
+    height: 37vw;
+}
+
+.bordaa2 {
+    margin-left: 1px;
+    height: 154px;
+    background-color: #ffffff;
+    width: 311px;
+}
+
+.bordaa {
+    margin-left: 1px;
+    border: 1px solid;
+    height: 154px;
+    background-color: #DFDFDF;
+    width: 311px;
+    display: inline-block;
+}
+
+.icone {
+    border-radius: 2%;
+    color: #006946;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+
+}
+
+
+
+.Add {
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    width: 309px;
+    color: #006946;
+}
+
+
+.Information {
+    height: 319px;
+    margin-top: 26px;
+    margin-left: 62px;
+    margin-right: 49px;
+    margin-bottom: 32px
+}
+
+
+.Information label {
+    color: #1b1b1b;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+#cpfInput {
+    padding: 1vw;
+    width: 39vw;
+    height: 3vw;
+    border-color: #848484;
+    background: #DFDFDF;
+}
+
+#numeroInput {
+    padding: 1vw;
+    width: 39vw;
+    height: 3vw;
+    border-color: #848484;
+    background: #DFDFDF;
+}
+
+.Information input {
+    padding: 1vw;
+    width: 18vw;
+    height: 3vw;
+    border-color: #848484;
+    background: #DFDFDF;
+}
+
+.aling {
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+}
+
+.acordoIcon {
+    display: flex;
+    gap: 22px;
+    margin-left: 62px;
+    padding-inline-end: 14px;
+}
+
+.box {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #006845;
+    border-radius: 4px;
+    display: flex;
+    height: 328px;
+    justify-content: center;
+    padding: 42px 24px;
+    position: relative;
+    width: 316px;
+}
+
+.textEsquedo {
+    text-align: center;
+    font-size: 22px;
+    color: #006845;
+}
+
+.mensal {
+    text-align: center;
+    font-weight: 600;
+}
+
+.valor {
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.produto {
+    font-size: 27px;
+}
+
+.espacamento {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+
+
+.finalizar {
+    background: #006845;
+    width: 186px;
+    height: 46px;
+    color: #ffffff;
+}
+
+.acordo {
+    align-items: first baseline;
+    display: flex;
+    padding: 1vw;
+    width: 26vw;
+    background: #DFDFDF;
+    text-align: -moz-center;
+}

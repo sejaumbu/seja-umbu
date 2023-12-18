@@ -16,7 +16,7 @@ export default function Registro() {
   const avancar3 = () => setStateRegistro('telaRegistro4');
   const avancarContratante1 = () => setStateRegistro('telaRegistroContratanteT2');
   const avancarContratante2 = () => setStateRegistro('telaRegistroContratante3');
-  
+
   return (
     <div className='conteudoRegistro1'>
       <div className="login">
@@ -25,7 +25,7 @@ export default function Registro() {
              stateRegistro == 'telaRegistro1' && <TelaRegistro1 avancarRegistroContratante = {avancarContratante1} avancarRegistro1={avancar1}/>
           || stateRegistro == 'telaRegistro2' && <TelaRegistro2 avancarRegistro2= {avancar2}/>
           || stateRegistro == 'telaRegistro3' && <TelaRegistro3 avancarRegistro3= {avancar3}/>
-          || stateRegistro == 'telaRegistro4' && <TelaRegistro4/>
+          || stateRegistro == 'telaRegistro4' && <TelaRegistro4 />
           || stateRegistro == 'telaRegistroContratanteT2' && <TelaRegistroContratanteT2 avancarRegistroContratante= {avancarContratante2}/>
           || stateRegistro == 'telaRegistroContratante3' && <TelaRegistroContratante3/>
         }

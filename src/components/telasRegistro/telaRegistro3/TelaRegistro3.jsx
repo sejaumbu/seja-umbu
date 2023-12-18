@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./telaRegistro3.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { MdLockOutline } from "react-icons/md";
 
 
 export default function telaRegistro3(props) {
+    const [dataUser, setDataUser] = useState()
+    useEffect(() => {
+        const getDataLocalStorage = () => {
+            let data = JSON.parse(localStorage.getItem("dataUser"))            
+            setDataUser(data)
+            console.log(data);
+        }
+
+        getDataLocalStorage()
+    },[])
+
+    const setUpdateAndress = (evento) => {    
+        console.log(evento)    
+        setDataUser({ ...dataUser, [evento.target.name]: evento.target.value });
+        localStorage.setItem("dataUser",JSON.stringify(dataUser))
+    }
+
+    
+
   return (
     <div className="containerT3">
         <div className="headerT3">
@@ -22,10 +41,10 @@ export default function telaRegistro3(props) {
             </div>
 
             <label className="labelRegistroT3">Número</label>
-            <input type="tel" name="tel" placeholder="Número de Telefone" id="telefone" className="Inputs" required/>
+            <input type="tel" name="telefone" placeholder="Número de Telefone" id="telefone" className="Inputs"  value={dataUser && dataUser.telefone} required  onChange={setUpdateAndress}/>
 
             <label className="labelRegistroT3">Endereço</label>
-            <input type="text" className="Inputs" placeholder="Digite o seu endereço" required/>
+            <input type="text"  name="endereco" className="Inputs" placeholder="Digite o seu endereço" value={dataUser && dataUser.endereco} required onChange={setUpdateAndress}/>
 
             <label className="labelRegistroT3">Cidade</label>
             <select className="Inputs" required>

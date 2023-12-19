@@ -59,12 +59,12 @@ function LandingPage() {
             <Header />
             <div className="carouselLanding">
                 <div className="carouselLandingConteudo">
-                    <span>
+                    <div className='tituloLanding2'>
                         <h2 className='tittleLanding'>Bem vindo ao futuro da</h2>
                         <h2 className='subTittleLanding'>Jardinagem</h2>
                         <p>Seu jardim, nossa missão!</p>
                         <button onClick={ () => navigate('/registro')} >Cadastrar</button>
-                    </span>
+                    </div>
                 </div>
                 
                 <Swiper
@@ -260,7 +260,7 @@ function LandingPage() {
                 <div className="conteudoPortifolio">
                     <h2>Serviços de Alguns <br/> Jardineiros da Plataforma</h2>
                     <Swiper
-                        spaceBetween={400}
+                        spaceBetween={370}
                         navigation={true}
                         slidesPerView={3}
                         modules={[Navigation, Autoplay]}
@@ -268,6 +268,7 @@ function LandingPage() {
                             delay: 2000,
                             disableOnInteraction: false,
                         }}
+                        loop={true}
                         className="galeriaSwiper"
                     >
                         <SwiperSlide>
@@ -358,7 +359,6 @@ function LandingPage() {
                 <div className="imageParceiros">
                     <img src={proa}/>
                     <img src={umEntreposto}/>
-                    <img src={jbm}/>
                 </div>
             </div>
                

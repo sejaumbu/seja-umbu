@@ -3,8 +3,25 @@ import { CiLock } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
 import { useNavigate, Link } from "react-router-dom";
 import './telaRegistro4.css'
+import axios from "axios";
 export default function TelaRegistro4() {
     const navigate = useNavigate();
+    const aoEnviar = (evento) => {
+                 
+         evento.preventDefault();
+         axios.post('http://localhost:8080/usuario/cadastrar', JSON.parse(localStorage.getItem("dataUser")))
+           .then((resposta) => {
+             console.log(resposta);
+            
+        alert('Usuário cadastrado com sucesso!');
+            localStorage.clear()
+            navigate('/painelcontrole')
+        })
+           .catch((erro) => {
+            console.error(erro);
+        });
+       };
+    
 
     return (
         <div className="telaRegistro4">
@@ -36,7 +53,7 @@ export default function TelaRegistro4() {
                     <button>Instalação de Sistemas de Drenagem <FaRegCircleCheck /></button>
                 </div>
                 <div className="enviarHabilidades">
-                    <button onClick={ () => navigate('/painelcontrole')}>Salvar & Continuar</button>
+                    <button onClick={aoEnviar}>Salvar & Continuar</button>
                     <span><CiLock/> Suas informações estão protegidas com segurança</span>
                 </div>
             </div>

@@ -34,20 +34,6 @@ function IdentidadeVisualTela() {
                     </div>
                 </div>
 
-
-                <div className="desenvolvimentoLogo">
-                    <h2 className="tituloD">Desenvolvimento da Logo</h2>
-                    <p className="Titulosub">Comunicando a natureza e a paixão pela jardinagem</p>
-
-                    <div className="imgFormandoLogo">
-                        <img className="logoI" src={ItensSomados} alt="Icones que formam a logo da umbu" />
-                        <img className="logoU" src={logoUmbu} alt="Logo da umbu" />
-                    </div>
-                    {/* <<<<<<=========>>>>>>> */}
-                </div>
-
-
-
                 <div className="paletaDeCores">
                     <div>
                         <h2 className="tituloP">Paleta de Cores </h2>
@@ -75,8 +61,6 @@ function IdentidadeVisualTela() {
                     </div>
 
                     <div className="imgPaleta"></div>
-
-
                 </div>
 
                 <div className="fontes">
@@ -110,8 +94,19 @@ function IdentidadeVisualTela() {
                         </div>
 
                     </div>
+                    <div className="desenvolvimentoLogo">
+                    <h2 className="tituloD">Desenvolvimento da Logo</h2>
+                    <p className="Titulosub">Comunicando a natureza e a paixão pela jardinagem</p>
 
+                    <div className="imgFormandoLogo">
+                        <img className="logoI" src={ItensSomados} alt="Icones que formam a logo da umbu" />
+                        <img className="logoU" src={logoUmbu} alt="Logo da umbu" />
+                    </div>
+                    {/* <<<<<<=========>>>>>>> */}
                 </div>
+                </div>
+
+               
 
 
                 <div className="aplicacaoElementoVisual">
